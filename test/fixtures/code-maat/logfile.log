@@ -1,0 +1,316 @@
+--e1ecf43--2019-07-09--Thanh To
+1	1	panel/js/katalon/newformatters/protractorts.js
+
+--eac2f09--2019-06-14--Miles
+2	1	panel/index.html
+177	0	panel/js/katalon/newformatters/protractorts.js
+
+--bf30555--2019-05-10--linhhuynhtruc
+85	0	KATALON RECORDER CONTRIBUTION LICENSE AGREEMENT.md
+0	85	KATALON RECORDER CONTRIBUTION O LICENSE AGREEMENT.md
+
+--6db00be--2019-05-10--linhhuynhtruc
+85	0	KATALON RECORDER CONTRIBUTION O LICENSE AGREEMENT.md
+0	85	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--b7493c6--2019-05-10--linhhuynhtruc
+1	0	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--7fa124e--2019-05-10--linhhuynhtruc
+17	8	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--9a2dcbc--2019-05-10--linhhuynhtruc
+14	5	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--a96b8b5--2019-05-10--linhhuynhtruc
+8	2	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--baa6c1a--2019-05-10--linhhuynhtruc
+7	7	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--5eded58--2019-05-10--linhhuynhtruc
+16	46	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--a916c1a--2019-05-10--linhhuynhtruc
+0	90	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT
+90	0	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
+
+--a06cfb6--2019-05-10--linhhuynhtruc
+74	20	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT
+
+--9afec30--2019-05-10--linhhuynhtruc
+3	3	README.md
+
+--e62fabe--2019-05-03--Alex
+3	1	README.md
+
+--025c667--2019-04-12--Alex Smith
+1	1	panel/js/katalon/newformatters/sample.js
+
+--f04676c--2019-04-12--Alex Smith
+1	1	manifest.json
+
+--3dbf4db--2019-04-12--Alex Smith
+2	1	panel/index.html
+855	0	panel/js/katalon/codemirror-5.31.0/mode/javascript/javascript.js
+1	1	panel/js/katalon/newformatters/sample.js
+
+--b496c39--2019-04-12--Alex
+--d2f68f5--2019-04-10--Benedicto Tan
+4	0	panel/index.html
+433	0	panel/js/katalon/newformatters/nrsynthetics.js
+
+--3a82331--2019-03-05--Alex
+202	0	APACHE LICENSE 2.0
+0	202	LICENSE
+
+--3f2f496--2019-03-04--Alex Smith
+--03de156--2019-03-04--Alex Smith
+1	1	manifest.json
+
+--79441c5--2019-03-04--Alex Smith
+-	-	katalon/images/SVG/github-icon.png
+5	0	panel/css/kar.css
+1	1	panel/index.html
+10	10	panel/js/UI/panelSetting.js
+35	35	panel/js/katalon/kar.js
+
+--fde65ca--2019-03-04--Alex Smith
+13	0	README.md
+
+--b0a14f0--2019-03-04--Alex Smith
+95	74	content/atoms.js
+
+--2d7fbf0--2019-02-15--Alex
+20	0	README.md
+
+--eb2881b--2019-02-15--Alex
+2	0	README.md
+
+--f1c2821--2019-02-15--Alex
+8	0	README.md
+
+--6b76a66--2019-02-15--Alex
+3	2	README.md
+
+--a44d624--2019-02-15--Alex Smith
+66	0	.gitignore
+36	0	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT
+202	0	LICENSE
+9	0	NOTICE
+17	0	README.md
+170	0	background/background.js
+15	0	background/install.js
+327	0	background/kar.js
+854	0	common/browser-polyfill.js
+240	0	common/escape.js
+4	0	common/jquery-3.2.1.min.js
+11751	0	content/atoms.js
+620	0	content/bowser.js
+228	0	content/command-receiver.js
+331	0	content/jquery.simulate.js
+7	0	content/kar.js
+570	0	content/locatorBuilders.js
+74	0	content/prompt-injecter.js
+586	0	content/recorder-handlers.js
+141	0	content/recorder.js
+29	0	content/runScript-injecter.js
+3856	0	content/selenium-api.js
+2931	0	content/selenium-browserbot.js
+396	0	content/selenium-commandhandlers.js
+2271	0	content/sizzle.js
+92	0	content/targetSelecter.js
+9670	0	content/utils.js
+-	-	icons/QA.png
+-	-	icons/help.png
+-	-	icons/icons-48.png
+-	-	icons/icons-96.png
+-	-	icons/icons-96_whitebord.png
+-	-	icons/logo.png
+-	-	icons/options.png
+-	-	icons/record_button.png
+-	-	icons/sideex1.png
+-	-	icons/sideex2.png
+-	-	icons/sideex3.png
+-	-	icons/url_record.png
+17	0	katalon/images/SVG/add-icon-hover.svg
+17	0	katalon/images/SVG/add-icon.svg
+14	0	katalon/images/SVG/advanced-icon.svg
+12	0	katalon/images/SVG/breakpoint.svg
+10	0	katalon/images/SVG/close-icon-hover.svg
+10	0	katalon/images/SVG/close-icon.svg
+37	0	katalon/images/SVG/community-icon.svg
+23	0	katalon/images/SVG/copy-icon-hover.svg
+23	0	katalon/images/SVG/copy-icon.svg
+12	0	katalon/images/SVG/delete-icon-hover.svg
+12	0	katalon/images/SVG/delete-icon.svg
+22	0	katalon/images/SVG/drap-drop-icon.svg
+13	0	katalon/images/SVG/edit-icon-hover.svg
+13	0	katalon/images/SVG/edit-icon.svg
+15	0	katalon/images/SVG/export-icon-16.svg
+15	0	katalon/images/SVG/export-icon.svg
+12	0	katalon/images/SVG/fail.svg
+27	0	katalon/images/SVG/find-icon-hover.svg
+27	0	katalon/images/SVG/find-icon.svg
+13	0	katalon/images/SVG/help-icon-16.svg
+14	0	katalon/images/SVG/help-icon.svg
+4	0	katalon/images/SVG/ic_keyboard_arrow_down_black_18px.svg
+4	0	katalon/images/SVG/ic_keyboard_arrow_up_black_18px.svg
+17	0	katalon/images/SVG/more-icon.svg
+21	0	katalon/images/SVG/new-icon-16.svg
+23	0	katalon/images/SVG/new-icon.svg
+12	0	katalon/images/SVG/open-icon-hover.svg
+12	0	katalon/images/SVG/open-icon.svg
+14	0	katalon/images/SVG/pass.svg
+27	0	katalon/images/SVG/paste-icon-hover.svg
+27	0	katalon/images/SVG/paste-icon.svg
+13	0	katalon/images/SVG/pause-icon-16.svg
+14	0	katalon/images/SVG/pause-icon.svg
+15	0	katalon/images/SVG/play-all-icon-16.svg
+12	0	katalon/images/SVG/play-icon-16.svg
+15	0	katalon/images/SVG/play-icon.svg
+15	0	katalon/images/SVG/play-suite-icon-16.svg
+15	0	katalon/images/SVG/record-icon-16.svg
+13	0	katalon/images/SVG/record-icon.svg
+14	0	katalon/images/SVG/resume-icon-16.svg
+14	0	katalon/images/SVG/resume-icon.svg
+18	0	katalon/images/SVG/save-icon-hover.svg
+18	0	katalon/images/SVG/save-icon.svg
+35	0	katalon/images/SVG/select-icon-hover.svg
+35	0	katalon/images/SVG/select-icon.svg
+14	0	katalon/images/SVG/setting-icon-16.svg
+16	0	katalon/images/SVG/setting-icon.svg
+15	0	katalon/images/SVG/speed-icon-16.svg
+15	0	katalon/images/SVG/stop-icon-16.svg
+16	0	katalon/images/SVG/stop-icon.svg
+17	0	katalon/images/SVG/upload-icon-hover.svg
+17	0	katalon/images/SVG/upload-icon.svg
+12	0	katalon/images/SVG/user-manual-icon.svg
+12	0	katalon/images/SVG/videos-icon.svg
+13	0	katalon/images/SVG/web-icon-16.svg
+15	0	katalon/images/SVG/web-icon.svg
+-	-	katalon/images/branding_128.png
+-	-	katalon/images/branding_16.png
+-	-	katalon/images/branding_32.png
+-	-	katalon/images/branding_48.png
+-	-	katalon/images/branding_64.png
+-	-	katalon/images/object_spy_24.png
+-	-	katalon/images/port-setting.png
+-	-	katalon/images/record_28.png
+69	0	manifest.json
+282	0	page/prompt.js
+53	0	page/runScript.js
+4	0	panel/css/font-awesome.min.css
+42	0	panel/css/ie.css
+326	0	panel/css/jquery-ui-slider-pips.css
+7	0	panel/css/jquery-ui.min.css
+1534	0	panel/css/kar.css
+1567	0	panel/css/layout.css
+59	0	panel/css/options.css
+-	-	panel/fonts/FontAwesome.otf
+-	-	panel/fonts/fontawesome-webfont.eot
+1950	0	panel/fonts/fontawesome-webfont.svg
+-	-	panel/fonts/fontawesome-webfont.ttf
+-	-	panel/fonts/fontawesome-webfont.woff
+-	-	panel/fonts/fontawesome-webfont.woff2
+-	-	panel/images/breadcrumb_divider.png
+-	-	panel/images/btn_submit.png
+-	-	panel/images/btn_submit_2.png
+-	-	panel/images/btn_view_site.png
+-	-	panel/images/header_bg.png
+-	-	panel/images/header_shadow.png
+-	-	panel/images/icn_add_user.png
+-	-	panel/images/icn_alert_error.png
+-	-	panel/images/icn_alert_info.png
+-	-	panel/images/icn_alert_success.png
+-	-	panel/images/icn_alert_warning.png
+-	-	panel/images/icn_audio.png
+-	-	panel/images/icn_categories.png
+-	-	panel/images/icn_edit.png
+-	-	panel/images/icn_edit_article.png
+-	-	panel/images/icn_folder.png
+-	-	panel/images/icn_jump_back.png
+-	-	panel/images/icn_logout.png
+-	-	panel/images/icn_new_article.png
+-	-	panel/images/icn_photo.png
+-	-	panel/images/icn_profile.png
+-	-	panel/images/icn_search.png
+-	-	panel/images/icn_security.png
+-	-	panel/images/icn_settings.png
+-	-	panel/images/icn_tags.png
+-	-	panel/images/icn_trash.png
+-	-	panel/images/icn_user.png
+-	-	panel/images/icn_video.png
+-	-	panel/images/icn_view_users.png
+-	-	panel/images/module_footer_bg.png
+-	-	panel/images/post_message.png
+-	-	panel/images/secondary_bar.png
+-	-	panel/images/secondary_bar_shadow.png
+-	-	panel/images/sidebar.png
+-	-	panel/images/sidebar_divider.png
+-	-	panel/images/sidebar_shadow.png
+-	-	panel/images/table_sorter_header.png
+434	0	panel/index.html
+270	0	panel/js/IO/inputFileTransformer.js
+178	0	panel/js/IO/load_file.js
+209	0	panel/js/IO/save_file.js
+421	0	panel/js/UI/command_grid.js
+109	0	panel/js/UI/command_grid_toolbar.js
+372	0	panel/js/UI/context_menu.js
+114	0	panel/js/UI/hideshow.js
+70	0	panel/js/UI/log.js
+32	0	panel/js/UI/options.js
+249	0	panel/js/UI/panelSetting.js
+96	0	panel/js/UI/sortable-ui.js
+589	0	panel/js/UI/testcase_grid.js
+79	0	panel/js/background/doc.js
+141	0	panel/js/background/editor.js
+66	0	panel/js/background/formatCommand.js
+38	0	panel/js/background/initial.js
+1289	0	panel/js/background/playback.js
+342	0	panel/js/background/recorder.js
+382	0	panel/js/background/window-controller.js
+620	0	panel/js/katalon/bowser.js
+346	0	panel/js/katalon/codemirror-5.31.0/lib/codemirror.css
+9647	0	panel/js/katalon/codemirror-5.31.0/lib/codemirror.js
+790	0	panel/js/katalon/codemirror-5.31.0/mode/clike/clike.js
+230	0	panel/js/katalon/codemirror-5.31.0/mode/groovy/groovy.js
+234	0	panel/js/katalon/codemirror-5.31.0/mode/php/php.js
+334	0	panel/js/katalon/codemirror-5.31.0/mode/python/python.js
+296	0	panel/js/katalon/codemirror-5.31.0/mode/ruby/ruby.js
+401	0	panel/js/katalon/codemirror-5.31.0/mode/xml/xml.js
+0	0	panel/js/katalon/command-reference.js
+1488	0	panel/js/katalon/kar.js
+12	0	panel/js/katalon/newformatters/sample.js
+1613	0	panel/js/katalon/papaparse.js
+550	0	panel/js/katalon/selenium-ide/format/csharp/cs-mstest-wd.js
+224	0	panel/js/katalon/selenium-ide/format/csharp/cs-rc.js
+531	0	panel/js/katalon/selenium-ide/format/csharp/cs-wd.js
+252	0	panel/js/katalon/selenium-ide/format/java/java-backed-junit4.js
+240	0	panel/js/katalon/selenium-ide/format/java/java-rc-junit4.js
+42	0	panel/js/katalon/selenium-ide/format/java/java-rc-testng.js
+232	0	panel/js/katalon/selenium-ide/format/java/java-rc.js
+529	0	panel/js/katalon/selenium-ide/format/java/webdriver-junit4.js
+522	0	panel/js/katalon/selenium-ide/format/java/webdriver-testng.js
+57	0	panel/js/katalon/selenium-ide/format/katalon/katalon.js
+531	0	panel/js/katalon/selenium-ide/format/python/python-appdynamics.js
+225	0	panel/js/katalon/selenium-ide/format/python/python2-rc.js
+534	0	panel/js/katalon/selenium-ide/format/python/python2-wd.js
+167	0	panel/js/katalon/selenium-ide/format/robot/robot.js
+249	0	panel/js/katalon/selenium-ide/format/ruby/ruby-rc-rspec.js
+217	0	panel/js/katalon/selenium-ide/format/ruby/ruby-rc.js
+532	0	panel/js/katalon/selenium-ide/format/ruby/ruby-wd-rspec.js
+515	0	panel/js/katalon/selenium-ide/format/ruby/ruby-wd.js
+261	0	panel/js/katalon/selenium-ide/format/xml/XML-formatter.js
+128	0	panel/js/katalon/selenium-ide/formatCommandOnlyAdapter.js
+1925	0	panel/js/katalon/selenium-ide/iedoc-core.xml
+378	0	panel/js/katalon/selenium-ide/remoteControl.js
+523	0	panel/js/katalon/selenium-ide/testCase.js
+835	0	panel/js/katalon/selenium-ide/webdriver.js
+2	0	panel/js/lib/colResizable-1.5.min.js
+812	0	panel/js/lib/jquery-ui-slider-pips.js
+13	0	panel/js/lib/jquery-ui.min.js
+20	0	panel/js/lib/jquery.equalHeight.js
+3	0	panel/js/lib/jquery.tablesorter.min.js
+4	0	panel/js/lib/jquery.tabletab.js
+58	0	panel/js/lib/utils.js

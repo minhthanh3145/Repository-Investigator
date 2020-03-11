@@ -1,0 +1,19 @@
+
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.85",
+  "elapsed_seconds"    : 0.0102548599243164,
+  "n_files"            : 1,
+  "n_lines"            : 65,
+  "files_per_second"   : 97.5147400725379,
+  "lines_per_second"   : 6338.45810471496},
+"/Users/thanhto/Documents/repository/others/repository-investigator/test/fixtures/loc.js" :{
+  "blank": 12,
+  "comment": 6,
+  "code": 47,
+  "language": "JavaScript"},
+"SUM": {
+  "blank": 12,
+  "comment": 6,
+  "code": 47,
+  "nFiles": 1} }
