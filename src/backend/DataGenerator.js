@@ -39,12 +39,16 @@ class DataGenerator {
   }
 
   /**
-   * Call Code Maat and Cloc commands to get number of authors, number of revisions and number of line of code.
-   * Remove lines that match the excludedExtensions parameter and return the aggregated result
+   * Call Code Maat command to extract a log file containing the commits.
+   * Use the given filterFunction to filter out files and process the remaining files by
+   * calling Code Maat command to get number of revisions, number of authors and call Cloc commmand to get number of lines of code
+   *
    * @param {Array} result An array of array containing information about n-author, n-revision and n-loc
-   * @param {Array} excludedExtensions An array of excluded extensions, default to [".svg", ".png", ".jpg", ".md"]
+   * @param {Function} filterFunction A function that takes in each line and determine wether the corresponding file will be processed
+   * .If left unspecified, it defaults to removing lines with extension svg, png, jpg, md. It should be specified to increase performance
+   *
    */
-  async generateComplexityData(result, excludedExtensions) {
+  async generateComplexityData(result, filterFunction) {
     var logCmdOutput = await this.doExtractGitLogcmd(result);
     this.writeOutputToFile(appRoot + "/log/logfile.log", logCmdOutput, err => {
       console.log("error: " + err);
@@ -56,17 +60,19 @@ class DataGenerator {
     // Remove the header
     arr.shift();
     const complexityData = [];
-    excludedExtensions = excludedExtensions
-      ? excludedExtensions
-      : [".svg", ".png", ".jpg", ".md"];
+    let excludedExtensions = [".svg", ".png", ".jpg", ".md"];
+    // Prepare filter function
+    filterFunction = filterFunction
+      ? filterFunction
+      : value =>
+          !excludedExtensions.filter(ext => {
+            return value[0].endsWith(ext);
+          }).length;
+    // Build the final result
     for (const value of arr) {
       let clocOutput;
       let jsonLineOfCodeExtracted;
-      if (
-        !excludedExtensions.filter(ext => {
-          return value[0].endsWith(ext);
-        }).length
-      ) {
+      if (filterFunction(value)) {
         try {
           jsonLineOfCodeExtracted = await this.doExtractLineOfCode(
             result.repository_path + "/" + value[0]

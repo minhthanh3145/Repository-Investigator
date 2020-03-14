@@ -24,7 +24,6 @@ describe("Code Maat test", function() {
     const expected = CSV.parse(fs.readFileSync(expectedPath, "utf8"));
     const generator = new DataGenerator();
     const cmd = generator.runCodeMaatOnExtractedGitLogCmd(extractedGitLogPath);
-    console.log(cmd);
     const actual = CSV.parse(await generator.executeCommand(cmd));
     expect(actual.length).to.be.equal(expected.length);
     for (let i = 0; i < actual.length; i++) {
