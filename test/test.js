@@ -1,4 +1,4 @@
-const DataGenerator = require("../src/DataGenerator").DataGenerator;
+const DataGenerator = require("../src/backend/DataGenerator").DataGenerator;
 const fs = require("fs");
 const expect = require("chai").expect;
 const CSV = require("csv-string");
