@@ -1,316 +1,275 @@
---e1ecf43--2019-07-09--Thanh To
-1	1	panel/js/katalon/newformatters/protractorts.js
+--adb6f3c--2019-08-04--Tô Minh Thành
+--5ecd6f4--2019-08-04--Thanh To
+36	0	src/main/java/thanhto/katalon/katalon_notes/api/IDatabaseActionProvider.java
+32	0	src/main/java/thanhto/katalon/katalon_notes/api/IDatabaseController.java
+51	0	src/main/java/thanhto/katalon/katalon_notes/api/IRenderer.java
+0	7	src/main/java/thanhto/katalon/katalon_notes/constant/Operations.java
+1	0	src/main/java/thanhto/katalon/katalon_notes/controller/AbstractDatabaseController.java
+0	34	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+7	0	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+0	556	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/exception/RendererNotRegisteredException.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseActionProviderFactory.java
+3	3	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseArtifactFactory.java
+0	7	src/main/java/thanhto/katalon/katalon_notes/model/ILinkable.java
+0	1	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+0	40	src/main/java/thanhto/katalon/katalon_notes/provider/IDatabaseActionProvider.java
+8	13	src/main/java/thanhto/katalon/katalon_notes/provider/NitriteDatabaseActionProvider.java
+8	7	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+7	2	src/main/java/thanhto/katalon/katalon_notes/renderer/CommonMarkRenderer.java
+2	1	src/main/java/thanhto/katalon/katalon_notes/renderer/HtmlRendererFactory.java
+0	49	src/main/java/thanhto/katalon/katalon_notes/renderer/IRenderer.java
+4	4	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+0	81	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+0	46	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeContentProvider.java
+0	35	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+556	0	src/main/java/thanhto/katalon/katalon_notes/ui/dialog/KatalonNotesDialog.java
+74	0	src/main/java/thanhto/katalon/katalon_notes/ui/toolitem/KatalonNotesToolItemWithMenuDescription.java
+46	0	src/main/java/thanhto/katalon/katalon_notes/ui/tree/KatalonNotesTreeContentProvider.java
+35	0	src/main/java/thanhto/katalon/katalon_notes/ui/tree/KatalonNotesTreeLabelProvider.java
+2	2	src/main/resources/plugin.xml
+28	28	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+0	6	src/test/java/thanhto/katalon/katalon_notes/dialog/TestKatalonNotesDialog.java
+1	0	src/test/java/thanhto/katalon/katalon_notes/renderer/TestHtmlRendererFactory.java
 
---eac2f09--2019-06-14--Miles
-2	1	panel/index.html
-177	0	panel/js/katalon/newformatters/protractorts.js
-
---bf30555--2019-05-10--linhhuynhtruc
-85	0	KATALON RECORDER CONTRIBUTION LICENSE AGREEMENT.md
-0	85	KATALON RECORDER CONTRIBUTION O LICENSE AGREEMENT.md
-
---6db00be--2019-05-10--linhhuynhtruc
-85	0	KATALON RECORDER CONTRIBUTION O LICENSE AGREEMENT.md
-0	85	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---b7493c6--2019-05-10--linhhuynhtruc
-1	0	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---7fa124e--2019-05-10--linhhuynhtruc
-17	8	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---9a2dcbc--2019-05-10--linhhuynhtruc
-14	5	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---a96b8b5--2019-05-10--linhhuynhtruc
-8	2	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---baa6c1a--2019-05-10--linhhuynhtruc
-7	7	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---5eded58--2019-05-10--linhhuynhtruc
-16	46	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---a916c1a--2019-05-10--linhhuynhtruc
-0	90	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT
-90	0	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT.md
-
---a06cfb6--2019-05-10--linhhuynhtruc
-74	20	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT
-
---9afec30--2019-05-10--linhhuynhtruc
-3	3	README.md
-
---e62fabe--2019-05-03--Alex
+--93f0def--2019-08-01--Tô Minh Thành
 3	1	README.md
 
---025c667--2019-04-12--Alex Smith
-1	1	panel/js/katalon/newformatters/sample.js
+--05fcf66--2019-07-31--Tô Minh Thành
+1	2	README.md
 
---f04676c--2019-04-12--Alex Smith
-1	1	manifest.json
+--2e59465--2019-07-31--Tô Minh Thành
+1	1	README.md
 
---3dbf4db--2019-04-12--Alex Smith
-2	1	panel/index.html
-855	0	panel/js/katalon/codemirror-5.31.0/mode/javascript/javascript.js
-1	1	panel/js/katalon/newformatters/sample.js
+--8d34faf--2019-07-31--Tô Minh Thành
+4	1	README.md
 
---b496c39--2019-04-12--Alex
---d2f68f5--2019-04-10--Benedicto Tan
-4	0	panel/index.html
-433	0	panel/js/katalon/newformatters/nrsynthetics.js
+--e3df75e--2019-07-30--Tô Minh Thành
+2	1	README.md
 
---3a82331--2019-03-05--Alex
-202	0	APACHE LICENSE 2.0
-0	202	LICENSE
+--b1cbb4b--2019-07-30--Tô Minh Thành
+--d07e2c8--2019-07-30--Tô Minh Thành
+6	0	README.md
 
---3f2f496--2019-03-04--Alex Smith
---03de156--2019-03-04--Alex Smith
-1	1	manifest.json
+--aae436b--2019-07-30--Thanh To
+1	1	pom.xml
+3	4	src/main/java/thanhto/katalon/katalon_notes/builder/NoteBuilder.java
+1	0	src/main/java/thanhto/katalon/katalon_notes/constant/CustomQueryConstants.java
+28	0	src/main/java/thanhto/katalon/katalon_notes/constant/ServiceName.java
+2	5	src/main/java/thanhto/katalon/katalon_notes/controller/AbstractDatabaseController.java
+73	109	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+70	38	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+13	8	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseActionProviderFactory.java
+45	2	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseArtifactFactory.java
+0	37	src/main/java/thanhto/katalon/katalon_notes/model/INote.java
+40	31	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+1	3	src/main/java/thanhto/katalon/katalon_notes/provider/IDatabaseActionProvider.java
+12	16	src/main/java/thanhto/katalon/katalon_notes/provider/NitriteDatabaseActionProvider.java
+28	78	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+2	2	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+5	5	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeContentProvider.java
+3	3	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+4	61	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+74	124	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+7	8	src/test/java/thanhto/katalon/katalon_notes/service/TestDatabaseService.java
+4	4	src/test/java/thanhto/katalon/katalon_notes/util/TestNoteUtils.java
 
---79441c5--2019-03-04--Alex Smith
--	-	katalon/images/SVG/github-icon.png
-5	0	panel/css/kar.css
-1	1	panel/index.html
-10	10	panel/js/UI/panelSetting.js
-35	35	panel/js/katalon/kar.js
+--8e77268--2019-07-25--Thanh To
+13	0	src/main/java/thanhto/katalon/katalon_notes/controller/AbstractDatabaseController.java
+12	43	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+32	65	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+28	6	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+37	0	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseActionProviderFactory.java
+48	0	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseArtifactFactory.java
+42	0	src/main/java/thanhto/katalon/katalon_notes/provider/IDatabaseActionProvider.java
+89	0	src/main/java/thanhto/katalon/katalon_notes/provider/NitriteDatabaseActionProvider.java
+48	22	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+0	4	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+2	8	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+13	0	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+16	6	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
 
---fde65ca--2019-03-04--Alex Smith
-13	0	README.md
+--19c7f98--2019-07-24--Thanh To
+-	-	katalon_notes.db
+7	0	src/main/java/thanhto/katalon/katalon_notes/builder/NoteBuilder.java
+8	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+9	14	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+70	3	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+4	0	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+4	4	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
 
---b0a14f0--2019-03-04--Alex Smith
-95	74	content/atoms.js
+--c3c2d2a--2019-07-20--Tô Minh Thành
+14	2	README.md
 
---2d7fbf0--2019-02-15--Alex
-20	0	README.md
+--c6e6000--2019-07-20--Thanh To
+--2789f85--2019-07-20--Thanh To
+20	13	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+78	36	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/renderer/HtmlRendererFactory.java
+197	21	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+6	0	src/test/java/thanhto/katalon/katalon_notes/dialog/TestKatalonNotesDialog.java
 
---eb2881b--2019-02-15--Alex
-2	0	README.md
+--1b3f97a--2019-07-18--Tô Minh Thành
+3	0	README.md
 
---f1c2821--2019-02-15--Alex
-8	0	README.md
+--f8745ae--2019-07-18--Tô Minh Thành
+5	0	README.md
 
---6b76a66--2019-02-15--Alex
-3	2	README.md
+--f78f715--2019-07-18--Tô Minh Thành
+1	1	README.md
 
---a44d624--2019-02-15--Alex Smith
-66	0	.gitignore
-36	0	KATALON RECORDER OPEN-SOURCE LICENSE AGREEMENT
-202	0	LICENSE
-9	0	NOTICE
+--9f3270d--2019-07-18--Thanh To
+--1390a3d--2019-07-18--Thanh To
+1	1	pom.xml
+25	38	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+
+--8c33102--2019-07-18--Tô Minh Thành
+1	15	README.md
+
+--cb53dc7--2019-07-17--Thanh To
+19	8	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+87	120	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+2	30	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+46	72	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--448b094--2019-07-17--Thanh To
+65	71	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+
+--0373e4f--2019-07-17--Thanh To
+38	1	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--592fc2b--2019-07-17--Thanh To
+43	25	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+31	2	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+9	1	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+116	18	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--71a7dee--2019-07-16--Thanh To
+8	3	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+3	0	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--a251c4e--2019-07-16--Thanh To
+0	46	src/test/java/TestNoteUtils.java
+47	0	src/test/java/thanhto/katalon/katalon_notes/util/TestNoteUtils.java
+
+--47fcdfa--2019-07-16--Thanh To
+22	0	src/main/java/thanhto/katalon/katalon_notes/builder/NoteBuilder.java
+19	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+72	47	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+48	44	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+34	3	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+46	7	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+2	1	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+76	0	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+46	0	src/test/java/TestNoteUtils.java
+94	0	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--36ec50f--2019-07-15--Thanh To
+39	2	pom.xml
+6	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+123	84	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+1	9	src/main/java/thanhto/katalon/katalon_notes/exception/DatabaseControllerUnselectedException.java
+11	0	src/main/java/thanhto/katalon/katalon_notes/exception/PluginPreferenceIsNotAvailable.java
+23	0	src/main/java/thanhto/katalon/katalon_notes/exception/RendererNotRegisteredException.java
+27	11	src/main/java/thanhto/katalon/katalon_notes/listener/KatalonNotesPluginActivationListener.java
+11	5	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+54	0	src/main/java/thanhto/katalon/katalon_notes/renderer/CommonMarkRenderer.java
+104	0	src/main/java/thanhto/katalon/katalon_notes/renderer/HtmlRendererFactory.java
+49	0	src/main/java/thanhto/katalon/katalon_notes/renderer/IRenderer.java
+9	0	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+46	0	src/test/java/thanhto/katalon/katalon_notes/renderer/TestHtmlRendererFactory.java
+76	0	src/test/java/thanhto/katalon/katalon_notes/service/TestDatabaseService.java
+
+--601aaf2--2019-07-12--Thanh To
+6	0	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+
+--421dd99--2019-07-12--Thanh To
+105	103	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+
+--080ece3--2019-07-12--Thanh To
+14	7	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+6	6	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+179	178	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+12	13	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+
+--b3d2974--2019-07-12--Thanh To
+--b5a8436--2019-07-12--Thanh To
+1	1	pom.xml
+7	0	src/main/java/thanhto/katalon/katalon_notes/constant/CustomQueryConstants.java
+1	0	src/main/java/thanhto/katalon/katalon_notes/constant/ImageConstants.java
+10	10	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+10	2	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+0	399	src/main/java/thanhto/katalon/katalon_notes/dialog/AddNewNoteDialog.java
+399	0	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+0	3	src/main/java/thanhto/katalon/katalon_notes/listener/KatalonNotesPluginActivationListener.java
+11	10	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+10	10	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+4	3	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+17	12	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+0	121	src/main/java/thanhto/katalon/katalon_notes/util/ImageManager.java
+0	21	src/main/java/thanhto/katalon/katalon_notes/util/ImageUtil.java
+-	-	src/main/resources/thanhto/katalon/katalon_notes/util/note_small_icon.png
+
+--f895749--2019-07-12--Tô Minh Thành
+2	2	README.md
+
+--5950711--2019-07-12--Tô Minh Thành
+13	5	README.md
+
+--34835b8--2019-07-12--Thanh To
+12	2	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+
+--314fdf2--2019-07-12--Tô Minh Thành
+1	1	README.md
+
+--7ca9935--2019-07-12--Tô Minh Thành
+6	1	README.md
+
+--bbd38b0--2019-07-12--Tô Minh Thành
+7	0	README.md
+
+--a14d004--2019-07-12--Thanh To
+--b92e501--2019-07-12--Thanh To
+5	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+18	12	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+3	3	src/main/java/thanhto/katalon/katalon_notes/dialog/AddNewNoteDialog.java
+18	0	src/main/java/thanhto/katalon/katalon_notes/exception/DatabaseControllerUnselectedException.java
+30	14	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+0	61	src/main/java/thanhto/katalon/katalon_notes/service/AbstractDatabaseService.java
+43	0	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+0	35	src/main/java/thanhto/katalon/katalon_notes/service/NitriteDatabaseService.java
+10	4	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+
+--58ac231--2019-07-11--Tô Minh Thành
+3	3	README.md
+
+--9221de9--2019-07-11--Thanh To
+--3f15e80--2019-07-11--Thanh To
+11	0	.gitignore
 17	0	README.md
-170	0	background/background.js
-15	0	background/install.js
-327	0	background/kar.js
-854	0	common/browser-polyfill.js
-240	0	common/escape.js
-4	0	common/jquery-3.2.1.min.js
-11751	0	content/atoms.js
-620	0	content/bowser.js
-228	0	content/command-receiver.js
-331	0	content/jquery.simulate.js
-7	0	content/kar.js
-570	0	content/locatorBuilders.js
-74	0	content/prompt-injecter.js
-586	0	content/recorder-handlers.js
-141	0	content/recorder.js
-29	0	content/runScript-injecter.js
-3856	0	content/selenium-api.js
-2931	0	content/selenium-browserbot.js
-396	0	content/selenium-commandhandlers.js
-2271	0	content/sizzle.js
-92	0	content/targetSelecter.js
-9670	0	content/utils.js
--	-	icons/QA.png
--	-	icons/help.png
--	-	icons/icons-48.png
--	-	icons/icons-96.png
--	-	icons/icons-96_whitebord.png
--	-	icons/logo.png
--	-	icons/options.png
--	-	icons/record_button.png
--	-	icons/sideex1.png
--	-	icons/sideex2.png
--	-	icons/sideex3.png
--	-	icons/url_record.png
-17	0	katalon/images/SVG/add-icon-hover.svg
-17	0	katalon/images/SVG/add-icon.svg
-14	0	katalon/images/SVG/advanced-icon.svg
-12	0	katalon/images/SVG/breakpoint.svg
-10	0	katalon/images/SVG/close-icon-hover.svg
-10	0	katalon/images/SVG/close-icon.svg
-37	0	katalon/images/SVG/community-icon.svg
-23	0	katalon/images/SVG/copy-icon-hover.svg
-23	0	katalon/images/SVG/copy-icon.svg
-12	0	katalon/images/SVG/delete-icon-hover.svg
-12	0	katalon/images/SVG/delete-icon.svg
-22	0	katalon/images/SVG/drap-drop-icon.svg
-13	0	katalon/images/SVG/edit-icon-hover.svg
-13	0	katalon/images/SVG/edit-icon.svg
-15	0	katalon/images/SVG/export-icon-16.svg
-15	0	katalon/images/SVG/export-icon.svg
-12	0	katalon/images/SVG/fail.svg
-27	0	katalon/images/SVG/find-icon-hover.svg
-27	0	katalon/images/SVG/find-icon.svg
-13	0	katalon/images/SVG/help-icon-16.svg
-14	0	katalon/images/SVG/help-icon.svg
-4	0	katalon/images/SVG/ic_keyboard_arrow_down_black_18px.svg
-4	0	katalon/images/SVG/ic_keyboard_arrow_up_black_18px.svg
-17	0	katalon/images/SVG/more-icon.svg
-21	0	katalon/images/SVG/new-icon-16.svg
-23	0	katalon/images/SVG/new-icon.svg
-12	0	katalon/images/SVG/open-icon-hover.svg
-12	0	katalon/images/SVG/open-icon.svg
-14	0	katalon/images/SVG/pass.svg
-27	0	katalon/images/SVG/paste-icon-hover.svg
-27	0	katalon/images/SVG/paste-icon.svg
-13	0	katalon/images/SVG/pause-icon-16.svg
-14	0	katalon/images/SVG/pause-icon.svg
-15	0	katalon/images/SVG/play-all-icon-16.svg
-12	0	katalon/images/SVG/play-icon-16.svg
-15	0	katalon/images/SVG/play-icon.svg
-15	0	katalon/images/SVG/play-suite-icon-16.svg
-15	0	katalon/images/SVG/record-icon-16.svg
-13	0	katalon/images/SVG/record-icon.svg
-14	0	katalon/images/SVG/resume-icon-16.svg
-14	0	katalon/images/SVG/resume-icon.svg
-18	0	katalon/images/SVG/save-icon-hover.svg
-18	0	katalon/images/SVG/save-icon.svg
-35	0	katalon/images/SVG/select-icon-hover.svg
-35	0	katalon/images/SVG/select-icon.svg
-14	0	katalon/images/SVG/setting-icon-16.svg
-16	0	katalon/images/SVG/setting-icon.svg
-15	0	katalon/images/SVG/speed-icon-16.svg
-15	0	katalon/images/SVG/stop-icon-16.svg
-16	0	katalon/images/SVG/stop-icon.svg
-17	0	katalon/images/SVG/upload-icon-hover.svg
-17	0	katalon/images/SVG/upload-icon.svg
-12	0	katalon/images/SVG/user-manual-icon.svg
-12	0	katalon/images/SVG/videos-icon.svg
-13	0	katalon/images/SVG/web-icon-16.svg
-15	0	katalon/images/SVG/web-icon.svg
--	-	katalon/images/branding_128.png
--	-	katalon/images/branding_16.png
--	-	katalon/images/branding_32.png
--	-	katalon/images/branding_48.png
--	-	katalon/images/branding_64.png
--	-	katalon/images/object_spy_24.png
--	-	katalon/images/port-setting.png
--	-	katalon/images/record_28.png
-69	0	manifest.json
-282	0	page/prompt.js
-53	0	page/runScript.js
-4	0	panel/css/font-awesome.min.css
-42	0	panel/css/ie.css
-326	0	panel/css/jquery-ui-slider-pips.css
-7	0	panel/css/jquery-ui.min.css
-1534	0	panel/css/kar.css
-1567	0	panel/css/layout.css
-59	0	panel/css/options.css
--	-	panel/fonts/FontAwesome.otf
--	-	panel/fonts/fontawesome-webfont.eot
-1950	0	panel/fonts/fontawesome-webfont.svg
--	-	panel/fonts/fontawesome-webfont.ttf
--	-	panel/fonts/fontawesome-webfont.woff
--	-	panel/fonts/fontawesome-webfont.woff2
--	-	panel/images/breadcrumb_divider.png
--	-	panel/images/btn_submit.png
--	-	panel/images/btn_submit_2.png
--	-	panel/images/btn_view_site.png
--	-	panel/images/header_bg.png
--	-	panel/images/header_shadow.png
--	-	panel/images/icn_add_user.png
--	-	panel/images/icn_alert_error.png
--	-	panel/images/icn_alert_info.png
--	-	panel/images/icn_alert_success.png
--	-	panel/images/icn_alert_warning.png
--	-	panel/images/icn_audio.png
--	-	panel/images/icn_categories.png
--	-	panel/images/icn_edit.png
--	-	panel/images/icn_edit_article.png
--	-	panel/images/icn_folder.png
--	-	panel/images/icn_jump_back.png
--	-	panel/images/icn_logout.png
--	-	panel/images/icn_new_article.png
--	-	panel/images/icn_photo.png
--	-	panel/images/icn_profile.png
--	-	panel/images/icn_search.png
--	-	panel/images/icn_security.png
--	-	panel/images/icn_settings.png
--	-	panel/images/icn_tags.png
--	-	panel/images/icn_trash.png
--	-	panel/images/icn_user.png
--	-	panel/images/icn_video.png
--	-	panel/images/icn_view_users.png
--	-	panel/images/module_footer_bg.png
--	-	panel/images/post_message.png
--	-	panel/images/secondary_bar.png
--	-	panel/images/secondary_bar_shadow.png
--	-	panel/images/sidebar.png
--	-	panel/images/sidebar_divider.png
--	-	panel/images/sidebar_shadow.png
--	-	panel/images/table_sorter_header.png
-434	0	panel/index.html
-270	0	panel/js/IO/inputFileTransformer.js
-178	0	panel/js/IO/load_file.js
-209	0	panel/js/IO/save_file.js
-421	0	panel/js/UI/command_grid.js
-109	0	panel/js/UI/command_grid_toolbar.js
-372	0	panel/js/UI/context_menu.js
-114	0	panel/js/UI/hideshow.js
-70	0	panel/js/UI/log.js
-32	0	panel/js/UI/options.js
-249	0	panel/js/UI/panelSetting.js
-96	0	panel/js/UI/sortable-ui.js
-589	0	panel/js/UI/testcase_grid.js
-79	0	panel/js/background/doc.js
-141	0	panel/js/background/editor.js
-66	0	panel/js/background/formatCommand.js
-38	0	panel/js/background/initial.js
-1289	0	panel/js/background/playback.js
-342	0	panel/js/background/recorder.js
-382	0	panel/js/background/window-controller.js
-620	0	panel/js/katalon/bowser.js
-346	0	panel/js/katalon/codemirror-5.31.0/lib/codemirror.css
-9647	0	panel/js/katalon/codemirror-5.31.0/lib/codemirror.js
-790	0	panel/js/katalon/codemirror-5.31.0/mode/clike/clike.js
-230	0	panel/js/katalon/codemirror-5.31.0/mode/groovy/groovy.js
-234	0	panel/js/katalon/codemirror-5.31.0/mode/php/php.js
-334	0	panel/js/katalon/codemirror-5.31.0/mode/python/python.js
-296	0	panel/js/katalon/codemirror-5.31.0/mode/ruby/ruby.js
-401	0	panel/js/katalon/codemirror-5.31.0/mode/xml/xml.js
-0	0	panel/js/katalon/command-reference.js
-1488	0	panel/js/katalon/kar.js
-12	0	panel/js/katalon/newformatters/sample.js
-1613	0	panel/js/katalon/papaparse.js
-550	0	panel/js/katalon/selenium-ide/format/csharp/cs-mstest-wd.js
-224	0	panel/js/katalon/selenium-ide/format/csharp/cs-rc.js
-531	0	panel/js/katalon/selenium-ide/format/csharp/cs-wd.js
-252	0	panel/js/katalon/selenium-ide/format/java/java-backed-junit4.js
-240	0	panel/js/katalon/selenium-ide/format/java/java-rc-junit4.js
-42	0	panel/js/katalon/selenium-ide/format/java/java-rc-testng.js
-232	0	panel/js/katalon/selenium-ide/format/java/java-rc.js
-529	0	panel/js/katalon/selenium-ide/format/java/webdriver-junit4.js
-522	0	panel/js/katalon/selenium-ide/format/java/webdriver-testng.js
-57	0	panel/js/katalon/selenium-ide/format/katalon/katalon.js
-531	0	panel/js/katalon/selenium-ide/format/python/python-appdynamics.js
-225	0	panel/js/katalon/selenium-ide/format/python/python2-rc.js
-534	0	panel/js/katalon/selenium-ide/format/python/python2-wd.js
-167	0	panel/js/katalon/selenium-ide/format/robot/robot.js
-249	0	panel/js/katalon/selenium-ide/format/ruby/ruby-rc-rspec.js
-217	0	panel/js/katalon/selenium-ide/format/ruby/ruby-rc.js
-532	0	panel/js/katalon/selenium-ide/format/ruby/ruby-wd-rspec.js
-515	0	panel/js/katalon/selenium-ide/format/ruby/ruby-wd.js
-261	0	panel/js/katalon/selenium-ide/format/xml/XML-formatter.js
-128	0	panel/js/katalon/selenium-ide/formatCommandOnlyAdapter.js
-1925	0	panel/js/katalon/selenium-ide/iedoc-core.xml
-378	0	panel/js/katalon/selenium-ide/remoteControl.js
-523	0	panel/js/katalon/selenium-ide/testCase.js
-835	0	panel/js/katalon/selenium-ide/webdriver.js
-2	0	panel/js/lib/colResizable-1.5.min.js
-812	0	panel/js/lib/jquery-ui-slider-pips.js
-13	0	panel/js/lib/jquery-ui.min.js
-20	0	panel/js/lib/jquery.equalHeight.js
-3	0	panel/js/lib/jquery.tablesorter.min.js
-4	0	panel/js/lib/jquery.tabletab.js
-58	0	panel/js/lib/utils.js
+78	0	pom.xml
+5	0	src/main/java/thanhto/katalon/katalon_notes/constant/CustomQueryConstants.java
+5	0	src/main/java/thanhto/katalon/katalon_notes/constant/ImageConstants.java
+7	0	src/main/java/thanhto/katalon/katalon_notes/constant/Operations.java
+20	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+123	0	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+399	0	src/main/java/thanhto/katalon/katalon_notes/dialog/AddNewNoteDialog.java
+23	0	src/main/java/thanhto/katalon/katalon_notes/listener/KatalonNotesPluginActivationListener.java
+7	0	src/main/java/thanhto/katalon/katalon_notes/model/ILinkable.java
+37	0	src/main/java/thanhto/katalon/katalon_notes/model/INote.java
+89	0	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+47	0	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+61	0	src/main/java/thanhto/katalon/katalon_notes/service/AbstractDatabaseService.java
+35	0	src/main/java/thanhto/katalon/katalon_notes/service/NitriteDatabaseService.java
+79	0	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+46	0	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeContentProvider.java
+30	0	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+121	0	src/main/java/thanhto/katalon/katalon_notes/util/ImageManager.java
+34	0	src/main/java/thanhto/katalon/katalon_notes/util/ImageUtil.java
+-	-	src/main/resources/icons/katalon_notes_32x24.png
+18	0	src/main/resources/plugin.xml
+
+--cd5b990--2019-07-09--Tô Minh Thành
+12	0	.gitignore
+201	0	LICENSE

@@ -1,0 +1,275 @@
+--adb6f3c--2019-08-04--Tô Minh Thành
+--5ecd6f4--2019-08-04--Thanh To
+36	0	src/main/java/thanhto/katalon/katalon_notes/api/IDatabaseActionProvider.java
+32	0	src/main/java/thanhto/katalon/katalon_notes/api/IDatabaseController.java
+51	0	src/main/java/thanhto/katalon/katalon_notes/api/IRenderer.java
+0	7	src/main/java/thanhto/katalon/katalon_notes/constant/Operations.java
+1	0	src/main/java/thanhto/katalon/katalon_notes/controller/AbstractDatabaseController.java
+0	34	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+7	0	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+0	556	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/exception/RendererNotRegisteredException.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseActionProviderFactory.java
+3	3	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseArtifactFactory.java
+0	7	src/main/java/thanhto/katalon/katalon_notes/model/ILinkable.java
+0	1	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+0	40	src/main/java/thanhto/katalon/katalon_notes/provider/IDatabaseActionProvider.java
+8	13	src/main/java/thanhto/katalon/katalon_notes/provider/NitriteDatabaseActionProvider.java
+8	7	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+7	2	src/main/java/thanhto/katalon/katalon_notes/renderer/CommonMarkRenderer.java
+2	1	src/main/java/thanhto/katalon/katalon_notes/renderer/HtmlRendererFactory.java
+0	49	src/main/java/thanhto/katalon/katalon_notes/renderer/IRenderer.java
+4	4	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+0	81	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+0	46	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeContentProvider.java
+0	35	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+556	0	src/main/java/thanhto/katalon/katalon_notes/ui/dialog/KatalonNotesDialog.java
+74	0	src/main/java/thanhto/katalon/katalon_notes/ui/toolitem/KatalonNotesToolItemWithMenuDescription.java
+46	0	src/main/java/thanhto/katalon/katalon_notes/ui/tree/KatalonNotesTreeContentProvider.java
+35	0	src/main/java/thanhto/katalon/katalon_notes/ui/tree/KatalonNotesTreeLabelProvider.java
+2	2	src/main/resources/plugin.xml
+28	28	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+0	6	src/test/java/thanhto/katalon/katalon_notes/dialog/TestKatalonNotesDialog.java
+1	0	src/test/java/thanhto/katalon/katalon_notes/renderer/TestHtmlRendererFactory.java
+
+--93f0def--2019-08-01--Tô Minh Thành
+3	1	README.md
+
+--05fcf66--2019-07-31--Tô Minh Thành
+1	2	README.md
+
+--2e59465--2019-07-31--Tô Minh Thành
+1	1	README.md
+
+--8d34faf--2019-07-31--Tô Minh Thành
+4	1	README.md
+
+--e3df75e--2019-07-30--Tô Minh Thành
+2	1	README.md
+
+--b1cbb4b--2019-07-30--Tô Minh Thành
+--d07e2c8--2019-07-30--Tô Minh Thành
+6	0	README.md
+
+--aae436b--2019-07-30--Thanh To
+1	1	pom.xml
+3	4	src/main/java/thanhto/katalon/katalon_notes/builder/NoteBuilder.java
+1	0	src/main/java/thanhto/katalon/katalon_notes/constant/CustomQueryConstants.java
+28	0	src/main/java/thanhto/katalon/katalon_notes/constant/ServiceName.java
+2	5	src/main/java/thanhto/katalon/katalon_notes/controller/AbstractDatabaseController.java
+73	109	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+70	38	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+13	8	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseActionProviderFactory.java
+45	2	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseArtifactFactory.java
+0	37	src/main/java/thanhto/katalon/katalon_notes/model/INote.java
+40	31	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+1	3	src/main/java/thanhto/katalon/katalon_notes/provider/IDatabaseActionProvider.java
+12	16	src/main/java/thanhto/katalon/katalon_notes/provider/NitriteDatabaseActionProvider.java
+28	78	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+2	2	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+5	5	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeContentProvider.java
+3	3	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+4	61	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+74	124	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+7	8	src/test/java/thanhto/katalon/katalon_notes/service/TestDatabaseService.java
+4	4	src/test/java/thanhto/katalon/katalon_notes/util/TestNoteUtils.java
+
+--8e77268--2019-07-25--Thanh To
+13	0	src/main/java/thanhto/katalon/katalon_notes/controller/AbstractDatabaseController.java
+12	43	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+32	65	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+28	6	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+37	0	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseActionProviderFactory.java
+48	0	src/main/java/thanhto/katalon/katalon_notes/factory/DatabaseArtifactFactory.java
+42	0	src/main/java/thanhto/katalon/katalon_notes/provider/IDatabaseActionProvider.java
+89	0	src/main/java/thanhto/katalon/katalon_notes/provider/NitriteDatabaseActionProvider.java
+48	22	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+0	4	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+2	8	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+13	0	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+16	6	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--19c7f98--2019-07-24--Thanh To
+-	-	katalon_notes.db
+7	0	src/main/java/thanhto/katalon/katalon_notes/builder/NoteBuilder.java
+8	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+9	14	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+70	3	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+4	0	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+4	4	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+
+--c3c2d2a--2019-07-20--Tô Minh Thành
+14	2	README.md
+
+--c6e6000--2019-07-20--Thanh To
+--2789f85--2019-07-20--Thanh To
+20	13	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+78	36	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/renderer/HtmlRendererFactory.java
+197	21	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+6	0	src/test/java/thanhto/katalon/katalon_notes/dialog/TestKatalonNotesDialog.java
+
+--1b3f97a--2019-07-18--Tô Minh Thành
+3	0	README.md
+
+--f8745ae--2019-07-18--Tô Minh Thành
+5	0	README.md
+
+--f78f715--2019-07-18--Tô Minh Thành
+1	1	README.md
+
+--9f3270d--2019-07-18--Thanh To
+--1390a3d--2019-07-18--Thanh To
+1	1	pom.xml
+25	38	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+
+--8c33102--2019-07-18--Tô Minh Thành
+1	15	README.md
+
+--cb53dc7--2019-07-17--Thanh To
+19	8	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+87	120	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+2	30	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+46	72	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--448b094--2019-07-17--Thanh To
+65	71	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+
+--0373e4f--2019-07-17--Thanh To
+38	1	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--592fc2b--2019-07-17--Thanh To
+43	25	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+31	2	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+9	1	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+116	18	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--71a7dee--2019-07-16--Thanh To
+8	3	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+3	0	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--a251c4e--2019-07-16--Thanh To
+0	46	src/test/java/TestNoteUtils.java
+47	0	src/test/java/thanhto/katalon/katalon_notes/util/TestNoteUtils.java
+
+--47fcdfa--2019-07-16--Thanh To
+22	0	src/main/java/thanhto/katalon/katalon_notes/builder/NoteBuilder.java
+19	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+72	47	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+48	44	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+34	3	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+46	7	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+2	1	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+76	0	src/main/java/thanhto/katalon/katalon_notes/util/NoteUtils.java
+46	0	src/test/java/TestNoteUtils.java
+94	0	src/test/java/thanhto/katalon/katalon_notes/controller/TestNitriteDatabaseController.java
+
+--36ec50f--2019-07-15--Thanh To
+39	2	pom.xml
+6	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+123	84	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+1	9	src/main/java/thanhto/katalon/katalon_notes/exception/DatabaseControllerUnselectedException.java
+11	0	src/main/java/thanhto/katalon/katalon_notes/exception/PluginPreferenceIsNotAvailable.java
+23	0	src/main/java/thanhto/katalon/katalon_notes/exception/RendererNotRegisteredException.java
+27	11	src/main/java/thanhto/katalon/katalon_notes/listener/KatalonNotesPluginActivationListener.java
+11	5	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+54	0	src/main/java/thanhto/katalon/katalon_notes/renderer/CommonMarkRenderer.java
+104	0	src/main/java/thanhto/katalon/katalon_notes/renderer/HtmlRendererFactory.java
+49	0	src/main/java/thanhto/katalon/katalon_notes/renderer/IRenderer.java
+9	0	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+1	1	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+46	0	src/test/java/thanhto/katalon/katalon_notes/renderer/TestHtmlRendererFactory.java
+76	0	src/test/java/thanhto/katalon/katalon_notes/service/TestDatabaseService.java
+
+--601aaf2--2019-07-12--Thanh To
+6	0	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+
+--421dd99--2019-07-12--Thanh To
+105	103	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+
+--080ece3--2019-07-12--Thanh To
+14	7	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+6	6	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+179	178	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+12	13	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+
+--b3d2974--2019-07-12--Thanh To
+--b5a8436--2019-07-12--Thanh To
+1	1	pom.xml
+7	0	src/main/java/thanhto/katalon/katalon_notes/constant/CustomQueryConstants.java
+1	0	src/main/java/thanhto/katalon/katalon_notes/constant/ImageConstants.java
+10	10	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+10	2	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+0	399	src/main/java/thanhto/katalon/katalon_notes/dialog/AddNewNoteDialog.java
+399	0	src/main/java/thanhto/katalon/katalon_notes/dialog/KatalonNotesDialog.java
+0	3	src/main/java/thanhto/katalon/katalon_notes/listener/KatalonNotesPluginActivationListener.java
+11	10	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+10	10	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+4	3	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+17	12	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+0	121	src/main/java/thanhto/katalon/katalon_notes/util/ImageManager.java
+0	21	src/main/java/thanhto/katalon/katalon_notes/util/ImageUtil.java
+-	-	src/main/resources/thanhto/katalon/katalon_notes/util/note_small_icon.png
+
+--f895749--2019-07-12--Tô Minh Thành
+2	2	README.md
+
+--5950711--2019-07-12--Tô Minh Thành
+13	5	README.md
+
+--34835b8--2019-07-12--Thanh To
+12	2	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+
+--314fdf2--2019-07-12--Tô Minh Thành
+1	1	README.md
+
+--7ca9935--2019-07-12--Tô Minh Thành
+6	1	README.md
+
+--bbd38b0--2019-07-12--Tô Minh Thành
+7	0	README.md
+
+--a14d004--2019-07-12--Thanh To
+--b92e501--2019-07-12--Thanh To
+5	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+18	12	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+3	3	src/main/java/thanhto/katalon/katalon_notes/dialog/AddNewNoteDialog.java
+18	0	src/main/java/thanhto/katalon/katalon_notes/exception/DatabaseControllerUnselectedException.java
+30	14	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+0	61	src/main/java/thanhto/katalon/katalon_notes/service/AbstractDatabaseService.java
+43	0	src/main/java/thanhto/katalon/katalon_notes/service/DatabaseService.java
+0	35	src/main/java/thanhto/katalon/katalon_notes/service/NitriteDatabaseService.java
+10	4	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+
+--58ac231--2019-07-11--Tô Minh Thành
+3	3	README.md
+
+--9221de9--2019-07-11--Thanh To
+--3f15e80--2019-07-11--Thanh To
+11	0	.gitignore
+17	0	README.md
+78	0	pom.xml
+5	0	src/main/java/thanhto/katalon/katalon_notes/constant/CustomQueryConstants.java
+5	0	src/main/java/thanhto/katalon/katalon_notes/constant/ImageConstants.java
+7	0	src/main/java/thanhto/katalon/katalon_notes/constant/Operations.java
+20	0	src/main/java/thanhto/katalon/katalon_notes/controller/IDatabaseController.java
+123	0	src/main/java/thanhto/katalon/katalon_notes/controller/NitriteDatabaseController.java
+399	0	src/main/java/thanhto/katalon/katalon_notes/dialog/AddNewNoteDialog.java
+23	0	src/main/java/thanhto/katalon/katalon_notes/listener/KatalonNotesPluginActivationListener.java
+7	0	src/main/java/thanhto/katalon/katalon_notes/model/ILinkable.java
+37	0	src/main/java/thanhto/katalon/katalon_notes/model/INote.java
+89	0	src/main/java/thanhto/katalon/katalon_notes/model/KatalonNote.java
+47	0	src/main/java/thanhto/katalon/katalon_notes/provider/ServiceProvider.java
+61	0	src/main/java/thanhto/katalon/katalon_notes/service/AbstractDatabaseService.java
+35	0	src/main/java/thanhto/katalon/katalon_notes/service/NitriteDatabaseService.java
+79	0	src/main/java/thanhto/katalon/katalon_notes/toolitem/KatalonNotesToolItemWithMenuDescription.java
+46	0	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeContentProvider.java
+30	0	src/main/java/thanhto/katalon/katalon_notes/tree/KatalonNotesTreeLabelProvider.java
+121	0	src/main/java/thanhto/katalon/katalon_notes/util/ImageManager.java
+34	0	src/main/java/thanhto/katalon/katalon_notes/util/ImageUtil.java
+-	-	src/main/resources/icons/katalon_notes_32x24.png
+18	0	src/main/resources/plugin.xml
+
+--cd5b990--2019-07-09--Tô Minh Thành
+12	0	.gitignore
+201	0	LICENSE

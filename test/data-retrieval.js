@@ -5,15 +5,11 @@ const CSV = require("csv-string");
 
 describe("Cloc test", function() {
   it("should count files and lines as expected", async function() {
-    const expected = JSON.parse(
-      fs.readFileSync(__dirname + "/fixtures/cloc/result.txt", "utf8")
-    );
-
+    const filePath = __dirname + "/fixtures/cloc/loc.js";
+    const expectedPath = __dirname + "/fixtures/cloc/result.txt";
+    const expected = JSON.parse(fs.readFileSync(expectedPath, "utf8"));
     const generator = new DataGenerator();
-    const cmd = generator.countNumberOfLinesCmd(
-      __dirname + "/fixtures/cloc/loc.js"
-    );
-
+    const cmd = generator.countNumberOfLinesCmd(filePath);
     const actual = JSON.parse(await generator.executeCommand(cmd));
     expect(actual["SUM"]["code"]).to.not.be.equal(0);
     expect(actual["SUM"]["code"]).to.be.equal(expected["SUM"]["code"]);
@@ -23,14 +19,12 @@ describe("Cloc test", function() {
 describe("Code Maat test", function() {
   it("should parse logfile into no.authors and no.revisions as expected ", async function() {
     this.timeout(10000);
-    const expected = CSV.parse(
-      fs.readFileSync(__dirname + "/fixtures/code-maat/result.txt", "utf8")
-    );
-
+    const expectedPath = __dirname + "/fixtures/code-maat/result.txt";
+    const extractedGitLogPath = "test/fixtures/code-maat/logfile.log";
+    const expected = CSV.parse(fs.readFileSync(expectedPath, "utf8"));
     const generator = new DataGenerator();
-    const cmd = generator.runCodeMaatOnExtractedGitLogCmd(
-      "test/fixtures/code-maat/logfile.log"
-    );
+    const cmd = generator.runCodeMaatOnExtractedGitLogCmd(extractedGitLogPath);
+    console.log(cmd);
     const actual = CSV.parse(await generator.executeCommand(cmd));
     expect(actual.length).to.be.equal(expected.length);
     for (let i = 0; i < actual.length; i++) {
