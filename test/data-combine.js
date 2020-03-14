@@ -1,17 +1,18 @@
-const DataGenerator = require("../src/backend/DataGenerator").DataGenerator;
-var appRoot = require("app-root-path");
+const RepositoryDataGenerator = require("../src/backend/RepositoryDataGenerator")
+  .RepositoryDataGenerator;
+// var appRoot = require("app-root-path");
 
 describe("Generate complexity data", function() {
   it("should combine data correctly", async function() {
     this.timeout(0);
-    const generator = new DataGenerator();
+    const generator = new RepositoryDataGenerator();
     const complexityData = await generator.generateComplexityData(
       {
-        repository_path: appRoot,
+        repository_path:
+          "/Users/thanhto/Documents/repository/work/katalon-recorder",
         after_date: "2019-01-01"
       },
-      value => !value[0].startsWith("node_modules")
+      value => value[0].endsWith(".js")
     );
-    console.log(complexityData);
   });
 });

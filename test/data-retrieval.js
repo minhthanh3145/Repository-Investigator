@@ -1,4 +1,5 @@
-const DataGenerator = require("../src/backend/DataGenerator").DataGenerator;
+const RepositoryDataGenerator = require("../src/backend/RepositoryDataGenerator")
+  .RepositoryDataGenerator;
 const fs = require("fs");
 const expect = require("chai").expect;
 const CSV = require("csv-string");
@@ -8,8 +9,8 @@ describe("Cloc test", function() {
     const filePath = __dirname + "/fixtures/cloc/loc.js";
     const expectedPath = __dirname + "/fixtures/cloc/result.txt";
     const expected = JSON.parse(fs.readFileSync(expectedPath, "utf8"));
-    const generator = new DataGenerator();
-    const cmd = generator.countNumberOfLinesCmd(filePath);
+    const generator = new RepositoryDataGenerator();
+    const cmd = generator.EXTRACT_LINE_OF_CODES_CMD(filePath);
     const actual = JSON.parse(await generator.executeCommand(cmd));
     expect(actual["SUM"]["code"]).to.not.be.equal(0);
     expect(actual["SUM"]["code"]).to.be.equal(expected["SUM"]["code"]);
@@ -22,8 +23,8 @@ describe("Code Maat test", function() {
     const expectedPath = __dirname + "/fixtures/code-maat/result.txt";
     const extractedGitLogPath = "test/fixtures/code-maat/logfile.log";
     const expected = CSV.parse(fs.readFileSync(expectedPath, "utf8"));
-    const generator = new DataGenerator();
-    const cmd = generator.runCodeMaatOnExtractedGitLogCmd(extractedGitLogPath);
+    const generator = new RepositoryDataGenerator();
+    const cmd = generator.EXTRACT_CODE_MAAT_CMD(extractedGitLogPath);
     const actual = CSV.parse(await generator.executeCommand(cmd));
     expect(actual.length).to.be.equal(expected.length);
     for (let i = 0; i < actual.length; i++) {

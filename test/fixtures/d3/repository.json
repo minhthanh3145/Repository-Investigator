@@ -1,0 +1,482 @@
+{
+  "name": "hierarchy",
+  "children": [
+    {
+      "name": "panel",
+      "children": [
+        {
+          "name": "js",
+          "children": [
+            {
+              "name": "UI",
+              "children": [
+                {
+                  "name": "sortable-ui.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 68
+                },
+                {
+                  "name": "hideshow.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 67
+                },
+                {
+                  "name": "log.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 40
+                },
+                {
+                  "name": "command_grid_toolbar.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 72
+                },
+                {
+                  "name": "command_grid.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 324
+                },
+                {
+                  "name": "testcase_grid.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 455
+                },
+                {
+                  "name": "context_menu.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 267
+                }
+              ]
+            },
+            {
+              "name": "katalon",
+              "children": [
+                {
+                  "name": "codemirror-5.31.0",
+                  "children": [
+                    {
+                      "name": "mode",
+                      "children": [
+                        {
+                          "name": "javascript",
+                          "children": []
+                        },
+                        {
+                          "name": "xml",
+                          "children": []
+                        },
+                        {
+                          "name": "clike",
+                          "children": []
+                        },
+                        {
+                          "name": "python",
+                          "children": []
+                        },
+                        {
+                          "name": "ruby",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "lib",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "selenium-ide",
+                  "children": [
+                    {
+                      "name": "format",
+                      "children": [
+                        {
+                          "name": "java",
+                          "children": [
+                            {
+                              "name": "java-rc.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 180
+                            },
+                            {
+                              "name": "java-rc-testng.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 28
+                            },
+                            {
+                              "name": "webdriver-testng.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 433
+                            },
+                            {
+                              "name": "java-backed-junit4.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 200
+                            },
+                            {
+                              "name": "java-rc-junit4.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 189
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ruby",
+                          "children": [
+                            {
+                              "name": "ruby-rc-rspec.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 204
+                            },
+                            {
+                              "name": "ruby-wd-rspec.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 443
+                            },
+                            {
+                              "name": "ruby-wd.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 427
+                            }
+                          ]
+                        },
+                        {
+                          "name": "xml",
+                          "children": []
+                        },
+                        {
+                          "name": "katalon",
+                          "children": []
+                        },
+                        {
+                          "name": "csharp",
+                          "children": [
+                            {
+                              "name": "cs-rc.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 191
+                            }
+                          ]
+                        },
+                        {
+                          "name": "python",
+                          "children": [
+                            {
+                              "name": "python-appdynamics.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 452
+                            },
+                            {
+                              "name": "python2-wd.js",
+                              "n-authors": "1",
+                              "n-revisions": "1",
+                              "loc": 455
+                            }
+                          ]
+                        },
+                        {
+                          "name": "robot",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "testCase.js",
+                      "n-authors": "1",
+                      "n-revisions": "1",
+                      "loc": 431
+                    },
+                    {
+                      "name": "webdriver.js",
+                      "n-authors": "1",
+                      "n-revisions": "1",
+                      "loc": 664
+                    },
+                    {
+                      "name": "remoteControl.js",
+                      "n-authors": "1",
+                      "n-revisions": "1",
+                      "loc": 335
+                    }
+                  ]
+                },
+                {
+                  "name": "newformatters",
+                  "children": []
+                },
+                {
+                  "name": "papaparse.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 1251
+                },
+                {
+                  "name": "bowser.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 500
+                }
+              ]
+            },
+            {
+              "name": "lib",
+              "children": [
+                {
+                  "name": "colResizable-1.5.min.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 1
+                },
+                {
+                  "name": "jquery-ui.min.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 8
+                },
+                {
+                  "name": "jquery.equalHeight.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 13
+                },
+                {
+                  "name": "jquery-ui-slider-pips.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 405
+                },
+                {
+                  "name": "jquery.tablesorter.min.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 3
+                },
+                {
+                  "name": "utils.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 21
+                }
+              ]
+            },
+            {
+              "name": "background",
+              "children": [
+                {
+                  "name": "initial.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 18
+                },
+                {
+                  "name": "recorder.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 263
+                },
+                {
+                  "name": "editor.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 90
+                },
+                {
+                  "name": "playback.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 1040
+                },
+                {
+                  "name": "window-controller.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 312
+                },
+                {
+                  "name": "doc.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 46
+                }
+              ]
+            },
+            {
+              "name": "IO",
+              "children": [
+                {
+                  "name": "inputFileTransformer.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 201
+                },
+                {
+                  "name": "load_file.js",
+                  "n-authors": "1",
+                  "n-revisions": "1",
+                  "loc": 127
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "content",
+      "children": [
+        {
+          "name": "selenium-api.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 1807
+        },
+        {
+          "name": "sizzle.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 1470
+        },
+        {
+          "name": "selenium-browserbot.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 2142
+        },
+        {
+          "name": "recorder.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 100
+        },
+        {
+          "name": "recorder-handlers.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 465
+        },
+        {
+          "name": "bowser.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 500
+        },
+        {
+          "name": "utils.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 6528
+        },
+        {
+          "name": "targetSelecter.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 80
+        },
+        {
+          "name": "prompt-injecter.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 52
+        },
+        {
+          "name": "jquery.simulate.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 260
+        },
+        {
+          "name": "command-receiver.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 173
+        },
+        {
+          "name": "selenium-commandhandlers.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 269
+        },
+        {
+          "name": "locatorBuilders.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 423
+        },
+        {
+          "name": "runScript-injecter.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 9
+        },
+        {
+          "name": "kar.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 6
+        }
+      ]
+    },
+    {
+      "name": "background",
+      "children": [
+        {
+          "name": "background.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 138
+        },
+        {
+          "name": "kar.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 291
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "children": [
+        {
+          "name": "escape.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 176
+        },
+        {
+          "name": "browser-polyfill.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 655
+        }
+      ]
+    },
+    {
+      "name": "page",
+      "children": [
+        {
+          "name": "runScript.js",
+          "n-authors": "1",
+          "n-revisions": "1",
+          "loc": 33
+        }
+      ]
+    }
+  ]
+}
