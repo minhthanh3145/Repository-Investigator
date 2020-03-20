@@ -22,3 +22,22 @@
 .node--leaf {
   pointer-events: none;
 } */
+
+#info_div {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  z-index: 10;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row {
+  display: table;
+  clear: both;
+}

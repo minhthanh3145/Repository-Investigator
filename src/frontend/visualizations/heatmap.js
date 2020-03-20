@@ -1,28 +1,24 @@
 const d3 = require("d3");
-var svg = d3.select("svg");
-
-var margin = 20;
-var diameter = svg.attr("width");
-var g = svg
-  .append("g")
-  .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
-
-var pack = d3
-  .pack()
-  .size([diameter - margin, diameter - margin])
-  .padding(2);
-
-const button = document.getElementById("fetch_repository_data");
-button.addEventListener("click", function(e) {
-  const repository_path = document.getElementById("repository_path").value;
-  const after_date = document.getElementById("after_date").value;
-  buildDashboard(repository_path, after_date);
-});
 
 function buildDashboard(repository_path, after_date) {
-  d3.json(
-    `http://localhost:3000/fetch_repository_data?repository_path=${repository_path}&after_date=${after_date}`
-  )
+  var svg = d3.select("svg");
+
+  var margin = 20;
+  var diameter = svg.attr("width");
+  var g = svg
+    .append("g")
+    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+  var pack = d3
+    .pack()
+    .size([diameter - margin, diameter - margin])
+    .padding(2);
+
+  const infoDiv = document.getElementById("info_div");
+
+  let url = "http://localhost:3000/fetch_repository_data";
+
+  d3.json(`${url}?repository_path=${repository_path}&after_date=${after_date}`)
     .catch(err => console.log(err))
     .then(root => {
       console.log(root);
@@ -48,19 +44,19 @@ function buildDashboard(repository_path, after_date) {
         return +d.depth;
       });
 
-      console.log(nonLeafColorDomain);
+      console.log(leafColorDomain);
 
       var nonLeafColor = d3
         .scaleLinear()
         .domain(nonLeafColorDomain)
-        .range(["white", "blue"])
+        .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
         .interpolate(d3.interpolateHcl);
 
       var color = d3
-        .scaleLinear()
+        .scalePow()
+        .exponent(2)
         .domain(leafColorDomain)
-        .range(["blue", "black"])
-        .interpolate(d3.interpolateHcl);
+        .range(["white", "blue"]);
 
       var circle = g
         .selectAll("circle")
@@ -85,6 +81,9 @@ function buildDashboard(repository_path, after_date) {
             console.log(d);
             d3.event.stopPropagation();
           }
+        })
+        .on("mouseover", function(d) {
+          infoDiv.textContent = d.data.name;
         });
 
       var text = g
@@ -106,9 +105,12 @@ function buildDashboard(repository_path, after_date) {
       var node = g.selectAll("circle,text");
 
       svg
-        .style("background", nonLeafColor(nonLeafColorDomain[0]))
+        .style("background", nonLeafColor(nonLeafColorDomain[0] - 1))
         .on("click", function() {
-          zoom(root);
+          if (d3.event.shiftKey) {
+          } else {
+            zoom(root);
+          }
         });
 
       zoomTo([root.x, root.y, root.r * 2 + margin]);
@@ -158,3 +160,5 @@ function buildDashboard(repository_path, after_date) {
       }
     });
 }
+
+module.exports.HeatMap = buildDashboard;
