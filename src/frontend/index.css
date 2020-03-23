@@ -2,6 +2,7 @@
   cursor: pointer;
 }
 
+
 .node:hover {
   stroke: #000;
   stroke-width: 1.5px;
@@ -40,4 +41,24 @@
 .row {
   display: table;
   clear: both;
+}
+
+.card {
+  word-wrap: break-word;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  font-family: arial;
+}
+
+.card button {
+  display: inline-flex;
+  float: right;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }

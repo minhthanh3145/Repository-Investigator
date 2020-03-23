@@ -1,16 +1,18 @@
 import { h } from "hyperapp";
-const HeatMap = require("./heatmap").HeatMap;
+import { buildDashboardWithD3 } from "./heatmap-d3";
+import { removeContextItemAction } from "./actions";
 
-const Barchart = {
-  init: () => ({
+const HeatMapController = {
+  stateInit: () => ({
     heatmap: {
+      items: {},
       repository_path: "",
       after_date: "",
-      width: 100,
-      height: 100
+      width: 800,
+      height: 800
     }
   }),
-  dashboardView: state => {
+  getHeatMapView: state => {
     return (
       <div>
         <div>
@@ -22,27 +24,27 @@ const Barchart = {
               left: "10px",
               "z-index": "10"
             }}
-          >
-            Info div
-          </div>
+          ></div>
           <input
             placeholder="Repository path"
-            onchange={(state, e) => (
-              { ...state },
-              { heatmap: { ...heatmap, repository_path: e.target.value } }
-            )}
+            style={{
+              width: "500px"
+            }}
+            list="repo_path"
+            onchange={(state, e) => ({
+              heatmap: { ...state.heatmap, repository_path: e.target.value }
+            })}
           />
           <input
             placeholder="After Date"
-            onchange={(state, e) => (
-              { ...state },
-              { heatmap: { ...heatmap, after_date: e.target.value } }
-            )}
+            style={{
+              width: "200px"
+            }}
+            onchange={(state, e) => ({
+              heatmap: { ...state.heatmap, after_date: e.target.value }
+            })}
           />
-          <button
-            id="fetch_repository_data"
-            onClick={() => Barchart.buildDashboard(state)}
-          >
+          <button id="fetch_repository_data" onClick={buildDashboardWithD3}>
             Build Hotspot
           </button>
           <label id="lbl_info"></label>
@@ -69,17 +71,31 @@ const Barchart = {
             }}
           ></svg>
           <div class="column">
-            <p>asfasf</p>
+            {Object.entries(state.heatmap.items).map(([_, value]) => (
+              <div class="card">
+                <p>
+                  <button
+                    onClick={[
+                      removeContextItemAction,
+                      {
+                        title: value.title
+                      }
+                    ]}
+                  >
+                    X
+                  </button>
+                </p>
+                <p>
+                  <b>{value.title}</b>
+                </p>
+                <p class="price">{value.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     );
-  },
-  buildDashboard: state => [
-    { ...state },
-    console.log(state),
-    HeatMap(state.heatmap.repository_path, state.heatmap.after_date)
-  ]
+  }
 };
 
-module.exports.Barchart = Barchart;
+module.exports.HeatMapController = HeatMapController;

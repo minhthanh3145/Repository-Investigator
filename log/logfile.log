@@ -1,0 +1,2189 @@
+--b9240b1--2020-03-12--Andrey Lushnikov
+1	1	package.json
+
+--067662c--2020-03-12--Philipp Hagemeister
+1	0	lib/JSHandle.js
+6	0	test/input.spec.js
+
+--a3d1536--2020-03-13--Yuki Takizawa
+3	1	docs/troubleshooting.md
+
+--fe1ff23--2020-03-10--hanselfmu
+11	11	README.md
+1	1	docs/api.md
+1	1	package.json
+
+--33f1967--2020-03-10--Maja Frydrychowicz
+1	0	.gitignore
+1	0	.npmignore
+17	5	README.md
+23	8	docs/api.md
+160	92	install.js
+191	44	lib/BrowserFetcher.js
+15	11	lib/Launcher.js
+14	5	lib/Puppeteer.js
+5	1	package.json
+-	-	test/assets/firefox-75.0a1.en-US.linux-x86_64.tar.bz2
+43	8	test/launcher.spec.js
+
+--807fbbd--2020-03-10--Changhao Han
+3	3	.appveyor.yml
+0	17	.ci/node8/Dockerfile.linux
+3	6	.cirrus.yml
+12	12	.travis.yml
+2	2	README.md
+3	3	docs/troubleshooting.md
+17	0	experimental/puppeteer-firefox/.ci/node10/Dockerfile.linux
+11	0	experimental/puppeteer-firefox/.ci/node10/Dockerfile.windows
+0	17	experimental/puppeteer-firefox/.ci/node6/Dockerfile.linux
+0	17	experimental/puppeteer-firefox/.ci/node8/Dockerfile.linux
+0	11	experimental/puppeteer-firefox/.ci/node8/Dockerfile.windows
+7	7	experimental/puppeteer-firefox/.cirrus.yml
+1	1	experimental/puppeteer-firefox/package.json
+3	1	lib/Launcher.js
+3	3	package.json
+
+--0b1a9ce--2020-02-20--Maja Frydrychowicz
+0	9	.cirrus.yml
+6	3	.travis.yml
+3	1	lib/Launcher.js
+0	1	package.json
+2	2	test/accessibility.spec.js
+1	4	test/browser.spec.js
+9	9	test/browsercontext.spec.js
+8	8	test/click.spec.js
+14	14	test/cookies.spec.js
+3	3	test/defaultbrowsercontext.spec.js
+2	2	test/dialog.spec.js
+4	4	test/elementhandle.spec.js
+6	6	test/emulation.spec.js
+21	21	test/evaluation.spec.js
+3	10	test/fixtures.spec.js
+10	10	test/frame.spec.js
+1	1	test/ignorehttpserrors.spec.js
+1	1	test/input.spec.js
+2	2	test/jshandle.spec.js
+9	9	test/keyboard.spec.js
+18	11	test/launcher.spec.js
+5	5	test/mouse.spec.js
+26	26	test/navigation.spec.js
+13	13	test/network.spec.js
+33	33	test/page.spec.js
+2	8	test/puppeteer.spec.js
+12	12	test/queryselector.spec.js
+13	13	test/requestinterception.spec.js
+12	12	test/screenshot.spec.js
+5	5	test/target.spec.js
+3	16	test/test.js
+2	2	test/touchscreen.spec.js
+10	10	test/waittask.spec.js
+
+--0b1777e--2020-02-06--WuerfelDev
+1	1	docs/api.md
+
+--5ffcde2--2020-02-06--Changhao Han
+1	1	docs/api.md
+1	1	package.json
+
+--261dd0b--2020-02-05--hanselfmu
+1	1	docs/api.md
+1	1	package.json
+
+--46386eb--2020-02-05--Changhao Han
+11	11	README.md
+1	1	docs/api.md
+1	1	package.json
+
+--eec4325--2020-02-05--hanselfmu
+11	11	README.md
+1	1	docs/api.md
+1	1	package.json
+
+--9923e56--2020-01-30--Pavel Feldman
+3	1	lib/Page.js
+
+--1a1ef83--2020-01-29--Tim van der Lippe
+11	0	README.md
+
+--0d243b7--2020-01-28--Grzegorz (Greg) Ziółkowski
+1	0	docs/api.md
+8	4	install.js
+1	0	utils/prepare_puppeteer_core.js
+
+--c283fea--2020-01-27--Feu
+5	1	docs/api.md
+
+--b45f8e4--2020-01-27--Mathias Bynens
+1	1	docs/api.md
+1	1	package.json
+
+--a30cf05--2020-01-27--Mathias Bynens
+10	10	README.md
+2	1	docs/api.md
+2	2	package.json
+
+--7e7b05a--2020-01-27--Mathias Bynens
+10	10	README.md
+2	1	docs/api.md
+2	2	package.json
+
+--013a86c--2020-01-27--Mathias Bynens
+13	5	lib/ExecutionContext.js
+2	0	lib/JSHandle.js
+11	21	lib/Page.js
+1	1	package.json
+16	8	test/accessibility.spec.js
+0	16	test/chromiumonly.spec.js
+
+--14b2369--2020-01-09--Mathias Bynens
+1	1	experimental/puppeteer-firefox/package.json
+
+--3a49cfc--2020-01-09--Mathias Bynens
+9	8	experimental/puppeteer-firefox/lib/BrowserFetcher.js
+1	1	experimental/puppeteer-firefox/package.json
+
+--c7af7de--2020-01-08--Lawrence Chou
+1	1	README.md
+
+--5e63254--2019-12-11--den
+1	1	test/page.spec.js
+
+--80b5c44--2019-12-11--Danny Guo
+1	1	package.json
+
+--6091a34--2019-12-03--Mathias Bynens
+31	6	lib/JSHandle.js
+2	0	package.json
+
+--8b49dc6--2019-11-27--Mathias Bynens
+1	2	lib/Launcher.js
+
+--f0bf645--2019-11-27--Darío Kondratiuk
+2	0	test/accessibility.spec.js
+
+--6cc98a7--2019-11-27--Erik Kotsiuba
+2	0	docs/troubleshooting.md
+
+--35d5ba5--2019-11-27--Maja Frydrychowicz
+202	10	lib/Launcher.js
+
+--eddb23b--2019-11-26--Mathias Bynens
+1	1	.npmignore
+11	11	CONTRIBUTING.md
+23	23	README.md
+15	15	docs/api.md
+9	9	docs/troubleshooting.md
+2	2	experimental/puppeteer-firefox/package.json
+1	1	lib/Launcher.js
+1	1	lib/Page.js
+1	1	package.json
+4	4	test/click.spec.js
+2	2	test/headful.spec.js
+1	1	test/ignorehttpserrors.spec.js
+6	6	test/launcher.spec.js
+3	3	test/page.spec.js
+3	3	test/requestinterception.spec.js
+2	2	test/utils.js
+1	1	utils/apply_next_version.js
+3	3	utils/browser/README.md
+2	2	utils/doclint/preprocessor/index.js
+6	6	utils/doclint/preprocessor/test.js
+1	1	utils/testrunner/package.json
+1	1	utils/testserver/package.json
+
+--c5a72e9--2019-11-26--Maja Frydrychowicz
+2	2	.cirrus.yml
+1	1	.travis.yml
+9	2	CONTRIBUTING.md
+12	2	docs/api.md
+3	3	experimental/puppeteer-firefox/.cirrus.yml
+8	1	index.js
+420	160	lib/Launcher.js
+22	2	lib/Puppeteer.js
+8	0	lib/externs.d.ts
+1	1	lib/helper.js
+2	1	package.json
+7	7	test/fixtures.spec.js
+7	1	test/launcher.spec.js
+20	10	test/puppeteer.spec.js
+36	20	test/test.js
+1	1	utils/protocol-types-generator/index.js
+
+--d17708b--2019-11-15--Connor Clark
+2	2	.npmignore
+3	2	CONTRIBUTING.md
+2	2	utils/protocol-types-generator/index.js
+
+--fd43f9c--2019-11-04--Darío Kondratiuk
+1	1	docs/api.md
+
+--5fa28b5--2019-11-02--Chris Calo
+1	1	docs/api.md
+
+--561c99d--2019-10-26--Benj Fassbind
+73	49	docs/api.md
+
+--aaa904d--2019-10-24--Mathias Bynens
+9	8	CONTRIBUTING.md
+
+--304f4a7--2019-10-24--Mathias Bynens
+3	1	.npmignore
+
+--7032472--2019-10-24--Mathias Bynens
+3	0	.npmignore
+1	1	docs/api.md
+1	2	package.json
+
+--aa24697--2019-10-24--Mathias Bynens
+10	10	README.md
+2	1	docs/api.md
+1	1	package.json
+
+--360c1b4--2019-10-24--Mathias Bynens
+-	-	test/golden-chromium/screenshot-offscreen-clip.png
+-	-	test/golden-firefox/screenshot-offscreen-clip.png
+13	0	test/screenshot.spec.js
+
+--7f3e372--2019-10-24--theeko
+6	0	docs/api.md
+1	1	lib/Page.js
+
+--8132b39--2019-10-24--Vse Mozhet Byt
+0	6	docs/api.md
+
+--1248a19--2019-10-23--Mathias Bynens
+5	0	docs/api.md
+13	0	lib/Page.js
+27	0	test/emulation.spec.js
+
+--a86363f--2019-10-23--Mathias Bynens
+73	3	docs/api.md
+7	4	experimental/puppeteer-firefox/lib/Page.js
+29	4	lib/Page.js
+52	9	test/emulation.spec.js
+1	0	test/test.js
+
+--06dbb72--2019-10-23--Mathias Bynens
+7	7	lib/LifecycleWatcher.js
+
+--81d2600--2019-10-23--Mathias Bynens
+2	2	experimental/puppeteer-firefox/lib/FrameManager.js
+3	3	experimental/puppeteer-firefox/lib/Page.js
+4	1	lib/Accessibility.js
+1	1	lib/ExecutionContext.js
+1	1	lib/LifecycleWatcher.js
+1	1	package.json
+-	-	test/golden-chromium/screenshot-offscreen-clip.png
+-	-	test/golden-firefox/screenshot-offscreen-clip.png
+2	2	test/launcher.spec.js
+4	4	test/navigation.spec.js
+1	8	test/page.spec.js
+1	1	test/requestinterception.spec.js
+0	13	test/screenshot.spec.js
+1	8	test/waittask.spec.js
+
+--3773229--2019-10-20--Yury Semikhatsky
+7	8	lib/Input.js
+
+--11ff374--2019-10-16--Mathias Bynens
+2	6	.appveyor.yml
+0	17	.ci/node6/Dockerfile.linux
+0	9	.cirrus.yml
+2	8	.travis.yml
+1	12	DeviceDescriptors.js
+1	12	Errors.js
+4	1	README.md
+1	12	experimental/puppeteer-firefox/DeviceDescriptors.js
+1	2	experimental/puppeteer-firefox/lib/Page.js
+4	0	experimental/puppeteer-firefox/lib/helper.js
+2	2	experimental/puppeteer-firefox/misc/install-preferences.js
+7	16	index.js
+0	29	install.js
+1	1	lib/BrowserFetcher.js
+1	0	lib/Page.js
+4	0	lib/helper.js
+2	6	package.json
+3	12	test/evaluation.spec.js
+4	3	test/headful.spec.js
+4	3	test/launcher.spec.js
+4	26	utils/doclint/Source.js
+0	156	utils/node6-transform/TransformAsyncFunctions.js
+0	64	utils/node6-transform/index.js
+0	97	utils/node6-transform/test/test.js
+
+--c0ba8f9--2019-10-16--Julien Landuré
+4	4	docs/troubleshooting.md
+
+--2506169--2019-10-15--Mathias Bynens
+1	0	CONTRIBUTING.md
+
+--83c327a--2019-10-10--Mathias Bynens
+1	1	README.md
+
+--4c62e09--2019-10-10--2kindsofcs
+1	1	lib/Launcher.js
+
+--7dbb108--2019-10-10--Darío Kondratiuk
+1	0	docs/api.md
+
+--5b34028--2019-10-10--Alexander Kachkaev
+1	1	package.json
+
+--dc57d03--2019-10-06--Chris B
+8	8	docs/api.md
+
+--fff2737--2019-09-14--Mathias Bynens
+4	3	CONTRIBUTING.md
+
+--387a532--2019-09-14--Mathias Bynens
+1	1	docs/api.md
+1	1	package.json
+
+--a5f03ce--2019-09-13--Mathias Bynens
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--f504c04--2019-09-12--Mathias Bynens
+1	1	test/page.spec.js
+
+--e17d38c--2019-09-11--Maximilian Tagher
+1	1	README.md
+
+--9384359--2019-09-11--Vitalii Tverdokhlib
+1	1	docs/troubleshooting.md
+
+--fca9d45--2019-09-10--Mathias Bynens
+1	1	CONTRIBUTING.md
+
+--97ff359--2019-09-10--Mathias Bynens
+25	22	CONTRIBUTING.md
+
+--c2651c2--2019-09-04--Yury Semikhatsky
+1	2	lib/FrameManager.js
+4	10	lib/NetworkManager.js
+
+--73fd7ff--2019-09-04--Pavel Feldman
+73	0	docs/api.md
+10	22	lib/DOMWorld.js
+59	17	lib/JSHandle.js
+
+--135bb42--2019-09-05--James George
+1	1	README.md
+
+--cba0f98--2019-08-25--Artem Sheremet
+1	1	docs/troubleshooting.md
+
+--07eaad9--2019-08-22--Joel Einbinder
+1	1	docs/api.md
+
+--e0c8d46--2019-08-21--Yury Semikhatsky
+8	2	experimental/puppeteer-firefox/lib/Page.js
+3	0	experimental/puppeteer-firefox/lib/TimeoutSettings.js
+13	4	experimental/puppeteer-firefox/lib/helper.js
+8	2	lib/Page.js
+13	4	lib/helper.js
+17	0	test/launcher.spec.js
+13	0	test/page.spec.js
+
+--faa4527--2019-08-17--Andrey Lushnikov
+1	1	utils/testrunner/package.json
+
+--498492d--2019-08-15--Yury Semikhatsky
+7	0	test/evaluation.spec.js
+
+--417981a--2019-08-15--Andrey Lushnikov
+3	3	experimental/puppeteer-firefox/lib/Page.js
+93	0	test/defaultbrowsercontext.spec.js
+1	0	test/puppeteer.spec.js
+
+--b6b2950--2019-08-14--Andrey Lushnikov
+3	11	lib/Target.js
+1	1	package.json
+2	1	test/page.spec.js
+
+--01b8880--2019-08-14--Andrey Lushnikov
+2	2	test/evaluation.spec.js
+
+--f595bc0--2019-08-14--Andrey Lushnikov
+2	2	test/headful.spec.js
+
+--f47ed16--2019-08-15--mittermayr
+24	0	lib/DeviceDescriptors.js
+
+--0e0a679--2019-08-14--Andrey Lushnikov
+1	2	lib/Launcher.js
+1	1	package.json
+11	1	test/headful.spec.js
+
+--ff6d2a3--2019-08-14--Vitalii Tverdokhlib
+15	15	docs/troubleshooting.md
+
+--2871bcd--2019-08-13--Andrey Lushnikov
+1	0	utils/bisect.js
+
+--d687c81--2019-08-13--Andrey Lushnikov
+4	2	test/utils.js
+
+--5d2378f--2019-08-09--Andrey Lushnikov
+1	1	.travis.yml
+
+--85bd4a8--2019-08-09--Andrey Lushnikov
+1	1	.appveyor.yml
+6	1	.travis.yml
+
+--8f5117b--2019-08-09--Andrey Lushnikov
+4	4	.travis.yml
+
+--d347fcb--2019-08-09--Andrey Lushnikov
+8	2	.travis.yml
+
+--763e390--2019-08-08--Andrey Lushnikov
+4	1	test/utils.js
+6	0	utils/flakiness-dashboard/FlakinessDashboard.js
+
+--608b15f--2019-08-08--Andrey Lushnikov
+3	0	utils/flakiness-dashboard/FlakinessDashboard.js
+
+--f753ec6--2019-08-08--Andrey Lushnikov
+0	1	test/utils.js
+22	7	utils/testrunner/Reporter.js
+61	40	utils/testrunner/TestRunner.js
+151	63	utils/testrunner/test/testrunner.spec.js
+
+--c047624--2019-08-07--Andrey Lushnikov
+3	3	test/utils.js
+
+--656fe46--2019-08-07--Drew Powers
+29	6	docs/troubleshooting.md
+
+--374177b--2019-08-06--Drew Powers
+9	0	docs/troubleshooting.md
+
+--dcff850--2019-08-06--Andrey Lushnikov
+0	1	.appveyor.yml
+0	1	.cirrus.yml
+4	2	test/test.js
+8	4	test/utils.js
+44	115	utils/flakiness-dashboard/FlakinessDashboard.js
+
+--b9b6ca1--2019-08-05--Darío Kondratiuk
+1	1	experimental/puppeteer-firefox/lib/NetworkManager.js
+4	2	lib/NetworkManager.js
+18	0	test/requestinterception.spec.js
+
+--4acce55--2019-08-05--Joel Einbinder
+1	1	test/mouse.spec.js
+
+--a95ec70--2019-08-05--Joel Einbinder
+1	0	test/coverage.spec.js
+
+--f2056a8--2019-08-05--Joel Einbinder
+1	1	test/requestinterception.spec.js
+
+--f4f2189--2019-08-02--ylb
+1	1	lib/Page.js
+
+--eb44e26--2019-08-01--Darío Kondratiuk
+20	0	test/headful.spec.js
+0	1	test/test.js
+
+--f733c33--2019-08-01--Andrey Lushnikov
+5	17	utils/flakiness-dashboard/FlakinessDashboard.js
+
+--5c7c45f--2019-08-01--Andrey Lushnikov
+1	1	test/test.js
+19	13	test/utils.js
+
+--7ee9af4--2019-08-01--Andrey Lushnikov
+6	0	.appveyor.yml
+
+--e252dcf--2019-08-01--Andrey Lushnikov
+1	1	.cirrus.yml
+4	0	test/utils.js
+33	11	utils/flakiness-dashboard/FlakinessDashboard.js
+
+--e2db16f--2019-08-01--Yury Semikhatsky
+2	2	test/evaluation.spec.js
+
+--932c8cb--2019-07-31--Andrey Lushnikov
+4	0	.cirrus.yml
+3	0	test/test.js
+67	0	test/utils.js
+270	0	utils/flakiness-dashboard/FlakinessDashboard.js
+3	0	utils/flakiness-dashboard/index.js
+1	0	utils/node6-transform/index.js
+
+--2f205a4--2019-07-30--Andrey Lushnikov
+1	1	package.json
+
+--1b4a030--2019-07-30--Yury Semikhatsky
+5	1	test/evaluation.spec.js
+
+--7406b18--2019-07-30--Andrey Lushnikov
+1	1	package.json
+10	3	utils/testrunner/TestRunner.js
+1	1	utils/testrunner/package.json
+15	0	utils/testrunner/test/test.js
+522	0	utils/testrunner/test/testrunner.spec.js
+
+--3bbc45a--2019-07-29--Andrey Lushnikov
+11	5	utils/check_availability.js
+
+--cc805e7--2019-07-29--Paul Irish
+1	1	experimental/puppeteer-firefox/README.md
+
+--7fded54--2019-07-30--Yevhen
+1	1	docs/api.md
+
+--7a60746--2019-07-29--Joel Einbinder
+2	16	test/headful.spec.js
+
+--62f5dc7--2019-07-22--Andrey Lushnikov
+5	3	docs/api.md
+1	1	package.json
+
+--af0d229--2019-07-22--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--ea28ccc--2019-07-22--Andrey Lushnikov
+94	34	docs/api.md
+95	7	lib/Page.js
+1	0	lib/api.js
+5	2	lib/helper.js
+17	0	test/chromiumonly.spec.js
+188	3	test/input.spec.js
+
+--2abaac1--2019-07-18--Yury Semikhatsky
+7	1	lib/Launcher.js
+10	0	test/fixtures.spec.js
+1	0	test/fixtures/dumpio.js
+
+--3982a60--2019-07-18--Andrey Lushnikov
+1	1	utils/testrunner/package.json
+
+--852c46c--2019-07-18--Andrey Lushnikov
+4	2	utils/testrunner/TestRunner.js
+
+--835e884--2019-07-17--Andrey Lushnikov
+17	4	CONTRIBUTING.md
+5	1	test/test.js
+15	7	utils/testrunner/TestRunner.js
+
+--934d73e--2019-07-16--Andrey Lushnikov
+2	2	utils/testrunner/Reporter.js
+
+--eea55bd--2019-07-16--Andrey Lushnikov
+6	3	utils/testrunner/TestRunner.js
+
+--ad18021--2019-07-15--Andrey Lushnikov
+1	0	lib/Launcher.js
+2	1	test/assets/simple-extension/index.js
+1	0	test/headful.spec.js
+
+--f8616ed--2019-07-15--Andrey Lushnikov
+4	2	lib/PipeTransport.js
+
+--c9977c8--2019-07-15--Andrey Lushnikov
+2	2	lib/FrameManager.js
+
+--a39d553--2019-07-14--Yury Semikhatsky
+12	4	test/ignorehttpserrors.spec.js
+6	2	test/launcher.spec.js
+0	1	utils/testserver/index.js
+
+--bafda9f--2019-07-15--Mohamed Akram
+3	1	lib/Launcher.js
+
+--a582c11--2019-07-13--Andrey Lushnikov
+17	0	.ci/node10/Dockerfile.linux
+17	0	.ci/node12/Dockerfile.linux
+7	1	.cirrus.yml
+1	0	utils/testserver/index.js
+
+--715aad2--2019-07-12--Yury Semikhatsky
+1	1	experimental/puppeteer-firefox/lib/ExecutionContext.js
+1	1	lib/ExecutionContext.js
+
+--49b2795--2019-07-12--Joel Einbinder
+8	1	lib/USKeyboardLayout.js
+
+--a17c727--2019-07-12--Andrey Lushnikov
+1	1	utils/testrunner/package.json
+
+--8e0c2fa--2019-07-08--Andrey Lushnikov
+1	1	package.json
+
+--9ef4153--2019-07-01--Andrey Lushnikov
+1	1	package.json
+
+--492132f--2019-06-29--Marc Jansen
+1	1	docs/api.md
+
+--a069a12--2019-06-29--jeremykerr-sp
+1	0	docs/troubleshooting.md
+
+--2d99d85--2019-06-27--Andrey Sidorov
+1	1	experimental/puppeteer-firefox/lib/Page.js
+
+--4ccd52c--2019-06-26--Andrey Lushnikov
+4	2	docs/api.md
+1	1	package.json
+
+--a2cf81d--2019-06-26--Andrey Lushnikov
+10	10	README.md
+2	2	docs/api.md
+1	1	package.json
+
+--cf34583--2019-06-26--Andrey Lushnikov
+1	1	package.json
+
+--411347c--2019-06-20--Andrey Lushnikov
+1	1	docs/api.md
+1	1	package.json
+
+--c96454d--2019-06-20--Andrey Lushnikov
+10	10	README.md
+3	5	docs/api.md
+1	1	package.json
+
+--45873ea--2019-06-15--Andrey Lushnikov
+1	1	package.json
+
+--955e7cb--2019-06-14--Andrey Lushnikov
+2	4	lib/Page.js
+1	34	lib/Tracing.js
+36	1	lib/helper.js
+
+--6c2007f--2019-06-15--MaxHorstmann
+1	1	README.md
+
+--62733a2--2019-06-14--Andrey Lushnikov
+4	1	lib/WebSocketTransport.js
+4	0	test/evaluation.spec.js
+
+--5087962--2019-06-14--Andrey Lushnikov
+1	1	package.json
+
+--6860d73--2019-06-10--Andrey Lushnikov
+5	1	lib/NetworkManager.js
+
+--7922641--2019-06-11--Takahiro Nishino
+2	2	docs/api.md
+2	2	lib/Page.js
+
+--65b7e8e--2019-06-10--Andrey Lushnikov
+14	1	docs/api.md
+
+--8df0b3e--2019-06-10--Andrey Lushnikov
+64	0	lib/NetworkManager.js
+13	0	test/requestinterception.spec.js
+
+--b2f9490--2019-06-10--Joel Einbinder
+9	11	lib/ExecutionContext.js
+8	0	test/evaluation.spec.js
+
+--6a50888--2019-06-10--Andrey Lushnikov
+13	4	experimental/puppeteer-firefox/lib/Input.js
+7	0	test/click.spec.js
+
+--e1432cc--2019-06-10--Andrey Lushnikov
+2	2	CONTRIBUTING.md
+
+--dd6fcfe--2019-06-10--Philip Bergqvist
+13	4	lib/Input.js
+
+--7faf1c9--2019-06-10--david weil
+15	6	lib/BrowserFetcher.js
+
+--4bcdfc9--2019-06-09--Michael Oryl
+10	4	docs/api.md
+
+--aca99cd--2019-06-09--alea12
+1	1	docs/troubleshooting.md
+
+--90df69c--2019-06-07--Andrey Lushnikov
+17	9	lib/ExecutionContext.js
+8	0	test/evaluation.spec.js
+9	0	test/page.spec.js
+
+--7e19846--2019-06-06--Andrey Lushnikov
+1	1	package.json
+
+--f79d0a3--2019-06-05--Andrey Lushnikov
+0	2	lib/Launcher.js
+
+--15804d1--2019-06-04--Andrey Lushnikov
+1	1	test/requestinterception.spec.js
+
+--78d5106--2019-06-04--Andrey Lushnikov
+1	1	package.json
+10	0	test/assets/dynamic-oopif.html
+15	10	test/oopif.spec.js
+
+--f52738e--2019-06-03--Andrey Lushnikov
+8	4	docs/api.md
+
+--94ff4de--2019-06-02--Vitalii Tverdokhlib
+1	1	docs/troubleshooting.md
+
+--ac611ba--2019-05-31--Adriel Codeco
+2	1	experimental/puppeteer-firefox/lib/helper.js
+2	1	lib/helper.js
+
+--d221c02--2019-05-31--Andrey Lushnikov
+14	0	test/requestinterception.spec.js
+
+--015e330--2019-05-29--Andrey Lushnikov
+56	0	test/oopif.spec.js
+1	0	test/puppeteer.spec.js
+
+--111350c--2019-05-29--Jasmine Hegman
+4	4	docs/troubleshooting.md
+
+--084cf02--2019-05-24--Andrey Lushnikov
+5	3	docs/api.md
+1	1	package.json
+
+--1840ef0--2019-05-24--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--76b24e6--2019-05-22--Andrey Lushnikov
+3	3	experimental/puppeteer-firefox/lib/DOMWorld.js
+3	3	lib/DOMWorld.js
+1	1	package.json
+1	1	test/evaluation.spec.js
+
+--cbecfba--2019-05-21--Andreas Tolfsen
+95	95	test/assets/csscoverage/OFL.txt
+
+--bad98ba--2019-05-21--Darío Kondratiuk
+2	2	test/browser.spec.js
+1	1	test/browsercontext.spec.js
+2	2	test/launcher.spec.js
+
+--90a1032--2019-05-20--Jake Causon
+2	2	docs/api.md
+1	1	lib/NetworkManager.js
+17	0	test/requestinterception.spec.js
+
+--3f19bd5--2019-05-19--Aos
+1	1	docs/troubleshooting.md
+
+--60249e0--2019-05-18--Sergio M
+1	1	experimental/puppeteer-firefox/lib/DOMWorld.js
+1	1	lib/DOMWorld.js
+12	0	test/page.spec.js
+
+--3f23bb0--2019-05-18--Andrey Lushnikov
+4	0	test/evaluation.spec.js
+
+--8a1c249--2019-05-18--Andrey Lushnikov
+9	0	test/click.spec.js
+
+--f7bac6e--2019-05-18--calvinballing
+1	1	README.md
+
+--ba7d0a9--2019-05-18--Andrey Lushnikov
+19	8	CONTRIBUTING.md
+
+--0490649--2019-05-14--Andrey Lushnikov
+4	2	docs/api.md
+1	1	package.json
+
+--9f2635c--2019-05-14--Andrey Lushnikov
+10	10	README.md
+3	5	docs/api.md
+1	1	package.json
+
+--a3cb163--2019-05-10--Joel Einbinder
+1	0	docs/api.md
+37	6	lib/Accessibility.js
+57	0	test/accessibility.spec.js
+
+--b3027a6--2019-05-09--Andrey Lushnikov
+7	0	test/page.spec.js
+
+--5f66d82--2019-05-09--melissachang
+36	12	README.md
+
+--a0b54f0--2019-05-10--James Ross
+1	1	docs/troubleshooting.md
+
+--1516e0d--2019-05-09--Joel Einbinder
+8	2	docs/api.md
+27	2	lib/Target.js
+16	0	test/target.spec.js
+
+--ef24c69--2019-05-09--Andrey Lushnikov
+2	2	docs/api.md
+3	3	lib/Tracing.js
+6	0	test/tracing.spec.js
+
+--9a2fb2a--2019-05-09--Leandro Carlos Romero
+6	0	docs/troubleshooting.md
+
+--de18c0e--2019-05-09--Harald Kirschner
+5	3	experimental/puppeteer-firefox/README.md
+
+--511dcf9--2019-05-09--Tony Brix
+7	0	docs/api.md
+7	0	experimental/puppeteer-firefox/lib/Browser.js
+7	0	lib/Browser.js
+10	0	test/browser.spec.js
+
+--13f73b5--2019-05-06--Andrey Lushnikov
+1	1	package.json
+1	1	test/page.spec.js
+
+--1de9906--2019-04-30--Andrey Lushnikov
+31	1	test/cookies.spec.js
+
+--27c9f75--2019-04-30--Andrey Lushnikov
+3	3	experimental/puppeteer-firefox/lib/DOMWorld.js
+3	3	lib/DOMWorld.js
+4	0	test/page.spec.js
+
+--e2e6b88--2019-04-28--Andrey Lushnikov
+1	1	docs/api.md
+1	1	lib/Page.js
+1	1	package.json
+1	3	test/evaluation.spec.js
+4	2	test/navigation.spec.js
+
+--f3db28c--2019-04-26--Andrey Lushnikov
+14	0	test/requestinterception.spec.js
+
+--d64f700--2019-04-26--Joel Einbinder
+2	2	docs/api.md
+
+--1e29e5b--2019-04-26--Andrey Lushnikov
+6	3	docs/api.md
+1	1	package.json
+
+--b9f4a95--2019-04-25--Andrey Lushnikov
+10	10	README.md
+1	1	docs/api.md
+1	1	package.json
+
+--06fdcae--2019-04-24--Stopkin Sergey
+1	2	docs/troubleshooting.md
+
+--5e21ba3--2019-04-22--Andrey Lushnikov
+46	22	lib/DeviceDescriptors.js
+
+--2d53651--2019-04-22--Darío Kondratiuk
+2	0	.gitattributes
+
+--770411b--2019-04-19--Andrey Lushnikov
+12	0	test/requestinterception.spec.js
+
+--e3abb0a--2019-04-19--Andrey Lushnikov
+13	809	DeviceDescriptors.js
+52	31	docs/api.md
+13	809	experimental/puppeteer-firefox/DeviceDescriptors.js
+824	0	experimental/puppeteer-firefox/lib/DeviceDescriptors.js
+32	0	experimental/puppeteer-firefox/lib/Puppeteer.js
+824	0	lib/DeviceDescriptors.js
+16	0	lib/Puppeteer.js
+2	3	test/browsercontext.spec.js
+3	4	test/click.spec.js
+4	6	test/emulation.spec.js
+12	1	test/launcher.spec.js
+5	6	test/navigation.spec.js
+8	11	test/page.spec.js
+0	4	test/puppeteer.spec.js
+2	3	test/target.spec.js
+2	2	test/touchscreen.spec.js
+0	7	test/utils.js
+5	6	test/waittask.spec.js
+13	3	utils/doclint/check_public_api/Documentation.js
+6	3	utils/doclint/generate_types/index.js
+
+--dde55b0--2019-04-19--Darío Kondratiuk
+3	1	test/chromiumonly.spec.js
+
+--2b68c10--2019-04-18--asteinha
+0	1	lib/Launcher.js
+
+--3def8a2--2019-04-18--Andrey Lushnikov
+1	5	README.md
+
+--0c4d53b--2019-04-18--Andrey Lushnikov
+9	0	test/page.spec.js
+
+--a8ffdad--2019-04-13--Andrey Lushnikov
+1	1	package.json
+1	1	test/click.spec.js
+
+--145e868--2019-04-13--Andrey Lushnikov
+13	0	test/click.spec.js
+
+--8f8e774--2019-04-11--Andrey Lushnikov
+0	470	test/network.spec.js
+1	0	test/puppeteer.spec.js
+497	0	test/requestinterception.spec.js
+
+--5ee21d9--2019-04-11--Andrey Lushnikov
+21	4	lib/JSHandle.js
+13	0	test/click.spec.js
+
+--2098877--2019-04-11--Andrey Lushnikov
+7	0	lib/DOMWorld.js
+6	2	lib/FrameManager.js
+13	0	test/launcher.spec.js
+
+--2265974--2019-04-11--Andrey Lushnikov
+65	113	lib/NetworkManager.js
+
+--a79b775--2019-04-11--Travis Weidenbenner
+1	1	lib/Launcher.js
+
+--08e9a4d--2019-04-11--Sergey Bekrin
+3	1	lib/Launcher.js
+
+--19606a3--2019-04-10--Andrey Lushnikov
+24	8	lib/FrameManager.js
+1	2	lib/LifecycleWatcher.js
+24	2	lib/NetworkManager.js
+17	44	lib/Page.js
+12	0	test/page.spec.js
+
+--2a7c3fe--2019-04-08--Andrey Lushnikov
+0	2	lib/Launcher.js
+1	1	package.json
+
+--54cce43--2019-04-08--Andrey Lushnikov
+1	1	.travis.yml
+
+--0eb256b--2019-04-08--Andrey Lushnikov
+1	1	.travis.yml
+
+--fd0f58e--2019-04-08--Joseph Arhar
+8	50	lib/NetworkManager.js
+1	1	test/network.spec.js
+
+--9d31068--2019-04-08--Andrey Lushnikov
+2	0	lib/Launcher.js
+1	1	package.json
+2	0	test/page.spec.js
+
+--080b809--2019-04-04--Andrey Lushnikov
+30	1	CONTRIBUTING.md
+2	1	utils/doclint/cli.js
+
+--67fbf46--2019-04-03--Andrey Lushnikov
+1	1	package.json
+
+--1b8769d--2019-04-02--Andrey Lushnikov
+20	2	docs/troubleshooting.md
+
+--695b30a--2019-04-02--Neil Halelamien
+12	16	docs/troubleshooting.md
+
+--66ff492--2019-04-02--John Youngblood
+1	1	docs/api.md
+
+--0adffcc--2019-04-02--Andrey Lushnikov
+1	0	docs/api.md
+17	0	docs/troubleshooting.md
+2	1	utils/doclint/cli.js
+14	3	utils/doclint/preprocessor/index.js
+36	0	utils/doclint/preprocessor/test.js
+
+--2c6df6d--2019-03-28--Andrey Lushnikov
+3	3	docs/api.md
+1	1	package.json
+
+--3fa91ca--2019-03-28--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--26d6e91--2019-03-26--Alex Sergeyev
+6	5	docs/troubleshooting.md
+
+--72866e9--2019-03-20--Darío Kondratiuk
+4	4	test/cookies.spec.js
+
+--0d0e620--2019-03-19--Andrey Lushnikov
+3	3	docs/api.md
+
+--c6c3249--2019-03-19--Andrey Lushnikov
+1	1	package.json
+
+--11afadc--2019-03-19--Stephan Rodemeier
+14	5	install.js
+
+--28bab53--2019-03-19--Fabio Picheli
+3	2	docs/troubleshooting.md
+
+--6056757--2019-03-15--Andrey Lushnikov
+11	0	test/frame.spec.js
+
+--854b1c0--2019-03-15--Vse Mozhet Byt
+5	3	docs/api.md
+2	0	lib/ExecutionContext.js
+2	0	lib/helper.js
+10	0	test/evaluation.spec.js
+1	1	tsconfig.json
+
+--27cf859--2019-03-14--Andrey Lushnikov
+2	0	docs/api.md
+
+--3511a35--2019-03-13--Andrey Lushnikov
+1	1	.eslintrc.js
+1	1	package.json
+5	1	test/fixtures.spec.js
+8	2	utils/node6-transform/index.js
+
+--808d1bb--2019-03-13--Andrey Lushnikov
+4	1	docs/api.md
+
+--0c8ace2--2019-03-12--Joel Einbinder
+2	0	lib/FrameManager.js
+
+--26abcda--2019-03-12--Alix Axel
+1	2	docs/troubleshooting.md
+
+--6474b3f--2019-03-11--Andrey Lushnikov
+19	0	test/page.spec.js
+
+--e3a4f34--2019-03-11--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+
+--42351c7--2019-03-08--Andrey Lushnikov
+8	1	experimental/puppeteer-firefox/lib/NetworkManager.js
+1	1	experimental/puppeteer-firefox/package.json
+4	4	test/network.spec.js
+4	1	utils/testserver/index.js
+
+--5d6535c--2019-03-08--Darío Kondratiuk
+1	1	test/network.spec.js
+
+--87a8d74--2019-03-06--Andrey Lushnikov
+11	0	test/click.spec.js
+
+--1623bef--2019-03-05--Andrey Lushnikov
+1	1	docs/api.md
+60	14	test/network.spec.js
+5	0	utils/testserver/index.js
+
+--f32d77e--2019-03-04--Joel Einbinder
+1	0	test/launcher.spec.js
+
+--7462bda--2019-03-04--Andrey Lushnikov
+4	2	docs/api.md
+1	1	package.json
+
+--77a9694--2019-03-04--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--ba5f94d--2019-03-04--Joel Einbinder
+2	1	test/launcher.spec.js
+
+--02b2451--2019-03-04--Joel Einbinder
+1	1	experimental/puppeteer-firefox/lib/helper.js
+1	1	lib/helper.js
+
+--9db09fe--2019-03-04--Andrey Lushnikov
+19	1	test/network.spec.js
+
+--c68df32--2019-03-04--Andrey Lushnikov
+12	0	test/network.spec.js
+
+--02859c3--2019-03-04--Andrey Lushnikov
+2	1	lib/Launcher.js
+1	1	package.json
+
+--bc28f3b--2019-03-04--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/lib/BrowserFetcher.js
+
+--c9f6a3d--2019-02-28--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/package.json
+
+--a6d8ecc--2019-02-27--Joel Einbinder
+0	3	experimental/puppeteer-firefox/lib/Input.js
+1	1	experimental/puppeteer-firefox/package.json
+0	2	test/assets/input/keyboard.html
+35	10	test/keyboard.spec.js
+2	1	test/mouse.spec.js
+
+--e8a4963--2019-02-26--Andrey Lushnikov
+10	0	test/CDPSession.spec.js
+0	11	test/input.spec.js
+0	11	test/page.spec.js
+
+--dae998e--2019-02-26--Andrey Lushnikov
+2	5	experimental/puppeteer-firefox/lib/Page.js
+
+--9ef23b1--2019-02-26--Andrey Lushnikov
+62	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+2	8	lib/Page.js
+1	1	test/browsercontext.spec.js
+191	52	test/cookies.spec.js
+12	10	test/network.spec.js
+
+--03d06f5--2019-02-25--Joel Einbinder
+322	0	experimental/puppeteer-firefox/lib/Accessibility.js
+8	2	experimental/puppeteer-firefox/lib/Page.js
+1	0	experimental/puppeteer-firefox/lib/api.js
+1	1	experimental/puppeteer-firefox/package.json
+153	50	test/accessibility.spec.js
+1	1	test/puppeteer.spec.js
+
+--f21486f--2019-02-25--Andrey Lushnikov
+10	0	experimental/puppeteer-firefox/lib/DOMWorld.js
+7	0	experimental/puppeteer-firefox/lib/FrameManager.js
+40	1	experimental/puppeteer-firefox/lib/Input.js
+6	0	experimental/puppeteer-firefox/lib/JSHandle.js
+13	1	experimental/puppeteer-firefox/lib/Page.js
+1	0	experimental/puppeteer-firefox/lib/api.js
+1	1	experimental/puppeteer-firefox/package.json
+6	3	test/touchscreen.spec.js
+
+--3541b89--2019-02-25--Andrey Lushnikov
+23	1	test/browser.spec.js
+98	12	test/chromiumonly.spec.js
+0	39	test/firefoxonly.spec.js
+0	79	test/launcher.spec.js
+0	19	test/network.spec.js
+4	3	test/puppeteer.spec.js
+
+--77a4ea5--2019-02-25--Andrey Lushnikov
+824	0	experimental/puppeteer-firefox/DeviceDescriptors.js
+65	0	test/fixtures.spec.js
+1	3	test/fixtures/dumpio.js
+0	33	test/launcher.spec.js
+7	1	test/puppeteer.spec.js
+2	6	test/test.js
+
+--d04a8d5--2019-02-25--Andrey Lushnikov
+615	0	experimental/puppeteer-firefox/lib/DOMWorld.js
+26	454	experimental/puppeteer-firefox/lib/FrameManager.js
+2	1	experimental/puppeteer-firefox/package.json
+
+--4ecbd91--2019-02-24--Andrey Lushnikov
+13	6	experimental/puppeteer-firefox/lib/ExecutionContext.js
+53	7	experimental/puppeteer-firefox/lib/FrameManager.js
+8	4	experimental/puppeteer-firefox/lib/JSHandle.js
+5	4	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/evaluation.spec.js
+
+--56dafd7--2019-02-24--Andrey Lushnikov
+48	3	experimental/puppeteer-firefox/lib/NetworkManager.js
+6	0	experimental/puppeteer-firefox/misc/puppeteer.cfg
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/navigation.spec.js
+79	49	test/network.spec.js
+17	2	utils/testserver/index.js
+
+--3bea5d6--2019-02-22--Andrey Lushnikov
+24	0	experimental/puppeteer-firefox/lib/Browser.js
+1	1	experimental/puppeteer-firefox/package.json
+22	3	test/page.spec.js
+
+--f1a14fe--2019-02-22--Andrey Lushnikov
+13	0	experimental/puppeteer-firefox/lib/JSHandle.js
+4	0	experimental/puppeteer-firefox/misc/puppeteer.cfg
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/input.spec.js
+
+--1315dc8--2019-02-22--Andrey Lushnikov
+9	1	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+6	3	test/elementhandle.spec.js
+1	1	test/emulation.spec.js
+1	1	test/evaluation.spec.js
+
+--5c81836--2019-02-22--Andrey Lushnikov
+87	1	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	lib/Page.js
+1	1	test/page.spec.js
+
+--7d39aca--2019-02-21--Andrey Lushnikov
+11	5	test/keyboard.spec.js
+
+--ed984ac--2019-02-21--Andrey Lushnikov
+0	7	experimental/puppeteer-firefox/completeness.sh
+0	25	experimental/puppeteer-firefox/package.json
+0	11	experimental/puppeteer-firefox/test/assets/consolelog.html
+0	1	experimental/puppeteer-firefox/test/assets/csp.html
+0	12	experimental/puppeteer-firefox/test/assets/detect-touch.html
+-	-	experimental/puppeteer-firefox/test/assets/digits/0.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/1.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/2.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/3.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/4.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/5.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/6.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/7.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/8.png
+-	-	experimental/puppeteer-firefox/test/assets/digits/9.png
+0	0	experimental/puppeteer-firefox/test/assets/empty.html
+0	0	experimental/puppeteer-firefox/test/assets/empty2.html
+0	15	experimental/puppeteer-firefox/test/assets/error.html
+0	2	experimental/puppeteer-firefox/test/assets/es6/es6import.js
+0	1	experimental/puppeteer-firefox/test/assets/es6/es6module.js
+0	2	experimental/puppeteer-firefox/test/assets/es6/es6pathimport.js
+0	8	experimental/puppeteer-firefox/test/assets/frames/frame.html
+0	8	experimental/puppeteer-firefox/test/assets/frames/frameset.html
+0	25	experimental/puppeteer-firefox/test/assets/frames/nested-frames.html
+0	1	experimental/puppeteer-firefox/test/assets/frames/one-frame.html
+0	1	experimental/puppeteer-firefox/test/assets/frames/script.js
+0	3	experimental/puppeteer-firefox/test/assets/frames/style.css
+0	13	experimental/puppeteer-firefox/test/assets/frames/two-frames.html
+0	3	experimental/puppeteer-firefox/test/assets/global-var.html
+0	52	experimental/puppeteer-firefox/test/assets/grid.html
+0	2	experimental/puppeteer-firefox/test/assets/injectedfile.js
+0	3	experimental/puppeteer-firefox/test/assets/injectedstyle.css
+0	16	experimental/puppeteer-firefox/test/assets/input/button.html
+0	42	experimental/puppeteer-firefox/test/assets/input/checkbox.html
+0	44	experimental/puppeteer-firefox/test/assets/input/keyboard.html
+0	23	experimental/puppeteer-firefox/test/assets/input/scrollable.html
+0	69	experimental/puppeteer-firefox/test/assets/input/select.html
+0	15	experimental/puppeteer-firefox/test/assets/input/textarea.html
+0	1	experimental/puppeteer-firefox/test/assets/mobile.html
+0	3	experimental/puppeteer-firefox/test/assets/modernizr.js
+0	36	experimental/puppeteer-firefox/test/assets/offscreenbuttons.html
+0	3	experimental/puppeteer-firefox/test/assets/one-style.css
+0	2	experimental/puppeteer-firefox/test/assets/one-style.html
+0	3	experimental/puppeteer-firefox/test/assets/tamperable.html
+0	1	experimental/puppeteer-firefox/test/assets/title.html
+0	32	experimental/puppeteer-firefox/test/assets/wrappedlink.html
+0	30	experimental/puppeteer-firefox/test/browser.spec.js
+0	160	experimental/puppeteer-firefox/test/browsercontext.spec.js
+0	24	experimental/puppeteer-firefox/test/chromiumonly.spec.js
+0	211	experimental/puppeteer-firefox/test/click.spec.js
+0	39	experimental/puppeteer-firefox/test/dialog.spec.js
+0	103	experimental/puppeteer-firefox/test/elementhandle.spec.js
+0	86	experimental/puppeteer-firefox/test/emulation.spec.js
+0	181	experimental/puppeteer-firefox/test/evaluation.spec.js
+0	24	experimental/puppeteer-firefox/test/firefoxonly.spec.js
+0	137	experimental/puppeteer-firefox/test/frame.spec.js
+-	-	experimental/puppeteer-firefox/test/golden-chromium/grid-cell-0.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/grid-cell-1.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-clip-odd-size.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-clip-rect.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-bounding-box.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-larger-than-viewport.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-padding-border.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-rotate.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-scrolled-into-view.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-grid-fullpage.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-offscreen-clip.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-sanity.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/transparent.png
+-	-	experimental/puppeteer-firefox/test/golden-chromium/white.jpg
+-	-	experimental/puppeteer-firefox/test/golden-firefox/grid-cell-0.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/grid-cell-1.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-clip-odd-size.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-clip-rect.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-bounding-box.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-larger-than-viewport.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-padding-border.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-rotate.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-scrolled-into-view.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-grid-fullpage.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-offscreen-clip.png
+-	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-sanity.png
+0	149	experimental/puppeteer-firefox/test/golden-utils.js
+0	37	experimental/puppeteer-firefox/test/hover.spec.js
+0	57	experimental/puppeteer-firefox/test/ignorehttpserrors.spec.js
+0	157	experimental/puppeteer-firefox/test/jshandle.spec.js
+0	193	experimental/puppeteer-firefox/test/keyboard.spec.js
+0	56	experimental/puppeteer-firefox/test/launcher.spec.js
+0	108	experimental/puppeteer-firefox/test/mouse.spec.js
+0	285	experimental/puppeteer-firefox/test/navigation.spec.js
+0	403	experimental/puppeteer-firefox/test/page.spec.js
+0	104	experimental/puppeteer-firefox/test/puppeteer.spec.js
+0	194	experimental/puppeteer-firefox/test/queryselector.spec.js
+0	30	experimental/puppeteer-firefox/test/run_static_server.js
+0	232	experimental/puppeteer-firefox/test/screenshot.spec.js
+0	100	experimental/puppeteer-firefox/test/target.spec.js
+0	80	experimental/puppeteer-firefox/test/test.js
+0	84	experimental/puppeteer-firefox/test/type.spec.js
+0	98	experimental/puppeteer-firefox/test/utils.js
+0	423	experimental/puppeteer-firefox/test/waittask.spec.js
+2	5	test/click.spec.js
+8	0	test/navigation.spec.js
+
+--fbf91cc--2019-02-21--Andrey Lushnikov
+1	1	test/puppeteer.spec.js
+
+--a0fd2ce--2019-02-19--Andrey Lushnikov
+9	3	experimental/puppeteer-firefox/lib/FrameManager.js
+6	5	test/waittask.spec.js
+
+--03c542a--2019-02-19--Andrey Lushnikov
+72	19	experimental/puppeteer-firefox/lib/Launcher.js
+1	0	experimental/puppeteer-firefox/lib/NavigationWatchdog.js
+4	0	experimental/puppeteer-firefox/lib/Puppeteer.js
+2	2	experimental/puppeteer-firefox/misc/puppeteer.cfg
+1	20	lib/Launcher.js
+116	89	test/launcher.spec.js
+
+--719ee5a--2019-02-19--Andrey Lushnikov
+9	0	experimental/puppeteer-firefox/lib/NetworkManager.js
+4	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+4	4	test/network.spec.js
+
+--c118b20--2019-02-19--Andrey Lushnikov
+47	3	experimental/puppeteer-firefox/lib/NetworkManager.js
+4	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/ignorehttpserrors.spec.js
+40	20	test/network.spec.js
+
+--3b18092--2019-02-19--Andrey Lushnikov
+14	10	experimental/puppeteer-firefox/lib/Browser.js
+128	11	experimental/puppeteer-firefox/lib/Connection.js
+4	0	experimental/puppeteer-firefox/lib/Events.js
+19	45	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/navigation.spec.js
+4	3	test/page.spec.js
+
+--4a4793a--2019-02-17--Andrey Lushnikov
+35	30	experimental/puppeteer-firefox/lib/Browser.js
+8	8	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/browser.spec.js
+2	2	test/target.spec.js
+
+--ea482c4--2019-02-15--Andrey Lushnikov
+4	4	experimental/puppeteer-firefox/lib/NetworkManager.js
+1	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	test/navigation.spec.js
+
+--9782f9c--2019-02-15--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/package.json
+10	0	test/launcher.spec.js
+
+--c35821a--2019-02-15--Andrey Lushnikov
+10	0	experimental/puppeteer-firefox/lib/Browser.js
+6	1	experimental/puppeteer-firefox/lib/Connection.js
+1	0	experimental/puppeteer-firefox/lib/Events.js
+0	126	experimental/puppeteer-firefox/lib/FirefoxTransport.js
+27	8	experimental/puppeteer-firefox/lib/Launcher.js
+3	3	experimental/puppeteer-firefox/lib/NetworkManager.js
+4	0	experimental/puppeteer-firefox/lib/Puppeteer.js
+102	0	experimental/puppeteer-firefox/lib/WebSocketTransport.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/browser.spec.js
+1	1	test/browsercontext.spec.js
+5	5	test/launcher.spec.js
+
+--e0d4a5d--2019-02-14--Andrey Lushnikov
+4	1	experimental/puppeteer-firefox/lib/NavigationWatchdog.js
+2	2	test/navigation.spec.js
+
+--247733b--2019-02-13--Andrey Lushnikov
+12	5	experimental/puppeteer-firefox/lib/ExecutionContext.js
+8	5	test/jshandle.spec.js
+1	1	test/navigation.spec.js
+
+--e8f044c--2019-02-13--Andrey Lushnikov
+27	2	experimental/puppeteer-firefox/lib/ExecutionContext.js
+2	0	experimental/puppeteer-firefox/lib/JSHandle.js
+1	1	lib/ExecutionContext.js
+3	3	test/evaluation.spec.js
+
+--6350cf0--2019-02-13--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+6	3	test/page.spec.js
+
+--0b40d04--2019-02-13--Andrey Lushnikov
+5	2	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/misc/puppeteer.cfg
+1	1	experimental/puppeteer-firefox/package.json
+5	0	test/assets/beforeunload.html
+16	5	test/page.spec.js
+
+--e3b76b2--2019-02-13--Andrey Lushnikov
+2	2	docs/api.md
+8	3	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+3	3	test/page.spec.js
+
+--2275c3c--2019-02-13--Andrey Lushnikov
+4	4	experimental/puppeteer-firefox/lib/JSHandle.js
+11	1	experimental/puppeteer-firefox/lib/Page.js
+-	-	test/golden-firefox/screenshot-element-fractional-offset.png
+2	2	test/puppeteer.spec.js
+2	2	test/screenshot.spec.js
+
+--670d758--2019-02-13--Andrey Lushnikov
+2	0	experimental/puppeteer-firefox/lib/FrameManager.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/navigation.spec.js
+
+--fbf3643--2019-02-13--Andrey Lushnikov
+5	0	experimental/puppeteer-firefox/lib/NetworkManager.js
+1	1	experimental/puppeteer-firefox/package.json
+16	9	test/network.spec.js
+
+--13224a7--2019-02-13--Andrey Lushnikov
+55	1	experimental/puppeteer-firefox/lib/NetworkManager.js
+1	0	experimental/puppeteer-firefox/lib/api.js
+1	1	experimental/puppeteer-firefox/package.json
+2	2	test/ignorehttpserrors.spec.js
+
+--57e7f12--2019-02-13--Andrey Lushnikov
+32	15	test/ignorehttpserrors.spec.js
+0	1	test/navigation.spec.js
+0	4	test/test.js
+26	29	utils/testserver/cert.pem
+52	54	utils/testserver/key.pem
+
+--31ae1d6--2019-02-13--Andrey Lushnikov
+14	0	experimental/puppeteer-firefox/lib/NetworkManager.js
+1	1	experimental/puppeteer-firefox/package.json
+22	1	test/network.spec.js
+
+--89d0f1e--2019-02-12--Andrey Lushnikov
+100	5	experimental/puppeteer-firefox/lib/FrameManager.js
+115	0	experimental/puppeteer-firefox/lib/NavigationWatchdog.js
+6	2	experimental/puppeteer-firefox/lib/NetworkManager.js
+10	198	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+2	2	test/navigation.spec.js
+
+--f0fba56--2019-02-12--Andrey Lushnikov
+48	34	test/network.spec.js
+
+--1890dc0--2019-02-12--Andrey Lushnikov
+2	2	experimental/puppeteer-firefox/lib/NetworkManager.js
+36	0	experimental/puppeteer-firefox/lib/Page.js
+31	0	experimental/puppeteer-firefox/lib/helper.js
+1	1	experimental/puppeteer-firefox/package.json
+2	2	test/navigation.spec.js
+50	16	test/network.spec.js
+2	2	test/page.spec.js
+4	0	test/utils.js
+
+--afb9355--2019-02-12--Andrey Lushnikov
+12	1	experimental/puppeteer-firefox/lib/Events.js
+16	0	experimental/puppeteer-firefox/lib/FrameManager.js
+174	0	experimental/puppeteer-firefox/lib/NetworkManager.js
+34	26	experimental/puppeteer-firefox/lib/Page.js
+2	0	experimental/puppeteer-firefox/lib/api.js
+1	1	experimental/puppeteer-firefox/package.json
+17	14	test/navigation.spec.js
+13	13	test/network.spec.js
+1	1	test/puppeteer.spec.js
+
+--fb9d404--2019-02-11--Joel Einbinder
+15	0	test/mouse.spec.js
+
+--63ea805--2019-02-11--Andrey Lushnikov
+1	1	package.json
+
+--b82cc15--2019-02-08--Andrey Lushnikov
+14	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+13	9	test/page.spec.js
+
+--edb6f62--2019-02-08--Andrey Lushnikov
+7	5	experimental/puppeteer-firefox/lib/FrameManager.js
+22	7	experimental/puppeteer-firefox/lib/Page.js
+57	0	experimental/puppeteer-firefox/lib/TimeoutSettings.js
+0	20	experimental/puppeteer-firefox/lib/common.js
+3	3	test/navigation.spec.js
+2	3	test/waittask.spec.js
+
+--fc18a79--2019-02-08--Andrey Lushnikov
+17	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+2	2	test/emulation.spec.js
+13	4	test/page.spec.js
+
+--1ce578b--2019-02-08--Andrey Lushnikov
+0	0	test/assets/empty2.html
+1	1	test/elementhandle.spec.js
+0	2	test/test.js
+3	3	test/waittask.spec.js
+
+--cfefd61--2019-02-08--Andrey Lushnikov
+20	3	experimental/puppeteer-firefox/lib/Browser.js
+1	0	experimental/puppeteer-firefox/lib/Events.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/page.spec.js
+1	1	test/target.spec.js
+
+--0cf6ab6--2019-02-08--Andrey Lushnikov
+7	0	experimental/puppeteer-firefox/lib/Page.js
+1	1	test/page.spec.js
+
+--c64e02e--2019-02-08--Andrey Lushnikov
+7	0	experimental/puppeteer-firefox/lib/Events.js
+732	0	experimental/puppeteer-firefox/lib/FrameManager.js
+1	1	experimental/puppeteer-firefox/lib/JSHandle.js
+42	732	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/lib/api.js
+
+--2a7ed1a--2019-02-08--Andrey Lushnikov
+1	0	experimental/puppeteer-firefox/lib/api.js
+
+--a987535--2019-02-08--Andrey Lushnikov
+64	0	experimental/puppeteer-firefox/lib/ExecutionContext.js
+31	12	experimental/puppeteer-firefox/lib/JSHandle.js
+10	34	experimental/puppeteer-firefox/lib/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/frame.spec.js
+3	3	test/waittask.spec.js
+
+--5696096--2019-02-08--Andrey Lushnikov
+1	1	utils/testrunner/Matchers.js
+
+--0bb657c--2019-02-08--Andrey Lushnikov
+13	32	test/test.js
+
+--07b43ff--2019-02-08--Andrey Lushnikov
+0	8	experimental/README.md
+0	38	experimental/juggler/.cirrus.yml
+0	1	experimental/juggler/.gitignore
+0	27	experimental/juggler/Dockerfile
+0	1	experimental/juggler/FIREFOX_SHA
+0	119	experimental/juggler/README.md
+0	155	experimental/juggler/patches/0001-Introduce-nsIWebProgressListener2-onFrameLocationCha.patch
+0	24	experimental/juggler/patches/0002-Add-Juggler-to-gecko-build-system.patch
+0	43	experimental/juggler/patches/0003-Add-Juggler-to-mozilla-packaging-script.patch
+0	18	experimental/juggler/scripts/fetch_firefox.sh
+0	9	experimental/juggler/scripts/install_gcloud.sh
+0	13	experimental/juggler/scripts/upload_linux.sh
+0	13	experimental/juggler/scripts/upload_mac.sh
+0	149	experimental/juggler/src/BrowserHandler.jsm
+0	72	experimental/juggler/src/ChromeSession.js
+0	46	experimental/juggler/src/Helper.js
+0	78	experimental/juggler/src/InsecureSweepingOverride.js
+0	337	experimental/juggler/src/PageHandler.jsm
+0	371	experimental/juggler/src/Protocol.js
+0	63	experimental/juggler/src/components/juggler.js
+0	3	experimental/juggler/src/components/juggler.manifest
+0	9	experimental/juggler/src/components/moz.build
+0	53	experimental/juggler/src/content/ContentSession.js
+0	287	experimental/juggler/src/content/FrameTree.js
+0	460	experimental/juggler/src/content/PageAgent.js
+0	275	experimental/juggler/src/content/RuntimeAgent.js
+0	63	experimental/juggler/src/content/ScrollbarManager.js
+0	47	experimental/juggler/src/content/floating-scrollbars.css
+0	13	experimental/juggler/src/content/hidden-scrollbars.css
+0	27	experimental/juggler/src/content/main.js
+0	25	experimental/juggler/src/jar.mn
+0	15	experimental/juggler/src/moz.build
+0	407	experimental/juggler/src/server/packets.js
+0	97	experimental/juggler/src/server/server.js
+0	247	experimental/juggler/src/server/stream-utils.js
+0	523	experimental/juggler/src/server/transport.js
+4	147	experimental/puppeteer-firefox/README.md
+
+--72c0047--2019-02-07--Andrey Lushnikov
+9	22	experimental/puppeteer-firefox/lib/Browser.js
+2	5	experimental/puppeteer-firefox/lib/Connection.js
+29	0	experimental/puppeteer-firefox/lib/Events.js
+11	23	experimental/puppeteer-firefox/lib/Page.js
+
+--6b18e8c--2019-02-07--Andrey Lushnikov
+8	39	experimental/puppeteer-firefox/index.js
+1	1	experimental/puppeteer-firefox/lib/Browser.js
+1	1	experimental/puppeteer-firefox/lib/BrowserFetcher.js
+16	4	experimental/puppeteer-firefox/lib/Launcher.js
+1	1	experimental/puppeteer-firefox/lib/Page.js
+27	0	experimental/puppeteer-firefox/lib/Puppeteer.js
+16	0	experimental/puppeteer-firefox/lib/api.js
+21	0	experimental/puppeteer-firefox/lib/helper.js
+2	2	test/page.spec.js
+
+--9216056--2019-02-07--Andrey Lushnikov
+1	1	utils/testrunner/Reporter.js
+
+--addd7f4--2019-02-07--Andrey Lushnikov
+2	0	test/test.js
+53	12	utils/testrunner/Reporter.js
+
+--c33be4c--2019-02-07--Andrey Lushnikov
+391	0	experimental/puppeteer-firefox/lib/JSHandle.js
+1	388	experimental/puppeteer-firefox/lib/Page.js
+
+--76eecde--2019-02-07--Andrey Lushnikov
+0	1	test/navigation.spec.js
+
+--609e763--2019-02-07--Andrey Lushnikov
+2	0	experimental/puppeteer-firefox/lib/Page.js
+-	-	test/golden-firefox/grid-cell-0.png
+-	-	test/golden-firefox/grid-cell-1.png
+-	-	test/golden-firefox/screenshot-clip-odd-size.png
+-	-	test/golden-firefox/screenshot-clip-rect.png
+-	-	test/golden-firefox/screenshot-element-bounding-box.png
+-	-	test/golden-firefox/screenshot-element-fractional.png
+-	-	test/golden-firefox/screenshot-element-larger-than-viewport.png
+-	-	test/golden-firefox/screenshot-element-padding-border.png
+-	-	test/golden-firefox/screenshot-element-rotate.png
+-	-	test/golden-firefox/screenshot-element-scrolled-into-view.png
+-	-	test/golden-firefox/screenshot-grid-fullpage.png
+-	-	test/golden-firefox/screenshot-offscreen-clip.png
+-	-	test/golden-firefox/screenshot-sanity.png
+6	6	test/screenshot.spec.js
+
+--49e8704--2019-02-07--Andrey Lushnikov
+2	2	test/keyboard.spec.js
+10	5	test/mouse.spec.js
+22	9	test/navigation.spec.js
+5	5	test/target.spec.js
+
+--9679279--2019-02-06--Andrey Lushnikov
+2	0	.travis.yml
+
+--a762dbe--2019-02-06--Andrey Lushnikov
+12	3	.cirrus.yml
+6	1	experimental/puppeteer-firefox/lib/Launcher.js
+1	1	experimental/puppeteer-firefox/package.json
+
+--6887ad8--2019-02-06--Andrey Lushnikov
+2	2	test/assets/frames/nested-frames.html
+2	2	test/assets/frames/two-frames.html
+1	1	test/assets/input/keyboard.html
+1	0	test/assets/title.html
+3	0	test/assets/wrappedlink.html
+4	13	test/evaluation.spec.js
+8	2	test/frame.spec.js
+0	5	test/golden-chromium/nested-frames.txt
+0	5	test/golden-chromium/reconnect-nested-frames.txt
+6	6	test/keyboard.spec.js
+7	1	test/launcher.spec.js
+2	2	test/page.spec.js
+6	3	test/utils.js
+1	1	utils/testrunner/Matchers.js
+
+--c3b6619--2019-02-06--Paul Irish
+1	1	experimental/puppeteer-firefox/README.md
+1	0	experimental/puppeteer-firefox/package.json
+
+--14fb3e3--2019-02-05--Andrey Lushnikov
+2	2	test/accessibility.spec.js
+4	4	test/browser.spec.js
+2	2	test/browsercontext.spec.js
+3	3	test/click.spec.js
+2	7	test/cookies.spec.js
+4	4	test/elementhandle.spec.js
+5	5	test/emulation.spec.js
+10	10	test/evaluation.spec.js
+4	4	test/frame.spec.js
+4	4	test/ignorehttpserrors.spec.js
+3	3	test/input.spec.js
+5	5	test/jshandle.spec.js
+7	7	test/keyboard.spec.js
+18	18	test/launcher.spec.js
+5	5	test/mouse.spec.js
+39	39	test/navigation.spec.js
+8	8	test/network.spec.js
+31	31	test/page.spec.js
+6	6	test/puppeteer.spec.js
+3	3	test/screenshot.spec.js
+7	7	test/target.spec.js
+23	0	test/test.js
+2	2	test/touchscreen.spec.js
+9	9	test/waittask.spec.js
+2	2	test/worker.spec.js
+22	12	utils/testrunner/TestRunner.js
+
+--86783c2--2019-02-05--Andrey Lushnikov
+4	4	test/navigation.spec.js
+2	2	test/page.spec.js
+11	6	test/waittask.spec.js
+
+--bc71e92--2019-02-05--Andrey Lushnikov
+3	3	utils/testrunner/Reporter.js
+
+--1676f99--2019-02-05--Andrey Lushnikov
+2	2	experimental/puppeteer-firefox/index.js
+315	0	experimental/puppeteer-firefox/lib/Browser.js
+342	0	experimental/puppeteer-firefox/lib/BrowserFetcher.js
+123	0	experimental/puppeteer-firefox/lib/Connection.js
+57	0	experimental/puppeteer-firefox/lib/Dialog.js
+126	0	experimental/puppeteer-firefox/lib/FirefoxTransport.js
+295	0	experimental/puppeteer-firefox/lib/Input.js
+206	0	experimental/puppeteer-firefox/lib/Launcher.js
+1834	0	experimental/puppeteer-firefox/lib/Page.js
+281	0	experimental/puppeteer-firefox/lib/USKeyboardLayout.js
+28	0	experimental/puppeteer-firefox/lib/externs.d.ts
+0	315	experimental/puppeteer-firefox/lib/firefox/Browser.js
+0	342	experimental/puppeteer-firefox/lib/firefox/BrowserFetcher.js
+0	123	experimental/puppeteer-firefox/lib/firefox/Connection.js
+0	57	experimental/puppeteer-firefox/lib/firefox/Dialog.js
+0	126	experimental/puppeteer-firefox/lib/firefox/FirefoxTransport.js
+0	295	experimental/puppeteer-firefox/lib/firefox/Input.js
+0	206	experimental/puppeteer-firefox/lib/firefox/Launcher.js
+0	1834	experimental/puppeteer-firefox/lib/firefox/Page.js
+0	281	experimental/puppeteer-firefox/lib/firefox/USKeyboardLayout.js
+0	28	experimental/puppeteer-firefox/lib/firefox/externs.d.ts
+0	128	experimental/puppeteer-firefox/lib/firefox/helper.js
+128	0	experimental/puppeteer-firefox/lib/helper.js
+1	1	experimental/puppeteer-firefox/misc/install-preferences.js
+
+--a210dd7--2019-02-05--Andrey Lushnikov
+4	1	test/test.js
+33	10	utils/testrunner/Reporter.js
+15	3	utils/testrunner/TestRunner.js
+
+--00bcecb--2019-02-05--Andrey Lushnikov
+4	1	test/puppeteer.spec.js
+4	9	test/test.js
+
+--28087c2--2019-02-05--Andrey Lushnikov
+13	0	experimental/puppeteer-firefox/lib/firefox/Page.js
+1	1	experimental/puppeteer-firefox/package.json
+1	1	test/elementhandle.spec.js
+
+--dd8bd6d--2019-02-05--Andrey Lushnikov
+14	1	test/puppeteer.spec.js
+4	9	test/test.js
+
+--e100000--2019-02-05--Andrey Lushnikov
+2	3	docs/api.md
+
+--a760d79--2019-02-05--Andrey Lushnikov
+4	2	docs/api.md
+1	1	package.json
+
+--b0afb17--2019-02-05--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--6e1f7dc--2019-02-05--Joel Einbinder
+1	1	package.json
+
+--69c434a--2019-02-02--Andrey Lushnikov
+11	0	experimental/puppeteer-firefox/test/assets/consolelog.html
+2	2	experimental/puppeteer-firefox/test/ignorehttpserrors.spec.js
+1	1	experimental/puppeteer-firefox/test/keyboard.spec.js
+5	5	experimental/puppeteer-firefox/test/launcher.spec.js
+4	5	experimental/puppeteer-firefox/test/page.spec.js
+38	39	experimental/puppeteer-firefox/test/puppeteer.spec.js
+3	3	experimental/puppeteer-firefox/test/target.spec.js
+2	4	experimental/puppeteer-firefox/test/waittask.spec.js
+0	0	test/assets/empty2.html
+2	2	test/browsercontext.spec.js
+18	7	test/keyboard.spec.js
+30	3	test/mouse.spec.js
+21	2	test/navigation.spec.js
+4	5	test/page.spec.js
+3	1	test/puppeteer.spec.js
+23	1	test/target.spec.js
+6	0	test/test.js
+12	5	test/waittask.spec.js
+
+--47fbb11--2019-02-02--Andrey Lushnikov
+8	0	test/assets/frames/frameset.html
+20	0	test/frame.spec.js
+45	0	test/jshandle.spec.js
+9	0	test/page.spec.js
+
+--b5e53fd--2019-02-01--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/test/evaluation.spec.js
+3	0	test/assets/global-var.html
+42	1	test/evaluation.spec.js
+
+--6bb0350--2019-02-01--Andrey Lushnikov
+2	1	.gitignore
+3	17	test/browser.spec.js
+39	0	test/chromiumonly.spec.js
+39	0	test/firefoxonly.spec.js
+6	0	test/puppeteer.spec.js
+
+--84fe601--2019-02-01--Andrey Lushnikov
+1	0	package.json
+24	18	test/puppeteer.spec.js
+21	10	test/test.js
+
+--fd67fa7--2019-02-01--Andrey Lushnikov
+1	1	experimental/puppeteer-firefox/package.json
+4	2	experimental/puppeteer-firefox/test/puppeteer.spec.js
+
+--bd34755--2019-02-01--Andrey Lushnikov
+151	7	experimental/puppeteer-firefox/lib/firefox/Browser.js
+1	1	experimental/puppeteer-firefox/lib/firefox/Launcher.js
+1	1	experimental/puppeteer-firefox/package.json
+160	0	experimental/puppeteer-firefox/test/browsercontext.spec.js
+2	0	experimental/puppeteer-firefox/test/puppeteer.spec.js
+
+--b0e8084--2019-02-01--Andrey Lushnikov
+4	2	docs/api.md
+1	1	package.json
+
+--a1abd6c--2019-02-01--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--23b7465--2019-02-01--Joel Einbinder
+3	0	.npmignore
+
+--718cdf1--2019-01-31--Andrey Lushnikov
+4	2	docs/api.md
+1	1	package.json
+
+--7f05a08--2019-01-31--Andrey Lushnikov
+10	10	README.md
+2	4	docs/api.md
+1	1	package.json
+
+--5cca7c0--2019-01-31--Joel Einbinder
+2	1	utils/doclint/generate_types/index.js
+
+--3c516f2--2019-01-31--Andrey Lushnikov
+14	14	lib/Browser.js
+
+--d89ec00--2019-01-31--Andrey Lushnikov
+4	2	experimental/puppeteer-firefox/misc/install-preferences.js
+
+--a2f1e27--2019-01-30--Andrey Lushnikov
+16	0	lib/Page.js
+18	0	test/page.spec.js
+
+--7001042--2019-01-28--Andrey Lushnikov
+1	2	lib/Launcher.js
+
+--61bc51c--2019-01-28--Andrey Lushnikov
+22	22	DeviceDescriptors.js
+
+--a064a63--2019-01-28--Andrey Lushnikov
+42	18	docs/api.md
+6	4	lib/DOMWorld.js
+7	13	lib/FrameManager.js
+13	4	lib/Page.js
+57	0	lib/TimeoutSettings.js
+2	0	lib/externs.d.ts
+19	0	test/navigation.spec.js
+40	0	test/page.spec.js
+8	0	test/waittask.spec.js
+
+--f2c968f--2019-01-28--Joel Einbinder
+2	1	.appveyor.yml
+2	0	.cirrus.yml
+1	0	.gitignore
+1	0	.travis.yml
+19	20	docs/api.md
+0	1	lib/Page.js
+3	2	package.json
+21	10	utils/doclint/check_public_api/Documentation.js
+140	41	utils/doclint/check_public_api/MDBuilder.js
+6	0	utils/doclint/check_public_api/test/md-builder-common/result.txt
+217	0	utils/doclint/generate_types/index.js
+283	0	utils/doclint/generate_types/test/test.ts
+11	0	utils/doclint/generate_types/test/tsconfig.json
+
+--63d9ac4--2019-01-28--Andrey Lushnikov
+1	0	lib/ExecutionContext.js
+
+--55432f8--2019-01-28--Andrey Lushnikov
+16	0	lib/ExecutionContext.js
+16	4	lib/FrameManager.js
+7	18	test/waittask.spec.js
+
+--2061dd4--2019-01-28--Andrey Lushnikov
+4	4	docs/api.md
+11	5	lib/DOMWorld.js
+3	3	lib/FrameManager.js
+2	2	lib/Page.js
+12	1	test/waittask.spec.js
+
+--7446550--2019-01-26--Dan Dascalescu
+1	1	docs/api.md
+
+--62da236--2019-01-25--Andrey Lushnikov
+10	0	index.js
+0	2	lib/Accessibility.js
+0	3	lib/Browser.js
+1	3	lib/Connection.js
+0	1	lib/Coverage.js
+1	2	lib/Dialog.js
+0	2	lib/ExecutionContext.js
+0	1	lib/FrameManager.js
+1	4	lib/Input.js
+0	3	lib/JSHandle.js
+1	4	lib/NetworkManager.js
+1	2	lib/Page.js
+0	2	lib/Puppeteer.js
+16	3	lib/Target.js
+0	1	lib/Tracing.js
+1	2	lib/Worker.js
+42	0	lib/api.js
+1	50	lib/helper.js
+11	19	test/test.js
+44	0	test/utils.js
+9	24	utils/doclint/check_public_api/index.js
+
+--cd678fb--2019-01-25--Andrey Lushnikov
+1	1	experimental/juggler/FIREFOX_SHA
+9	1	experimental/juggler/README.md
+36	41	experimental/juggler/patches/0001-Introduce-nsIWebProgressListener2-onFrameLocationCha.patch
+9	4	experimental/juggler/src/content/ScrollbarManager.js
+4	61	experimental/puppeteer-firefox/install.js
+57	0	experimental/puppeteer-firefox/misc/install-preferences.js
+3	0	experimental/puppeteer-firefox/misc/puppeteer.cfg
+7	2	experimental/puppeteer-firefox/test/puppeteer.spec.js
+
+--1a79955--2019-01-24--Andrey Lushnikov
+1	3	test/browser.spec.js
+1	2	test/browsercontext.spec.js
+16	0	test/golden-chromium/csscoverage-involved.txt
+-	-	test/golden-chromium/grid-cell-0.png
+-	-	test/golden-chromium/grid-cell-1.png
+-	-	test/golden-chromium/grid-cell-2.png
+-	-	test/golden-chromium/grid-cell-3.png
+28	0	test/golden-chromium/jscoverage-involved.txt
+-	-	test/golden-chromium/mock-binary-response.png
+5	0	test/golden-chromium/nested-frames.txt
+5	0	test/golden-chromium/reconnect-nested-frames.txt
+-	-	test/golden-chromium/screenshot-clip-odd-size.png
+-	-	test/golden-chromium/screenshot-clip-rect.png
+-	-	test/golden-chromium/screenshot-element-bounding-box.png
+-	-	test/golden-chromium/screenshot-element-fractional-offset.png
+-	-	test/golden-chromium/screenshot-element-fractional.png
+-	-	test/golden-chromium/screenshot-element-larger-than-viewport.png
+-	-	test/golden-chromium/screenshot-element-padding-border.png
+-	-	test/golden-chromium/screenshot-element-rotate.png
+-	-	test/golden-chromium/screenshot-element-scrolled-into-view.png
+-	-	test/golden-chromium/screenshot-grid-fullpage.png
+-	-	test/golden-chromium/screenshot-offscreen-clip.png
+-	-	test/golden-chromium/screenshot-sanity.png
+-	-	test/golden-chromium/transparent.png
+-	-	test/golden-chromium/white.jpg
+0	16	test/golden/csscoverage-involved.txt
+-	-	test/golden/grid-cell-0.png
+-	-	test/golden/grid-cell-1.png
+-	-	test/golden/grid-cell-2.png
+-	-	test/golden/grid-cell-3.png
+0	28	test/golden/jscoverage-involved.txt
+-	-	test/golden/mock-binary-response.png
+0	5	test/golden/nested-frames.txt
+0	5	test/golden/reconnect-nested-frames.txt
+-	-	test/golden/screenshot-clip-odd-size.png
+-	-	test/golden/screenshot-clip-rect.png
+-	-	test/golden/screenshot-element-bounding-box.png
+-	-	test/golden/screenshot-element-fractional-offset.png
+-	-	test/golden/screenshot-element-fractional.png
+-	-	test/golden/screenshot-element-larger-than-viewport.png
+-	-	test/golden/screenshot-element-padding-border.png
+-	-	test/golden/screenshot-element-rotate.png
+-	-	test/golden/screenshot-element-scrolled-into-view.png
+-	-	test/golden/screenshot-grid-fullpage.png
+-	-	test/golden/screenshot-offscreen-clip.png
+-	-	test/golden/screenshot-sanity.png
+-	-	test/golden/transparent.png
+-	-	test/golden/white.jpg
+1	2	test/headful.spec.js
+1	4	test/ignorehttpserrors.spec.js
+446	0	test/launcher.spec.js
+98	413	test/puppeteer.spec.js
+25	117	test/test.js
+1	3	test/tracing.spec.js
+
+--7585e6d--2019-01-22--Denny
+1	0	docs/api.md
+
+--fb71012--2019-01-22--Andrey Lushnikov
+7	7	lib/FrameManager.js
+6	0	test/click.spec.js
+6	0	test/mouse.spec.js
+
+--89a5c39--2019-01-22--Andrey Lushnikov
+45	68	lib/Connection.js
+3	3	lib/Page.js
+
+--678b8e8--2019-01-22--Andrey Lushnikov
+7	22	lib/DOMWorld.js
+4	5	lib/ExecutionContext.js
+59	27	lib/FrameManager.js
+1	1	lib/Page.js
+2	0	lib/externs.d.ts
+1	1	test/page.spec.js
+
+--c09835f--2019-01-22--Andrey Lushnikov
+1	1	package.json
+
+--9fb89e1--2019-01-22--Linus Unnebäck
+13	0	test/waittask.spec.js
+
+--9fd4b67--2019-01-20--Andrey Lushnikov
+1	1	lib/NetworkManager.js
+18	0	test/network.spec.js
+
+--c48b574--2019-01-19--Flosloot
+23	1	experimental/juggler/README.md
+
+--8426102--2019-01-18--Dylan Bathurst
+2	1	utils/browser/README.md
+
+--a9ad1c3--2019-01-18--Flosloot
+12	0	experimental/juggler/README.md
+
+--f8615c8--2019-01-15--Andrey Lushnikov
+1	1	package.json
+
+--4ac00ca--2019-01-15--Andrey Lushnikov
+719	0	lib/DOMWorld.js
+28	515	lib/FrameManager.js
+1	0	utils/doclint/check_public_api/index.js
+
+--bea26a7--2019-01-15--Andrey Lushnikov
+1	1	utils/testrunner/Reporter.js
+
+--489be90--2019-01-15--Andrey Lushnikov
+1	1	test/test.js
+10	3	test/tracing.spec.js
+
+--91c4501--2019-01-15--Joel Einbinder
+8	0	test/coverage.spec.js
+
+--4e1e2fb--2019-01-15--Joel Einbinder
+9	1	lib/Page.js
+-	-	test/golden/screenshot-element-fractional-offset.png
+-	-	test/golden/screenshot-element-fractional.png
+12	0	test/screenshot.spec.js
+
+--e574190--2019-01-15--Andrey Lushnikov
+1	1	package.json
+
+--04fbbd7--2019-01-15--Andrey Lushnikov
+3	1	lib/NetworkManager.js
+1	1	test/network.spec.js
+
+--e8bb26e--2019-01-14--Andrey Lushnikov
+3	494	lib/ExecutionContext.js
+1	178	lib/FrameManager.js
+511	0	lib/JSHandle.js
+199	0	lib/LifecycleWatcher.js
+1	1	lib/Page.js
+2	1	lib/Worker.js
+2	1	lib/externs.d.ts
+
+--4e9e3bc--2019-01-14--Andrey Lushnikov
+12	27	lib/Browser.js
+3	10	lib/Connection.js
+80	0	lib/Events.js
+13	25	lib/FrameManager.js
+7	13	lib/NetworkManager.js
+21	44	lib/Page.js
+3	2	lib/Target.js
+1	1	lib/helper.js
+11	11	utils/doclint/check_public_api/JSBuilder.js
+8	0	utils/doclint/check_public_api/test/check-sorting/Events.js
+0	5	utils/doclint/check_public_api/test/check-sorting/foo.js
+8	0	utils/doclint/check_public_api/test/diff-events/Events.js
+0	4	utils/doclint/check_public_api/test/diff-events/foo.js
+6	0	utils/doclint/check_public_api/test/js-builder-common/Events.js
+0	4	utils/doclint/check_public_api/test/js-builder-common/foo.js
+8	0	utils/doclint/check_public_api/test/js-builder-inheritance/Events.js
+0	5	utils/doclint/check_public_api/test/js-builder-inheritance/foo.js
+
+--71edfc7--2019-01-14--Andrey Lushnikov
+1	1	package.json
+
+--9083c11--2019-01-14--Andrey Lushnikov
+11	9	lib/FrameManager.js
+24	0	test/frame.spec.js
+
+--02ae552--2019-01-14--Andrey Lushnikov
+1	1	.travis.yml
+
+--2e36b55--2019-01-14--Andrey Lushnikov
+1	1	README.md
+
+--7daeafc--2019-01-14--Andrey Lushnikov
+1	1	.travis.yml
+
+--7fabf32--2019-01-14--Brian Schiller
+16	9	lib/ExecutionContext.js
+9	0	test/jshandle.spec.js
+
+--d346cb5--2019-01-14--Andrey Lushnikov
+1	1	docs/api.md
+27	37	lib/Launcher.js
+1	1	lib/Puppeteer.js
+26	3	test/puppeteer.spec.js
+
+--15af75f--2019-01-14--Łukasz Fiszer
+2	1	docs/api.md
+62	3	lib/Launcher.js
+1	1	lib/Puppeteer.js
+18	0	test/puppeteer.spec.js
+
+--81cf579--2019-01-11--Andrey Lushnikov
+1	1	.travis.yml
+
+--f933f59--2019-01-11--Andrey Lushnikov
+1	1	.travis.yml
+
+--96adedf--2019-01-11--Joel Einbinder
+2	0	lib/ExecutionContext.js
+2	0	lib/Page.js
+4	3	test/screenshot.spec.js
+
+--29a2438--2019-01-10--Joel Einbinder
+2	2	lib/BrowserFetcher.js
+1	1	lib/FrameManager.js
+6	6	lib/Page.js
+1	1	lib/TaskQueue.js
+4	4	lib/Worker.js
+2	2	lib/helper.js
+1	1	package.json
+
+--c44564a--2019-01-10--Joel Einbinder
+8	2	README.md
+
+--0505c81--2019-01-10--Andrey Lushnikov
+6	0	test/waittask.spec.js
+
+--f731973--2019-01-10--Ram Dobson
+1	1	lib/FrameManager.js
+
+--89fc2ad--2019-01-10--Andrey Lushnikov
+3	3	docs/api.md
+10	12	lib/Page.js
+2	2	lib/Worker.js
+0	11	test/assets/console-message-1.html
+0	11	test/assets/console-message-2.html
+11	0	test/assets/consolelog.html
+12	20	test/page.spec.js
+12	4	test/worker.spec.js
+
+--0c86763--2019-01-11--Tom P
+7	0	docs/api.md
+30	6	lib/Page.js
+11	0	test/assets/console-message-1.html
+11	0	test/assets/console-message-2.html
+35	0	test/page.spec.js
+
+--16fc28b--2019-01-10--Andrey Lushnikov
+9	0	test/headful.spec.js
+
+--4c48b77--2019-01-09--Andrey Lushnikov
+5	1	examples/proxy.js
+
+--82bef70--2019-01-09--Sergii Tkachenko
+6	5	docs/troubleshooting.md
+
+--1899e79--2019-01-09--Andrey Lushnikov
+1	0	lib/Launcher.js
+8	1	lib/NetworkManager.js
+0	9	test/network.spec.js
+
+--c86bc0f--2019-01-08--Andrey Lushnikov
+1	0	lib/Launcher.js
+1	1	package.json

@@ -1,28 +1,30 @@
+import { h } from "hyperapp";
 const d3 = require("d3");
+import { queueAddContextItem } from "./actions";
 
-function buildDashboard(repository_path, after_date) {
-  var svg = d3.select("svg");
+export const buildDashboardWithD3 = function(state) {
+  // Refresh SVG
+  document.getElementById("heatmap").innerHTML = "";
 
+  var svg = d3.select("#heatmap");
   var margin = 20;
   var diameter = svg.attr("width");
   var g = svg
     .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
-
   var pack = d3
     .pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
-
   const infoDiv = document.getElementById("info_div");
 
   let url = "http://localhost:3000/fetch_repository_data";
+  const repository_path = state.heatmap.repository_path;
+  const after_date = state.heatmap.after_date;
 
   d3.json(`${url}?repository_path=${repository_path}&after_date=${after_date}`)
     .catch(err => console.log(err))
     .then(root => {
-      console.log(root);
-
       root = d3
         .hierarchy(root)
         .sum(function(d) {
@@ -43,8 +45,6 @@ function buildDashboard(repository_path, after_date) {
       var nonLeafColorDomain = d3.extent(nodes, function(d) {
         return +d.depth;
       });
-
-      console.log(leafColorDomain);
 
       var nonLeafColor = d3
         .scaleLinear()
@@ -76,7 +76,13 @@ function buildDashboard(repository_path, after_date) {
             : nonLeafColor(d.depth);
         })
         .on("click", function(d) {
-          if (focus !== d) {
+          if (d3.event.shiftKey) {
+            queueAddContextItem({
+              title: d.data.name,
+              text: d.data["n-revisions"]
+            });
+            d3.event.stopPropagation();
+          } else if (focus !== d) {
             zoom(d);
             console.log(d);
             d3.event.stopPropagation();
@@ -159,6 +165,5 @@ function buildDashboard(repository_path, after_date) {
         });
       }
     });
-}
-
-module.exports.HeatMap = buildDashboard;
+  return state;
+};

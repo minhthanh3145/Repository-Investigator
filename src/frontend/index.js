@@ -1,25 +1,13 @@
 import { h, app } from "hyperapp";
-const BarChart = require("../frontend/visualizations/barchart").Barchart;
-
-const increase = state => ({ count: state.count + 1 });
-const doSomethingClever = state => [
-  {
-    ...state,
-    count: state.count + 1
-  },
-  console.log(state)
-];
+const HeatMapController = require("./components/heatmap/heatmap-controller")
+  .HeatMapController;
+import { contextItemPollingSubscription } from "./subscriptions/context-item-polling";
 
 app({
   init: {
-    ...BarChart.init(),
-    count: 0
+    ...HeatMapController.stateInit()
   },
-  view: state =>
-    h("div", {}, [
-      <h1>{state.count}</h1>,
-      h("button", { onClick: doSomethingClever }),
-      BarChart.dashboardView(state)
-    ]),
+  view: state => h("div", {}, [HeatMapController.getHeatMapView(state)]),
+  subscriptions: contextItemPollingSubscription,
   node: document.getElementById("hyperapp-container")
 });
