@@ -10,6 +10,9 @@ const Constants = {
   },
   EXTRACT_LINE_OF_CODES_CMD_v2(repositoryPath) {
     return `cloc ${repositoryPath} --by-file --hide-rate --json --quiet`;
-  }
+  },
+  OPEN_FILE_IN_VSCODE(filePath) {
+    return `code ${filePath}`;
+  },
 };
 module.exports.Constants = Constants;

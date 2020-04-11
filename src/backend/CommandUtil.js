@@ -6,11 +6,11 @@ class CommandUtil {
    */
   static async executeCommand(command) {
     const spawn = require("child_process").spawnSync;
-    const splitted = command.split(" ").map(item => item.trim());
+    const splitted = command.split(" ").map((item) => item.trim());
     const program = splitted[0];
     splitted.shift();
     return spawn(program, splitted, {
-      maxBuffer: 1000 * 1000 * 10 // 10 MB
+      maxBuffer: 1000 * 1000 * 10, // 10 MB
     }).stdout.toString();
   }
 }

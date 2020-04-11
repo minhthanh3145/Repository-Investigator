@@ -5,7 +5,6 @@ const HierarchicalDataBuilder = require("./HierarchicalDataBuilder")
 
 class ClocDataAppender {
   _excludedExtensions = [".svg", ".png", ".jpg", ".md"];
-
   _filterFunction = (value) =>
     !_excludedExtensions.filter((ext) => {
       return value[0].endsWith(ext);
@@ -29,7 +28,7 @@ class ClocDataAppender {
     const rawData = await this.doExtractLineOfCode(repository_path);
     const clocDataMap = JSON.parse(rawData);
     let output = {
-      name: "root",
+      name: repository_path,
       children: [],
     };
     for (const value of codeMaatOutput) {

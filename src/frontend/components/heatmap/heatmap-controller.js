@@ -3,6 +3,13 @@ import { buildDashboardWithD3 } from "./heatmap-d3";
 import { highlightElementByFullPath } from "./heatmap-d3";
 import { zoomToElementByFullPath } from "./heatmap-d3";
 import { removeContextItemAction } from "./actions";
+const d3 = require("d3");
+
+function openCodeInVsCode(fullPath) {
+  d3.json(`http://localhost:3000/open_file_in_vscode?filePath=${fullPath}`)
+    .then((data) => console.log(data))
+    .catch((err) => console.log(err));
+}
 
 const HeatMapController = {
   stateInit: () => ({
@@ -15,6 +22,22 @@ const HeatMapController = {
       height: 800,
     },
   }),
+  /**
+   * Construct the controls
+   *  - Input for **Repository Path**
+   *  - Input for **After Date**
+   *  - Input for **Extensions**
+   *  - Button for **Build hotspot**
+   *  - Input for **Top n-revisited files**
+   *
+   * Construct the heatmap by delegating to heatmap-d3#buildDashboardWithD3
+   *
+   * Construct a dynamic column which contains the context items.
+   * A context item displays the name and the full path to a file, and:
+   *  - Button for **Open file in vscode**
+   *  - Button for **Highlight the corresponding element in the heatmap**
+   *  - Button for **Zoom in the corresponding element in the heatmap**
+   */
   getHeatMapView: (state) => {
     return (
       <div>
@@ -59,7 +82,14 @@ const HeatMapController = {
           <button id="fetch_repository_data" onClick={buildDashboardWithD3}>
             Build Hotspot
           </button>
-          <label id="lbl_info"></label>
+          <input
+            id="top-n-revisited"
+            value="5"
+            placeholder="Top-n most revisited files (default 5)"
+            style={{
+              width: "200px",
+            }}
+          ></input>
         </div>
         <div
           style={{
@@ -96,6 +126,14 @@ const HeatMapController = {
                   <button
                     onClick={(state) => [
                       state,
+                      openCodeInVsCode(value.fullPath),
+                    ]}
+                  >
+                    <b>Open</b>
+                  </button>
+                  <button
+                    onClick={(state) => [
+                      state,
                       zoomToElementByFullPath(value.fullPath),
                     ]}
                   >
@@ -111,7 +149,7 @@ const HeatMapController = {
                   </button>
                 </p>
                 <p class="price">{value.text}</p>
-                <p class="fullPath">{value.fullPath}</p>
+                <a class="fullPath">{value.fullPath}</a>
               </div>
             ))}
           </div>

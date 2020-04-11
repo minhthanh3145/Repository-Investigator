@@ -4,7 +4,6 @@ import { queueAddContextItem } from "./actions";
 
 export const highlightElementByFullPath = function (fullPath) {
   const matched = d3.selectAll(".node").filter(function (d) {
-    // We don't need context item, but this function also returns fullPath and I am too lazy to implement a separat function
     const item = buildContextActionItem(d);
     return item.fullPath == fullPath;
   });
@@ -22,7 +21,6 @@ export const highlightElementByFullPath = function (fullPath) {
 
 export const zoomToElementByFullPath = function (fullPath) {
   const matched = d3.selectAll(".node").filter(function (d) {
-    // We don't need context item, but this function also returns fullPath and I am too lazy to implement a separat function
     const item = buildContextActionItem(d);
     return item.fullPath == fullPath;
   });
@@ -43,6 +41,19 @@ function blink(nodeToBlink) {
 
 let root, focus, view, diameter, node, circle, nodes;
 var margin = 20;
+/**
+ * Build the heat map by making request to back-end to retrieve
+ * repository information in usable form which d3 understands
+ * and using d3 to construct what essentially a packed layout
+ * with zooming ability.
+ *
+ * Several events are defined:
+ * - **Alt + Click** : Show top n context items that correspond to n-revisitd files within the selected region.
+ *  Refer to heatmap-controller#getHeatMapView.
+ * - **Shift + Click**: Show a context item of the selected item.
+ * - **Click**: Zoom into the element.
+ * @param state
+ */
 export const buildDashboardWithD3 = function (state) {
   // Refresh SVG
   document.getElementById("heatmap").innerHTML = "";
@@ -62,6 +73,7 @@ export const buildDashboardWithD3 = function (state) {
   const repository_path = state.heatmap.repository_path;
   const after_date = state.heatmap.after_date;
   const extensions = state.heatmap.extensions;
+
   d3.json(
     `${url}?repository_path=${repository_path}&after_date=${after_date}&extensions=${extensions}`
   )
@@ -141,8 +153,8 @@ export const buildDashboardWithD3 = function (state) {
               return +b.data["n-revisions"] - +a.data["n-revisions"];
             });
 
-            console.log(flattenedArray);
-            const top5 = flattenedArray.slice(0, 5);
+            const val = document.getElementById("top-n-revisited").value;
+            const top5 = flattenedArray.slice(0, Number(val));
 
             top5.forEach(function (top) {
               const contextActionItem = buildContextActionItem(top);
