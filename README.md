@@ -2,7 +2,8 @@
 
 A local application that allows you to investigate and visualize your repository following principles described in [Your Code as a Crime Scene](https://www.amazon.com/Your-Code-Crime-Scene-Bottlenecks/dp/1680500384). 
 
-<img width="1219" alt="Screen Shot 2020-04-11 at 11 06 10 PM" src="https://user-images.githubusercontent.com/16775806/79049237-99540300-7c4c-11ea-93eb-71c07c49dba0.png">
+<img width="819" alt="Screen Shot 2020-04-11 at 11 06 10 PM" src="https://user-images.githubusercontent.com/16775806/79050348-98729f80-7c53-11ea-9a08-29e19a418551.png">
+
 
 The Heatmap of your repository allows you to see the complexity, where complexity is defined as a combination of lines of code and the frequency of change. 
 
