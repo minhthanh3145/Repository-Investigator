@@ -5,11 +5,10 @@ A local application that allows you to investigate and visualize your repository
 <img width="819" alt="Screen Shot 2020-04-11 at 11 06 10 PM" src="https://user-images.githubusercontent.com/16775806/79050348-98729f80-7c53-11ea-9a08-29e19a418551.png">
 
 
-The Heatmap of your repository allows you to see the complexity, where complexity is defined as a combination of lines of code and the frequency of change. 
+The Heatmap allows you to see the complexity - a combination of LOC and change frequency.
 
-The bigger and darker a file is, the more complex it is. You can identify the most complex files and use them as entry points when understanding a new code base because these they represent the big things that have been worked on the most recently.
-
-Alternatively, you can also see them as candidates for code refactoring or obscure bug originators.
+Bigger, darker files are more complex. You can identify the most complex files and use them as entry points when understanding a new code base, because these they represent the big things that have been recently worked on. 
+Alternatively, you can also see them as candidates for code refactoring or when tracking obscure regression bugs.
 
 ## Stack
 D3 js + hyperapp + express + mocha.
