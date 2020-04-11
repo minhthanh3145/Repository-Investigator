@@ -6,8 +6,9 @@ export const queueAddContextItem = function(itemDetail) {
   }
 };
 
+
 export const removeContextItemAction = function(state, itemDetail) {
-  const key = itemDetail.title;
+  const key = itemDetail.fullPath;
   const {
     heatmap: { items }
   } = state;
@@ -30,7 +31,7 @@ export const addContextItemAction = function(state, payload) {
   const {
     heatmap: { items }
   } = state;
-  items[item.title] = item;
+  items[item.fullPath] = item;
   const result = {
     ...state,
     heatmap: {

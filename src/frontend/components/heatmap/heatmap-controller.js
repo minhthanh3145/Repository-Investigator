@@ -1,5 +1,7 @@
 import { h } from "hyperapp";
 import { buildDashboardWithD3 } from "./heatmap-d3";
+import { highlightElementByFullPath } from "./heatmap-d3";
+import { zoomToElementByFullPath } from "./heatmap-d3";
 import { removeContextItemAction } from "./actions";
 
 const HeatMapController = {
@@ -8,11 +10,12 @@ const HeatMapController = {
       items: {},
       repository_path: "",
       after_date: "",
+      extensions: "",
       width: 800,
-      height: 800
-    }
+      height: 800,
+    },
   }),
-  getHeatMapView: state => {
+  getHeatMapView: (state) => {
     return (
       <div>
         <div>
@@ -22,43 +25,46 @@ const HeatMapController = {
               position: "fixed",
               top: "30px",
               left: "10px",
-              "z-index": "10"
+              "z-index": "10",
             }}
           ></div>
           <input
             placeholder="Repository path"
             style={{
-              width: "500px"
+              width: "500px",
             }}
             list="repo_path"
             onchange={(state, e) => ({
-              heatmap: { ...state.heatmap, repository_path: e.target.value }
+              heatmap: { ...state.heatmap, repository_path: e.target.value },
             })}
           />
           <input
             placeholder="After Date"
             style={{
-              width: "200px"
+              width: "200px",
             }}
             onchange={(state, e) => ({
-              heatmap: { ...state.heatmap, after_date: e.target.value }
+              heatmap: { ...state.heatmap, after_date: e.target.value },
+            })}
+          />
+          <input
+            placeholder="Extensions, comma separated"
+            style={{
+              width: "200px",
+            }}
+            onchange={(state, e) => ({
+              heatmap: { ...state.heatmap, extensions: e.target.value },
             })}
           />
           <button id="fetch_repository_data" onClick={buildDashboardWithD3}>
             Build Hotspot
           </button>
           <label id="lbl_info"></label>
-          <datalist id="repo_path">
-            <option value="/Users/thanhto/Documents/repository/work/katalon-studio-platform" />
-            <option value="/Users/thanhto/Documents/repository/work/katalon" />
-            <option value="/Users/thanhto/Documents/repository/work/selenium-ide" />
-            <option value="/Users/thanhto/Documents/repository/others/puppeteer" />
-          </datalist>
         </div>
         <div
           style={{
             display: "table",
-            clear: "both"
+            clear: "both",
           }}
         >
           <svg
@@ -67,7 +73,7 @@ const HeatMapController = {
             height={state.heatmap.height}
             style={{
               float: "left",
-              padding: "10px"
+              padding: "10px",
             }}
           ></svg>
           <div class="column">
@@ -78,8 +84,8 @@ const HeatMapController = {
                     onClick={[
                       removeContextItemAction,
                       {
-                        title: value.title
-                      }
+                        fullPath: value.fullPath,
+                      },
                     ]}
                   >
                     X
@@ -87,15 +93,32 @@ const HeatMapController = {
                 </p>
                 <p>
                   <b>{value.title}</b>
+                  <button
+                    onClick={(state) => [
+                      state,
+                      zoomToElementByFullPath(value.fullPath),
+                    ]}
+                  >
+                    <b>Zoom</b>
+                  </button>
+                  <button
+                    onClick={(state) => [
+                      state,
+                      highlightElementByFullPath(value.fullPath),
+                    ]}
+                  >
+                    <b>Link</b>
+                  </button>
                 </p>
                 <p class="price">{value.text}</p>
+                <p class="fullPath">{value.fullPath}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
     );
-  }
+  },
 };
 
 module.exports.HeatMapController = HeatMapController;

@@ -1,2189 +1,1589 @@
---b9240b1--2020-03-12--Andrey Lushnikov
-1	1	package.json
+--0551226f--2020-04-07--vue-bot
+7	17	BACKERS.md
+5	15	README.md
 
---067662c--2020-03-12--Philipp Hagemeister
-1	0	lib/JSHandle.js
-6	0	test/input.spec.js
+--0aa40775--2020-04-07--vue-bot
+28	29	BACKERS.md
 
---a3d1536--2020-03-13--Yuki Takizawa
-3	1	docs/troubleshooting.md
+--2be3b10d--2020-04-07--Tim Gates
+1	1	src/platforms/web/runtime/modules/dom-props.js
 
---fe1ff23--2020-03-10--hanselfmu
-11	11	README.md
-1	1	docs/api.md
-1	1	package.json
+--0c9b831d--2020-04-04--dependabot[bot]
+3	3	yarn.lock
 
---33f1967--2020-03-10--Maja Frydrychowicz
-1	0	.gitignore
-1	0	.npmignore
-17	5	README.md
-23	8	docs/api.md
-160	92	install.js
-191	44	lib/BrowserFetcher.js
-15	11	lib/Launcher.js
-14	5	lib/Puppeteer.js
-5	1	package.json
--	-	test/assets/firefox-75.0a1.en-US.linux-x86_64.tar.bz2
-43	8	test/launcher.spec.js
+--53963424--2020-03-31--Rodrigo Graça
+1	1	.editorconfig
 
---807fbbd--2020-03-10--Changhao Han
-3	3	.appveyor.yml
-0	17	.ci/node8/Dockerfile.linux
-3	6	.cirrus.yml
-12	12	.travis.yml
+--e68f83d0--2020-03-30--YuLe
+1	1	src/core/instance/render-helpers/bind-dynamic-keys.js
+
+--a59e05c2--2020-03-12--Ikko Ashimine
+--98b9270a--2020-03-10--Evan You
+17	17	README.md
+
+--caa33e0a--2020-03-09--vue-bot
+7	2	BACKERS.md
+10	5	README.md
+
+--01852a72--2020-03-09--vue-bot
+4	26	BACKERS.md
+4	26	README.md
+
+--aba19fd1--2020-03-09--vue-bot
+32	27	BACKERS.md
+
+--bce5b985--2020-03-06--bakugod
+3	3	README.md
+
+--2f1f8e9a--2020-02-27--vue-bot
+11	4	BACKERS.md
+13	6	README.md
+
+--fcc78a45--2020-02-19--dependabot[bot]
+85	23	yarn.lock
+
+--6390f70c--2020-02-11--阿豪
+4	4	src/platforms/web/server/util.js
+
+--dad3d99f--2020-02-11--Ikko Ashimine
 2	2	README.md
-3	3	docs/troubleshooting.md
-17	0	experimental/puppeteer-firefox/.ci/node10/Dockerfile.linux
-11	0	experimental/puppeteer-firefox/.ci/node10/Dockerfile.windows
-0	17	experimental/puppeteer-firefox/.ci/node6/Dockerfile.linux
-0	17	experimental/puppeteer-firefox/.ci/node8/Dockerfile.linux
-0	11	experimental/puppeteer-firefox/.ci/node8/Dockerfile.windows
-7	7	experimental/puppeteer-firefox/.cirrus.yml
-1	1	experimental/puppeteer-firefox/package.json
-3	1	lib/Launcher.js
-3	3	package.json
 
---0b1a9ce--2020-02-20--Maja Frydrychowicz
-0	9	.cirrus.yml
-6	3	.travis.yml
-3	1	lib/Launcher.js
-0	1	package.json
-2	2	test/accessibility.spec.js
-1	4	test/browser.spec.js
-9	9	test/browsercontext.spec.js
-8	8	test/click.spec.js
-14	14	test/cookies.spec.js
-3	3	test/defaultbrowsercontext.spec.js
-2	2	test/dialog.spec.js
-4	4	test/elementhandle.spec.js
-6	6	test/emulation.spec.js
-21	21	test/evaluation.spec.js
-3	10	test/fixtures.spec.js
-10	10	test/frame.spec.js
-1	1	test/ignorehttpserrors.spec.js
-1	1	test/input.spec.js
-2	2	test/jshandle.spec.js
-9	9	test/keyboard.spec.js
-18	11	test/launcher.spec.js
-5	5	test/mouse.spec.js
-26	26	test/navigation.spec.js
-13	13	test/network.spec.js
-33	33	test/page.spec.js
-2	8	test/puppeteer.spec.js
-12	12	test/queryselector.spec.js
-13	13	test/requestinterception.spec.js
-12	12	test/screenshot.spec.js
-5	5	test/target.spec.js
-3	16	test/test.js
-2	2	test/touchscreen.spec.js
-10	10	test/waittask.spec.js
+--230d6740--2020-02-11--Evan You
+2	2	BACKERS.md
+2	2	README.md
 
---0b1777e--2020-02-06--WuerfelDev
-1	1	docs/api.md
+--5a2ec264--2020-02-11--vue-bot
+9	4	BACKERS.md
+9	4	README.md
 
---5ffcde2--2020-02-06--Changhao Han
-1	1	docs/api.md
+--7963b53a--2020-02-11--vue-bot
+16	24	BACKERS.md
+
+--841bb084--2020-02-07--hareku
+1	1	test/unit/modules/vdom/patch/element.spec.js
+
+--7d8c4f69--2020-02-05--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--6f93c00b--2020-02-05--vue-bot
+5	0	BACKERS.md
+
+--468c323a--2020-01-26--Alan
+1	1	dist/README.md
+
+--b07087de--2020-01-06--vue-bot
+8	28	BACKERS.md
+8	28	README.md
+
+--8f7a024c--2020-01-06--vue-bot
+21	25	BACKERS.md
+
+--044e0c4e--2020-01-03--vue-bot
+6	1	BACKERS.md
+1	1	README.md
+
+--20834ea6--2020-01-03--vue-bot
+6	1	BACKERS.md
+1	1	README.md
+
+--cbb9efcc--2020-01-02--Evan You
+2	2	BACKERS.md
+2	2	README.md
+
+--237294d8--2020-01-01--vue-bot
+8	13	BACKERS.md
+8	13	README.md
+
+--90a23e75--2020-01-01--Evan You
+8	13	BACKERS.md
+8	13	README.md
+
+--b3451825--2020-01-01--vue-bot
+24	20	BACKERS.md
+
+--0a5485ac--2020-01-01--vue-bot
+24	20	BACKERS.md
+
+--ec78fc8b--2019-12-13--Evan You
 1	1	package.json
 
---261dd0b--2020-02-05--hanselfmu
-1	1	docs/api.md
+--a98048fa--2019-12-13--Evan You
+38	17	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+38	17	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+38	17	dist/vue.esm.js
+38	17	dist/vue.js
+2	2	dist/vue.min.js
+16	10	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+16	10	dist/vue.runtime.esm.js
+16	10	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+23	8	packages/vue-server-renderer/basic.js
+23	8	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+22	7	packages/vue-template-compiler/browser.js
+22	7	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+1105	550	packages/weex-template-compiler/build.js
+2770	2409	packages/weex-vue-framework/factory.js
+
+--fc41f913--2019-12-13--Evan You
+6	1	yarn.lock
+
+--70429c37--2019-12-13--Mateus Velleda Vellar
 1	1	package.json
+1	1	packages/vue-server-renderer/package.json
 
---46386eb--2020-02-05--Changhao Han
-11	11	README.md
-1	1	docs/api.md
-1	1	package.json
+--9fbd4166--2019-12-08--vue-bot
+0	22	BACKERS.md
+0	7	README.md
 
---eec4325--2020-02-05--hanselfmu
-11	11	README.md
-1	1	docs/api.md
-1	1	package.json
+--a9740225--2019-12-08--vue-bot
+27	30	BACKERS.md
 
---9923e56--2020-01-30--Pavel Feldman
-3	1	lib/Page.js
+--6b4c0f9c--2019-12-05--7006
+1	1	src/platforms/web/compiler/modules/model.js
 
---1a1ef83--2020-01-29--Tim van der Lippe
-11	0	README.md
+--0d38339d--2019-11-19--Eduardo San Martin Morote
+1	1	src/core/vdom/create-component.js
 
---0d243b7--2020-01-28--Grzegorz (Greg) Ziółkowski
-1	0	docs/api.md
-8	4	install.js
-1	0	utils/prepare_puppeteer_core.js
+--fd0eaf92--2019-11-19--vue-bot
+7	0	BACKERS.md
+7	0	README.md
 
---c283fea--2020-01-27--Feu
-5	1	docs/api.md
+--2c6a827b--2019-11-12--vue-bot
+5	0	BACKERS.md
+5	0	README.md
 
---b45f8e4--2020-01-27--Mathias Bynens
-1	1	docs/api.md
-1	1	package.json
+--50623873--2019-11-12--Evan You
+--f796ab49--2019-11-12--vue-bot
+2	14	BACKERS.md
+4	16	README.md
 
---a30cf05--2020-01-27--Mathias Bynens
-10	10	README.md
-2	1	docs/api.md
+--276c0829--2019-11-12--vue-bot
+26	24	BACKERS.md
+
+--9f567970--2019-11-12--vue-bot
+4	11	BACKERS.md
+6	13	README.md
+
+--aed0ca8d--2019-11-05--vue-bot
+2	14	BACKERS.md
+4	16	README.md
+
+--3bc470dd--2019-11-05--vue-bot
+26	24	BACKERS.md
+
+--4821149b--2019-10-30--katashin
 2	2	package.json
+1	1	types/options.d.ts
+16	17	types/test/options-test.ts
+10	5	yarn.lock
 
---7e7b05a--2020-01-27--Mathias Bynens
-10	10	README.md
-2	1	docs/api.md
-2	2	package.json
+--9f5563c0--2019-10-28--Evan You
+5	0	BACKERS.md
 
---013a86c--2020-01-27--Mathias Bynens
-13	5	lib/ExecutionContext.js
-2	0	lib/JSHandle.js
-11	21	lib/Page.js
-1	1	package.json
-16	8	test/accessibility.spec.js
-0	16	test/chromiumonly.spec.js
+--b805a192--2019-10-28--dependabot[bot]
+5	5	yarn.lock
 
---14b2369--2020-01-09--Mathias Bynens
-1	1	experimental/puppeteer-firefox/package.json
+--bd47e5b8--2019-10-28--dependabot[bot]
+3	3	yarn.lock
 
---3a49cfc--2020-01-09--Mathias Bynens
-9	8	experimental/puppeteer-firefox/lib/BrowserFetcher.js
-1	1	experimental/puppeteer-firefox/package.json
+--fd42082a--2019-10-28--dependabot[bot]
+3	3	yarn.lock
 
---c7af7de--2020-01-08--Lawrence Chou
+--fa55a20e--2019-10-28--dependabot[bot]
+18	13	yarn.lock
+
+--d1164f1a--2019-10-28--Mattias Naarttijärvi
+2	2	README.md
+
+--3c90820e--2019-10-28--dependabot[bot]
+3	3	yarn.lock
+
+--3bc73226--2019-10-28--dependabot[bot]
+3	3	yarn.lock
+
+--0645fe61--2019-10-28--dependabot[bot]
+8	6	yarn.lock
+
+--b885e1e8--2019-10-28--vue-bot
+10	3	BACKERS.md
+10	3	README.md
+
+--13fb7510--2019-10-23--vue-bot
+10	3	BACKERS.md
+10	3	README.md
+
+--8f7cce48--2019-10-13--dependabot[bot]
+3	3	yarn.lock
+
+--d7d8ff06--2019-10-08--EVILLT
+1	1	src/core/util/next-tick.js
+
+--e8ca21ff--2019-10-07--Evan You
+2	2	BACKERS.md
+2	2	README.md
+
+--78aefcf6--2019-10-06--vue-bot
+22	21	BACKERS.md
+
+--33d9d812--2019-10-06--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--979be573--2019-10-06--Evan You
+--2b5c47ae--2019-10-06--vue-bot
+5	7	BACKERS.md
+0	7	README.md
+
+--5d928fc7--2019-10-06--vue-bot
+6	1	BACKERS.md
+5	0	README.md
+
+--c8e60b02--2019-10-05--vue-bot
+16	8	BACKERS.md
+10	7	README.md
+
+--814ed002--2019-10-05--vue-bot
+22	21	BACKERS.md
+
+--00d1c5db--2019-10-01--vue-bot
+11	8	BACKERS.md
+5	7	README.md
+
+--463a5431--2019-10-01--vue-bot
+6	1	BACKERS.md
+5	0	README.md
+
+--3dcd85b8--2019-10-01--Tan Zhen Yong
+1	1	src/compiler/parser/index.js
+
+--235064eb--2019-09-25--Evan You
+2	2	BACKERS.md
+
+--b9b84925--2019-09-24--vue-bot
+5	0	BACKERS.md
+
+--d2db6af1--2019-09-23--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--77796596--2019-09-19--vue-bot
+25	27	BACKERS.md
+
+--5bbb077c--2019-09-19--Tommy Lebel
+1	1	packages/vue-template-compiler/README.md
+
+--3d1c8f5c--2019-09-17--Eduardo San Martin Morote
+1	1	src/core/util/props.js
+
+--b52883cd--2019-09-17--Eduardo San Martin Morote
+11	10	src/core/util/props.js
+10	0	test/unit/features/options/props.spec.js
+
+--95d8afa0--2019-09-04--vue-bot
+7	0	BACKERS.md
+7	0	README.md
+
+--399b5366--2019-08-24--Eduardo San Martin Morote
+1	1	.github/FUNDING.yml
+
+--369dbe71--2019-08-12--Daniel Ruf
+1	1	benchmarks/uptime/index.html
+
+--fe34f96a--2019-08-07--Eduardo San Martin Morote
+1	1	src/compiler/codegen/events.js
+25	0	test/unit/modules/compiler/codegen.spec.js
+
+--d40b7ddb--2019-08-07--Li Yongcheng
+3	3	src/compiler/error-detector.js
+
+--1a43722e--2019-08-05--vue-bot
+13	8	BACKERS.md
+13	8	README.md
+
+--64fcad64--2019-08-05--vue-bot
+25	30	BACKERS.md
+
+--78c3ce0c--2019-07-31--Husam Ibrahim
+1	1	src/core/instance/proxy.js
+
+--f1d29d7f--2019-07-29--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--b7c2d936--2019-07-15--nothingismagick
+1	1	packages/vue-server-renderer/package.json
+
+--a99c6672--2019-07-08--vue-bot
+7	0	BACKERS.md
+7	0	README.md
+
+--024e4f2c--2019-07-08--vue-bot
+6	55	BACKERS.md
+6	50	README.md
+
+--c236f564--2019-07-08--vue-bot
+32	46	BACKERS.md
+
+--3b8925bc--2019-06-22--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--b47a7b82--2019-06-22--vue-bot
+33	40	BACKERS.md
+
+--bad3c326--2019-06-14--vue-bot
+8	3	BACKERS.md
+8	3	README.md
+
+--8f7133c8--2019-06-12--Evan You
+2	2	BACKERS.md
+2	2	README.md
+
+--bbdaaf48--2019-06-12--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--d09355c5--2019-06-12--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--3819af5c--2019-06-11--vue-bot
+7	7	BACKERS.md
+7	7	README.md
+
+--f64765fa--2019-06-04--Magic
+1	1	src/core/instance/render.js
+
+--ff911c9f--2019-05-24--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--0224ae85--2019-05-24--Evan You
+8	0	.github/FUNDING.yml
+
+--06d4ad40--2019-05-16--vue-bot
+12	17	BACKERS.md
+12	17	README.md
+
+--2a8e0f82--2019-05-15--GU Yiling
+8	8	.github/CONTRIBUTING.md
+
+--0caebfe9--2019-05-14--msidolphin
 1	1	README.md
 
---5e63254--2019-12-11--den
-1	1	test/page.spec.js
+--1137e415--2019-05-09--Sai
+1	1	src/compiler/parser/html-parser.js
+1	1	src/core/instance/render-helpers/bind-dynamic-keys.js
 
---80b5c44--2019-12-11--Danny Guo
-1	1	package.json
+--26bd8077--2019-05-02--vue-bot
+5	0	BACKERS.md
+5	0	README.md
 
---6091a34--2019-12-03--Mathias Bynens
-31	6	lib/JSHandle.js
-2	0	package.json
+--f0b9c923--2019-04-28--vue-bot
+7	0	BACKERS.md
+7	0	README.md
 
---8b49dc6--2019-11-27--Mathias Bynens
-1	2	lib/Launcher.js
+--569b728a--2019-04-25--GU Yiling
+1	1	src/compiler/codegen/events.js
+5	0	test/unit/modules/compiler/codegen.spec.js
 
---f0bf645--2019-11-27--Darío Kondratiuk
-2	0	test/accessibility.spec.js
+--ab50e8e1--2019-04-25--katashin
+1	2	types/index.d.ts
+3	11	types/test/tsconfig.json
+7	0	types/test/umd-test.ts
+48	0	types/umd.d.ts
 
---6cc98a7--2019-11-27--Erik Kotsiuba
-2	0	docs/troubleshooting.md
+--085d1883--2019-04-25--X.L
+15	0	src/compiler/error-detector.js
+2	2	src/compiler/parser/index.js
+16	0	test/unit/features/component/component-scoped-slot.spec.js
 
---35d5ba5--2019-11-27--Maja Frydrychowicz
-202	10	lib/Launcher.js
+--861aea16--2019-04-25--Natalia Tepluhina
+6	0	src/core/vdom/create-element.js
+14	0	test/unit/features/directives/on.spec.js
 
---eddb23b--2019-11-26--Mathias Bynens
-1	1	.npmignore
-11	11	CONTRIBUTING.md
-23	23	README.md
-15	15	docs/api.md
-9	9	docs/troubleshooting.md
-2	2	experimental/puppeteer-firefox/package.json
-1	1	lib/Launcher.js
-1	1	lib/Page.js
-1	1	package.json
-4	4	test/click.spec.js
-2	2	test/headful.spec.js
-1	1	test/ignorehttpserrors.spec.js
-6	6	test/launcher.spec.js
-3	3	test/page.spec.js
-3	3	test/requestinterception.spec.js
-2	2	test/utils.js
-1	1	utils/apply_next_version.js
-3	3	utils/browser/README.md
-2	2	utils/doclint/preprocessor/index.js
-6	6	utils/doclint/preprocessor/test.js
-1	1	utils/testrunner/package.json
-1	1	utils/testserver/package.json
+--bd6cea09--2019-04-25--zrh122
+2	1	test/e2e/nightwatch.config.js
 
---c5a72e9--2019-11-26--Maja Frydrychowicz
-2	2	.cirrus.yml
-1	1	.travis.yml
-9	2	CONTRIBUTING.md
-12	2	docs/api.md
-3	3	experimental/puppeteer-firefox/.cirrus.yml
-8	1	index.js
-420	160	lib/Launcher.js
-22	2	lib/Puppeteer.js
-8	0	lib/externs.d.ts
-1	1	lib/helper.js
-2	1	package.json
-7	7	test/fixtures.spec.js
-7	1	test/launcher.spec.js
-20	10	test/puppeteer.spec.js
-36	20	test/test.js
-1	1	utils/protocol-types-generator/index.js
+--43b98fe2--2019-04-25--子迟
+4	4	packages/weex-vue-framework/factory.js
+4	4	src/core/vdom/patch.js
 
---d17708b--2019-11-15--Connor Clark
-2	2	.npmignore
-3	2	CONTRIBUTING.md
-2	2	utils/protocol-types-generator/index.js
+--ea113d26--2019-04-25--Evan You
+16	8	types/test/options-test.ts
 
---fd43f9c--2019-11-04--Darío Kondratiuk
-1	1	docs/api.md
+--a9a30300--2019-04-25--Evan You
+1	2	src/core/util/env.js
 
---5fa28b5--2019-11-02--Chris Calo
-1	1	docs/api.md
+--29e745f9--2019-04-22--Henri Yandell
+1	1	src/compiler/parser/html-parser.js
 
---561c99d--2019-10-26--Benj Fassbind
-73	49	docs/api.md
+--f478ab80--2019-04-10--vue-bot
+6	1	BACKERS.md
+6	1	README.md
 
---aaa904d--2019-10-24--Mathias Bynens
-9	8	CONTRIBUTING.md
+--91b8cda0--2019-04-10--Billy Zou
+1	1	.github/CONTRIBUTING.md
 
---304f4a7--2019-10-24--Mathias Bynens
-3	1	.npmignore
+--15704ce6--2019-04-10--Evan You
+2	2	BACKERS.md
+2	2	README.md
 
---7032472--2019-10-24--Mathias Bynens
-3	0	.npmignore
-1	1	docs/api.md
-1	2	package.json
+--fb4d2c1c--2019-04-09--vue-bot
+5	0	BACKERS.md
+5	0	README.md
 
---aa24697--2019-10-24--Mathias Bynens
-10	10	README.md
-2	1	docs/api.md
-1	1	package.json
+--546e7d14--2019-04-08--Billy Zou
+2	2	.github/CONTRIBUTING.md
 
---360c1b4--2019-10-24--Mathias Bynens
--	-	test/golden-chromium/screenshot-offscreen-clip.png
--	-	test/golden-firefox/screenshot-offscreen-clip.png
-13	0	test/screenshot.spec.js
+--af15d16d--2019-04-08--vue-bot
+9	4	BACKERS.md
+9	4	README.md
 
---7f3e372--2019-10-24--theeko
-6	0	docs/api.md
-1	1	lib/Page.js
-
---8132b39--2019-10-24--Vse Mozhet Byt
-0	6	docs/api.md
-
---1248a19--2019-10-23--Mathias Bynens
-5	0	docs/api.md
-13	0	lib/Page.js
-27	0	test/emulation.spec.js
-
---a86363f--2019-10-23--Mathias Bynens
-73	3	docs/api.md
-7	4	experimental/puppeteer-firefox/lib/Page.js
-29	4	lib/Page.js
-52	9	test/emulation.spec.js
-1	0	test/test.js
-
---06dbb72--2019-10-23--Mathias Bynens
-7	7	lib/LifecycleWatcher.js
-
---81d2600--2019-10-23--Mathias Bynens
-2	2	experimental/puppeteer-firefox/lib/FrameManager.js
-3	3	experimental/puppeteer-firefox/lib/Page.js
-4	1	lib/Accessibility.js
-1	1	lib/ExecutionContext.js
-1	1	lib/LifecycleWatcher.js
-1	1	package.json
--	-	test/golden-chromium/screenshot-offscreen-clip.png
--	-	test/golden-firefox/screenshot-offscreen-clip.png
-2	2	test/launcher.spec.js
-4	4	test/navigation.spec.js
-1	8	test/page.spec.js
-1	1	test/requestinterception.spec.js
-0	13	test/screenshot.spec.js
-1	8	test/waittask.spec.js
-
---3773229--2019-10-20--Yury Semikhatsky
-7	8	lib/Input.js
-
---11ff374--2019-10-16--Mathias Bynens
-2	6	.appveyor.yml
-0	17	.ci/node6/Dockerfile.linux
-0	9	.cirrus.yml
-2	8	.travis.yml
-1	12	DeviceDescriptors.js
-1	12	Errors.js
-4	1	README.md
-1	12	experimental/puppeteer-firefox/DeviceDescriptors.js
-1	2	experimental/puppeteer-firefox/lib/Page.js
-4	0	experimental/puppeteer-firefox/lib/helper.js
-2	2	experimental/puppeteer-firefox/misc/install-preferences.js
-7	16	index.js
-0	29	install.js
-1	1	lib/BrowserFetcher.js
-1	0	lib/Page.js
-4	0	lib/helper.js
-2	6	package.json
-3	12	test/evaluation.spec.js
-4	3	test/headful.spec.js
-4	3	test/launcher.spec.js
-4	26	utils/doclint/Source.js
-0	156	utils/node6-transform/TransformAsyncFunctions.js
-0	64	utils/node6-transform/index.js
-0	97	utils/node6-transform/test/test.js
-
---c0ba8f9--2019-10-16--Julien Landuré
-4	4	docs/troubleshooting.md
-
---2506169--2019-10-15--Mathias Bynens
-1	0	CONTRIBUTING.md
-
---83c327a--2019-10-10--Mathias Bynens
+--6a847341--2019-04-05--vue-bot
+1	1	BACKERS.md
 1	1	README.md
 
---4c62e09--2019-10-10--2kindsofcs
-1	1	lib/Launcher.js
+--a8184917--2019-04-05--Eduardo San Martin Morote
+2	2	.github/CONTRIBUTING.md
 
---7dbb108--2019-10-10--Darío Kondratiuk
-1	0	docs/api.md
+--94c0918f--2019-04-05--vue-bot
+2	22	BACKERS.md
+2	17	README.md
 
---5b34028--2019-10-10--Alexander Kachkaev
+--8637009b--2019-04-05--vue-bot
+47	48	BACKERS.md
+
+--6be3bf4a--2019-04-01--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--e90cc60c--2019-03-20--Evan You
 1	1	package.json
 
---dc57d03--2019-10-06--Chris B
-8	8	docs/api.md
+--e7b912a1--2019-03-20--Evan You
+36	18	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+36	18	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+36	18	dist/vue.esm.js
+36	18	dist/vue.js
+2	2	dist/vue.min.js
+35	17	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+35	17	dist/vue.runtime.esm.js
+35	17	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+36	11	packages/vue-server-renderer/basic.js
+36	11	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+1	1	packages/vue-template-compiler/browser.js
+1	1	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
 
---fff2737--2019-09-14--Mathias Bynens
-4	3	CONTRIBUTING.md
+--f11449d9--2019-03-20--Evan You
+2	1	src/platforms/web/runtime/modules/dom-props.js
 
---387a532--2019-09-14--Mathias Bynens
-1	1	docs/api.md
+--02d21c26--2019-03-20--Alexander Schwartz
+14	2	src/core/vdom/helpers/resolve-async-component.js
+64	0	test/unit/features/component/component-async.spec.js
+
+--bf5ceb75--2019-03-20--Brian McMillen
+4	2	packages/vue-template-compiler/index.js
+
+--df4af4bd--2019-03-19--Carlos Rodrigues
+1	1	types/options.d.ts
+15	0	types/test/options-test.ts
+
+--22790b25--2019-03-19--Evan You
+10	6	src/core/observer/scheduler.js
+
+--ebc1893f--2019-03-18--Evan You
+1	1	src/core/vdom/helpers/normalize-scoped-slots.js
+32	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--3433ba5b--2019-03-18--GU Yiling
+1	1	src/compiler/codegen/events.js
+5	0	test/unit/modules/compiler/codegen.spec.js
+
+--982d5a49--2019-03-18--Vitor Luiz Cavalcanti
+1	1	flow/vnode.js
+25	0	types/test/vue-test.ts
+1	1	types/vnode.d.ts
+
+--653c74e6--2019-03-15--GU Yiling
+12	10	src/core/observer/scheduler.js
+
+--43115e09--2019-03-14--Evan You
 1	1	package.json
 
---a5f03ce--2019-09-13--Mathias Bynens
-10	10	README.md
-2	4	docs/api.md
+--5bffed03--2019-03-14--Evan You
+34	20	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+34	20	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+34	20	dist/vue.esm.js
+34	20	dist/vue.js
+2	2	dist/vue.min.js
+33	19	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+33	19	dist/vue.runtime.esm.js
+33	19	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+24	20	packages/vue-server-renderer/basic.js
+26	22	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+1	1	packages/vue-template-compiler/browser.js
+1	1	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--f1bdd7ff--2019-03-14--GU Yiling
+1	1	src/compiler/parser/index.js
+44	5	test/unit/modules/compiler/parser.spec.js
+
+--4de4649d--2019-03-14--DSha
+1	1	examples/modal/index.html
+1	1	src/platforms/web/runtime/modules/transition.js
+115	3	test/unit/features/transition/transition.spec.js
+
+--d44cc20e--2019-03-14--Pengfei Yang
+0	1	scripts/alias.js
+
+--71869401--2019-03-14--Evan You
+4	3	src/core/util/error.js
+24	0	test/unit/modules/util/error.spec.js
+0	21	test/unit/modules/util/invoke-with-error-handling.spec.js
+
+--8082d2f9--2019-03-13--krystal
+2	2	src/core/vdom/helpers/resolve-async-component.js
+35	0	test/ssr/ssr-string.spec.js
+
+--7591b9dc--2019-03-13--Evan You
+4	2	src/platforms/web/runtime/modules/events.js
+
+--d2824000--2019-03-13--Xin Du (Clark)
+2	2	src/server/template-renderer/create-async-file-mapper.js
+
+--2747a657--2019-03-13--Decade
+0	12	test/unit/modules/observer/observer.spec.js
+
+--aa043347--2019-03-12--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--eafea313--2019-03-11--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--19c0f80d--2019-03-10--vue-bot
+53	59	BACKERS.md
+
+--ef2a380c--2019-03-11--Felix Bünemann
+1	1	src/core/observer/scheduler.js
+
+--781c7051--2019-03-09--Evan You
+4	2	src/core/vdom/helpers/normalize-scoped-slots.js
+13	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--9313cf91--2019-03-09--Evan You
+4	1	src/core/vdom/helpers/normalize-scoped-slots.js
+37	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--da77d6a9--2019-03-08--Felix Bünemann
+9	4	src/core/observer/scheduler.js
+
+--0b57380f--2019-03-09--GU Yiling
+5	3	src/core/instance/render-helpers/bind-object-props.js
+2	3	test/unit/features/directives/bind.spec.js
+
+--731e4d0e--2019-03-06--DSha
+2	2	types/options.d.ts
+7	0	types/test/vue-test.ts
+1	1	types/vue.d.ts
+
+--0c4c78bf--2019-03-05--vue-bot
+4	24	BACKERS.md
+4	19	README.md
+
+--6ad99796--2019-03-04--Jagannath Bhat
+1	1	.github/CODE_OF_CONDUCT.md
+5	5	.github/COMMIT_CONVENTION.md
+5	5	.github/CONTRIBUTING.md
+1	1	benchmarks/ssr/README.md
+1	1	benchmarks/uptime/index.html
+1	1	dist/README.md
+2	2	packages/vue-template-compiler/README.md
+
+--d123c7e4--2019-03-01--Evan You
 1	1	package.json
 
---f504c04--2019-09-12--Mathias Bynens
-1	1	test/page.spec.js
+--869a8197--2019-03-01--Evan You
+21	16	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+21	16	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+21	16	dist/vue.esm.js
+21	16	dist/vue.js
+2	2	dist/vue.min.js
+15	11	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+15	11	dist/vue.runtime.esm.js
+15	11	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+19	14	packages/vue-server-renderer/basic.js
+19	14	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+7	6	packages/vue-template-compiler/browser.js
+7	6	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
 
---e17d38c--2019-09-11--Maximilian Tagher
+--372d71cb--2019-03-01--ULIVZ
+1	1	packages/vue-template-compiler/README.md
+
+--cbad54aa--2019-03-01--Jason
+1	1	src/compiler/parser/html-parser.js
+2	1	src/compiler/parser/index.js
+5	0	test/unit/modules/compiler/compiler-options.spec.js
+
+--1574ade6--2019-03-01--Luxiaosong
+7	0	test/unit/features/instance/methods-events.spec.js
+
+--38825ff6--2019-02-28--Evan You
+18	0	test/ssr/ssr-string.spec.js
+
+--571a4880--2019-02-28--Evan You
+1	1	src/server/write.js
+
+--03c13de3--2019-02-28--Evan You
+2	2	src/core/vdom/helpers/resolve-async-component.js
+6	0	test/unit/modules/vdom/create-component.spec.js
+
+--ed341137--2019-02-28--Markus Oberlehner
+11	6	src/core/vdom/helpers/resolve-async-component.js
+
+--241eea19--2019-03-01--Kael
+4	0	types/test/options-test.ts
+5	1	types/vnode.d.ts
+2	2	types/vue.d.ts
+
+--f3330161--2019-03-01--Gcaufy
+3	0	types/test/vue-test.ts
+1	1	types/vue.d.ts
+
+--2277b232--2019-02-28--Evan You
+1	1	src/compiler/codegen/index.js
+
+--7912f75c--2019-03-01--Haoqun Jiang
+2	2	src/compiler/parser/html-parser.js
+2	2	src/core/util/lang.js
+2	2	src/core/util/options.js
+
+--060c3b98--2019-02-28--DSha
+1	1	src/compiler/parser/index.js
+78	0	test/unit/features/options/directives.spec.js
+
+--2ec5b640--2019-02-27--vue-bot
+1	1	BACKERS.md
 1	1	README.md
 
---9384359--2019-09-11--Vitalii Tverdokhlib
-1	1	docs/troubleshooting.md
-
---fca9d45--2019-09-10--Mathias Bynens
-1	1	CONTRIBUTING.md
-
---97ff359--2019-09-10--Mathias Bynens
-25	22	CONTRIBUTING.md
-
---c2651c2--2019-09-04--Yury Semikhatsky
-1	2	lib/FrameManager.js
-4	10	lib/NetworkManager.js
-
---73fd7ff--2019-09-04--Pavel Feldman
-73	0	docs/api.md
-10	22	lib/DOMWorld.js
-59	17	lib/JSHandle.js
-
---135bb42--2019-09-05--James George
-1	1	README.md
-
---cba0f98--2019-08-25--Artem Sheremet
-1	1	docs/troubleshooting.md
-
---07eaad9--2019-08-22--Joel Einbinder
-1	1	docs/api.md
-
---e0c8d46--2019-08-21--Yury Semikhatsky
-8	2	experimental/puppeteer-firefox/lib/Page.js
-3	0	experimental/puppeteer-firefox/lib/TimeoutSettings.js
-13	4	experimental/puppeteer-firefox/lib/helper.js
-8	2	lib/Page.js
-13	4	lib/helper.js
-17	0	test/launcher.spec.js
-13	0	test/page.spec.js
-
---faa4527--2019-08-17--Andrey Lushnikov
-1	1	utils/testrunner/package.json
-
---498492d--2019-08-15--Yury Semikhatsky
-7	0	test/evaluation.spec.js
-
---417981a--2019-08-15--Andrey Lushnikov
-3	3	experimental/puppeteer-firefox/lib/Page.js
-93	0	test/defaultbrowsercontext.spec.js
-1	0	test/puppeteer.spec.js
-
---b6b2950--2019-08-14--Andrey Lushnikov
-3	11	lib/Target.js
-1	1	package.json
-2	1	test/page.spec.js
-
---01b8880--2019-08-14--Andrey Lushnikov
-2	2	test/evaluation.spec.js
-
---f595bc0--2019-08-14--Andrey Lushnikov
-2	2	test/headful.spec.js
-
---f47ed16--2019-08-15--mittermayr
-24	0	lib/DeviceDescriptors.js
-
---0e0a679--2019-08-14--Andrey Lushnikov
-1	2	lib/Launcher.js
-1	1	package.json
-11	1	test/headful.spec.js
-
---ff6d2a3--2019-08-14--Vitalii Tverdokhlib
-15	15	docs/troubleshooting.md
-
---2871bcd--2019-08-13--Andrey Lushnikov
-1	0	utils/bisect.js
-
---d687c81--2019-08-13--Andrey Lushnikov
-4	2	test/utils.js
-
---5d2378f--2019-08-09--Andrey Lushnikov
-1	1	.travis.yml
-
---85bd4a8--2019-08-09--Andrey Lushnikov
-1	1	.appveyor.yml
-6	1	.travis.yml
-
---8f5117b--2019-08-09--Andrey Lushnikov
-4	4	.travis.yml
-
---d347fcb--2019-08-09--Andrey Lushnikov
-8	2	.travis.yml
-
---763e390--2019-08-08--Andrey Lushnikov
-4	1	test/utils.js
-6	0	utils/flakiness-dashboard/FlakinessDashboard.js
-
---608b15f--2019-08-08--Andrey Lushnikov
-3	0	utils/flakiness-dashboard/FlakinessDashboard.js
-
---f753ec6--2019-08-08--Andrey Lushnikov
-0	1	test/utils.js
-22	7	utils/testrunner/Reporter.js
-61	40	utils/testrunner/TestRunner.js
-151	63	utils/testrunner/test/testrunner.spec.js
-
---c047624--2019-08-07--Andrey Lushnikov
-3	3	test/utils.js
-
---656fe46--2019-08-07--Drew Powers
-29	6	docs/troubleshooting.md
-
---374177b--2019-08-06--Drew Powers
-9	0	docs/troubleshooting.md
-
---dcff850--2019-08-06--Andrey Lushnikov
-0	1	.appveyor.yml
-0	1	.cirrus.yml
-4	2	test/test.js
-8	4	test/utils.js
-44	115	utils/flakiness-dashboard/FlakinessDashboard.js
-
---b9b6ca1--2019-08-05--Darío Kondratiuk
-1	1	experimental/puppeteer-firefox/lib/NetworkManager.js
-4	2	lib/NetworkManager.js
-18	0	test/requestinterception.spec.js
-
---4acce55--2019-08-05--Joel Einbinder
-1	1	test/mouse.spec.js
-
---a95ec70--2019-08-05--Joel Einbinder
-1	0	test/coverage.spec.js
-
---f2056a8--2019-08-05--Joel Einbinder
-1	1	test/requestinterception.spec.js
-
---f4f2189--2019-08-02--ylb
-1	1	lib/Page.js
-
---eb44e26--2019-08-01--Darío Kondratiuk
-20	0	test/headful.spec.js
-0	1	test/test.js
-
---f733c33--2019-08-01--Andrey Lushnikov
-5	17	utils/flakiness-dashboard/FlakinessDashboard.js
-
---5c7c45f--2019-08-01--Andrey Lushnikov
-1	1	test/test.js
-19	13	test/utils.js
-
---7ee9af4--2019-08-01--Andrey Lushnikov
-6	0	.appveyor.yml
-
---e252dcf--2019-08-01--Andrey Lushnikov
-1	1	.cirrus.yml
-4	0	test/utils.js
-33	11	utils/flakiness-dashboard/FlakinessDashboard.js
-
---e2db16f--2019-08-01--Yury Semikhatsky
-2	2	test/evaluation.spec.js
-
---932c8cb--2019-07-31--Andrey Lushnikov
-4	0	.cirrus.yml
-3	0	test/test.js
-67	0	test/utils.js
-270	0	utils/flakiness-dashboard/FlakinessDashboard.js
-3	0	utils/flakiness-dashboard/index.js
-1	0	utils/node6-transform/index.js
-
---2f205a4--2019-07-30--Andrey Lushnikov
+--59d8579f--2019-02-21--Evan You
 1	1	package.json
 
---1b4a030--2019-07-30--Yury Semikhatsky
-5	1	test/evaluation.spec.js
+--875d6ac4--2019-02-21--Evan You
+101	49	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+99	45	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+101	49	dist/vue.esm.js
+101	49	dist/vue.js
+2	2	dist/vue.min.js
+61	38	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+61	38	dist/vue.runtime.esm.js
+61	38	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+86	36	packages/vue-server-renderer/basic.js
+86	36	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+40	11	packages/vue-template-compiler/browser.js
+40	11	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
 
---7406b18--2019-07-30--Andrey Lushnikov
+--7a8de91c--2019-02-21--Evan You
+7	5	src/compiler/codeframe.js
+
+--173042bb--2019-02-21--Evan You
+4	6	test/unit/modules/util/invoke-with-error-handling.spec.js
+
+--2f3020e9--2019-02-22--DSha
+3	1	src/core/util/error.js
+23	0	test/unit/modules/util/invoke-with-error-handling.spec.js
+
+--8a80a23e--2019-02-21--Evan You
+6	2	src/platforms/web/runtime/modules/dom-props.js
+22	0	test/unit/modules/vdom/patch/edge-cases.spec.js
+
+--cd3d202e--2019-02-21--Evan You
+7	9	src/platforms/web/runtime/modules/dom-props.js
+
+--7ec46279--2019-02-21--Evan You
+2	2	src/compiler/codegen/index.js
+6	5	src/core/instance/render-helpers/resolve-scoped-slots.js
+4	4	test/unit/modules/compiler/codegen.spec.js
+
+--d9b27a92--2019-02-20--Evan You
+28	5	src/compiler/codegen/index.js
+5	2	src/core/instance/lifecycle.js
+6	2	src/core/instance/render-helpers/resolve-scoped-slots.js
+6	2	src/core/vdom/helpers/normalize-scoped-slots.js
+30	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--b3bd3116--2019-02-20--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--9d4c972c--2019-02-20--vue-bot
+7	2	BACKERS.md
+7	2	README.md
+
+--8f004ea4--2019-02-18--Evan You
+9	3	src/compiler/codegen/index.js
+26	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--bb0aab66--2019-02-18--Evan You
 1	1	package.json
-10	3	utils/testrunner/TestRunner.js
-1	1	utils/testrunner/package.json
-15	0	utils/testrunner/test/test.js
-522	0	utils/testrunner/test/testrunner.spec.js
+170	173	yarn.lock
 
---3bbc45a--2019-07-29--Andrey Lushnikov
-11	5	utils/check_availability.js
-
---cc805e7--2019-07-29--Paul Irish
-1	1	experimental/puppeteer-firefox/README.md
-
---7fded54--2019-07-30--Yevhen
-1	1	docs/api.md
-
---7a60746--2019-07-29--Joel Einbinder
-2	16	test/headful.spec.js
-
---62f5dc7--2019-07-22--Andrey Lushnikov
-5	3	docs/api.md
+--1d331661--2019-02-18--Evan You
 1	1	package.json
+173	170	yarn.lock
 
---af0d229--2019-07-22--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
+--ee29e41e--2019-02-19--katashin
+20	12	src/core/util/error.js
+38	0	test/unit/features/options/errorCaptured.spec.js
 
---ea28ccc--2019-07-22--Andrey Lushnikov
-94	34	docs/api.md
-95	7	lib/Page.js
-1	0	lib/api.js
-5	2	lib/helper.js
-17	0	test/chromiumonly.spec.js
-188	3	test/input.spec.js
-
---2abaac1--2019-07-18--Yury Semikhatsky
-7	1	lib/Launcher.js
-10	0	test/fixtures.spec.js
-1	0	test/fixtures/dumpio.js
-
---3982a60--2019-07-18--Andrey Lushnikov
-1	1	utils/testrunner/package.json
-
---852c46c--2019-07-18--Andrey Lushnikov
-4	2	utils/testrunner/TestRunner.js
-
---835e884--2019-07-17--Andrey Lushnikov
-17	4	CONTRIBUTING.md
-5	1	test/test.js
-15	7	utils/testrunner/TestRunner.js
-
---934d73e--2019-07-16--Andrey Lushnikov
-2	2	utils/testrunner/Reporter.js
-
---eea55bd--2019-07-16--Andrey Lushnikov
-6	3	utils/testrunner/TestRunner.js
-
---ad18021--2019-07-15--Andrey Lushnikov
-1	0	lib/Launcher.js
-2	1	test/assets/simple-extension/index.js
-1	0	test/headful.spec.js
-
---f8616ed--2019-07-15--Andrey Lushnikov
-4	2	lib/PipeTransport.js
-
---c9977c8--2019-07-15--Andrey Lushnikov
-2	2	lib/FrameManager.js
-
---a39d553--2019-07-14--Yury Semikhatsky
-12	4	test/ignorehttpserrors.spec.js
-6	2	test/launcher.spec.js
-0	1	utils/testserver/index.js
-
---bafda9f--2019-07-15--Mohamed Akram
-3	1	lib/Launcher.js
-
---a582c11--2019-07-13--Andrey Lushnikov
-17	0	.ci/node10/Dockerfile.linux
-17	0	.ci/node12/Dockerfile.linux
-7	1	.cirrus.yml
-1	0	utils/testserver/index.js
-
---715aad2--2019-07-12--Yury Semikhatsky
-1	1	experimental/puppeteer-firefox/lib/ExecutionContext.js
-1	1	lib/ExecutionContext.js
-
---49b2795--2019-07-12--Joel Einbinder
-8	1	lib/USKeyboardLayout.js
-
---a17c727--2019-07-12--Andrey Lushnikov
-1	1	utils/testrunner/package.json
-
---8e0c2fa--2019-07-08--Andrey Lushnikov
+--a702d194--2019-02-11--Evan You
 1	1	package.json
 
---9ef4153--2019-07-01--Andrey Lushnikov
+--ac7a5bda--2019-02-11--Evan You
+25	4	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+25	4	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+25	4	dist/vue.esm.js
+25	4	dist/vue.js
+2	2	dist/vue.min.js
+2	2	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+2	2	dist/vue.runtime.esm.js
+2	2	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+23	2	packages/vue-server-renderer/basic.js
+23	2	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+23	2	packages/vue-template-compiler/browser.js
+23	2	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--29c348f3--2019-02-11--Evan You
+7	1	src/compiler/codegen/events.js
+10	10	test/unit/modules/compiler/codegen.spec.js
+
+--21fca2ff--2019-02-11--Evan You
+16	1	src/compiler/codegen/index.js
+28	1	test/unit/features/component/component-scoped-slot.spec.js
+
+--11deaa93--2019-02-11--Evan You
 1	1	package.json
 
---492132f--2019-06-29--Marc Jansen
-1	1	docs/api.md
+--1489b99f--2019-02-11--Evan You
+21	7	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+21	7	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+21	7	dist/vue.esm.js
+21	7	dist/vue.js
+2	2	dist/vue.min.js
+21	7	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+21	7	dist/vue.runtime.esm.js
+21	7	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+10	4	packages/vue-server-renderer/basic.js
+10	4	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+1	1	packages/vue-template-compiler/package.json
 
---a069a12--2019-06-29--jeremykerr-sp
-1	0	docs/troubleshooting.md
+--e7d49cdc--2019-02-10--Evan You
+2	2	src/core/vdom/helpers/normalize-scoped-slots.js
+16	0	test/unit/features/component/component-scoped-slot.spec.js
 
---2d99d85--2019-06-27--Andrey Sidorov
-1	1	experimental/puppeteer-firefox/lib/Page.js
+--060686d6--2019-02-10--Evan You
+8	2	src/core/vdom/helpers/normalize-scoped-slots.js
+25	0	test/unit/features/component/component-scoped-slot.spec.js
 
---4ccd52c--2019-06-26--Andrey Lushnikov
-4	2	docs/api.md
+--0bad7e2a--2019-02-09--Evan You
+9	1	src/platforms/web/runtime/modules/events.js
+
+--c1989500--2019-02-08--Evan You
 1	1	package.json
 
---a2cf81d--2019-06-26--Andrey Lushnikov
-10	10	README.md
-2	2	docs/api.md
+--dfb9fb17--2019-02-08--Evan You
+59	15	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+57	15	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+59	15	dist/vue.esm.js
+59	15	dist/vue.js
+2	2	dist/vue.min.js
+56	14	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+56	14	dist/vue.runtime.esm.js
+56	14	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+50	11	packages/vue-server-renderer/basic.js
+50	11	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+3	1	packages/vue-template-compiler/browser.js
+3	1	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--b2a093fa--2019-02-08--Evan You
+1	1	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--9011b83d--2019-02-08--Evan You
+3	1	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--8a800867--2019-02-08--Evan You
+9	1	src/core/vdom/create-functional-component.js
+15	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--099f3ba6--2019-02-08--Evan You
+2	1	src/core/instance/render.js
+11	3	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--7a0dfd0b--2019-02-08--Evan You
+1	1	src/core/vdom/create-functional-component.js
+
+--0e8560d0--2019-02-08--Evan You
+3	1	src/compiler/codegen/index.js
+4	0	src/core/instance/render-helpers/resolve-scoped-slots.js
+15	4	src/core/vdom/helpers/normalize-scoped-slots.js
+29	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--ca57920e--2019-02-07--Evan You
+5	1	src/core/util/error.js
+
+--57bc80a5--2019-02-07--Evan You
+5	2	src/core/vdom/helpers/normalize-scoped-slots.js
+25	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--4015debe--2019-02-06--JakeConnors376W
+18	18	.github/CONTRIBUTING.md
+
+--f9c83087--2019-02-06--Evan You
 1	1	package.json
 
---cf34583--2019-06-26--Andrey Lushnikov
+--6441eac4--2019-02-06--Evan You
+2107	2059	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+2115	2065	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+2116	2068	dist/vue.esm.js
+2107	2059	dist/vue.js
+2	2	dist/vue.min.js
+2061	2048	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+2079	2066	dist/vue.runtime.esm.js
+2061	2048	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+774	742	packages/vue-server-renderer/basic.js
+774	742	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+44	8	packages/vue-template-compiler/browser.js
+44	8	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--dae7e418--2019-02-06--Evan You
+6	1	src/platforms/web/runtime/modules/events.js
+
+--d5ade286--2019-02-06--Evan You
+3	11	src/core/vdom/helpers/normalize-scoped-slots.js
+1	19	test/unit/features/component/component-scoped-slot.spec.js
+
+--7bc88f30--2019-02-06--Evan You
+1	0	src/core/util/env.js
+7	2	src/platforms/web/runtime/modules/events.js
+
+--96a09aad--2019-02-06--Evan You
+8	1	src/compiler/codegen/index.js
+25	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--4d4d22a3--2019-02-06--Evan You
+26	4	src/compiler/codegen/index.js
+10	3	src/compiler/parser/index.js
+35	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--b6247fc9--2019-02-06--Evan You
+1	1	src/core/instance/render-helpers/index.js
+18	0	src/core/instance/render-helpers/resolve-scoped-slots.js
+0	17	src/core/instance/render-helpers/resolve-slots.js
+
+--24b4640c--2019-02-06--Evan You
+1	0	src/core/instance/lifecycle.js
+3	2	src/core/vdom/helpers/normalize-scoped-slots.js
+23	0	test/unit/features/component/component-scoped-slot.spec.js
+0	23	test/unit/modules/vdom/patch/edge-cases.spec.js
+
+--54e6a121--2019-02-06--Sebastian Krüger
+1	0	types/vue.d.ts
+
+--b9de23b1--2019-02-05--Evan You
+13	0	src/core/instance/render.js
+1	1	src/core/vdom/create-component.js
+10	9	src/core/vdom/helpers/resolve-async-component.js
+34	0	test/unit/features/component/component-scoped-slot.spec.js
+8	3	test/unit/modules/vdom/create-component.spec.js
+
+--2ef67f86--2019-02-06--katashin
+1	1	src/core/observer/scheduler.js
+
+--fdc5f036--2019-02-05--vue-bot
+0	5	BACKERS.md
+0	5	README.md
+
+--d06e3aff--2019-02-05--vue-bot
+80	63	BACKERS.md
+
+--ee9b684d--2019-02-04--Evan You
 1	1	package.json
 
---411347c--2019-06-20--Andrey Lushnikov
-1	1	docs/api.md
+--22795094--2019-02-04--Evan You
+21	10	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+19	10	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+21	10	dist/vue.esm.js
+21	10	dist/vue.js
+2	2	dist/vue.min.js
+16	8	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+16	8	dist/vue.runtime.esm.js
+16	8	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+19	8	packages/vue-server-renderer/basic.js
+19	8	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+5	2	packages/vue-template-compiler/browser.js
+5	2	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--44a4ca33--2019-02-04--Evan You
+5	2	src/compiler/codegen/index.js
+19	0	test/unit/features/component/component-scoped-slot.spec.js
+9	2	test/unit/modules/compiler/codegen.spec.js
+
+--0129b0eb--2019-02-04--Evan You
+11	3	src/core/vdom/helpers/normalize-scoped-slots.js
+19	1	test/unit/features/component/component-scoped-slot.spec.js
+
+--b034abf4--2019-02-04--Evan You
+1	2	src/core/vdom/create-component.js
+
+--1a6f7a57--2019-02-04--Evan You
 1	1	package.json
 
---c96454d--2019-06-20--Andrey Lushnikov
-10	10	README.md
-3	5	docs/api.md
+--6fb3a221--2019-02-04--Evan You
+26	20	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+26	20	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+26	20	dist/vue.esm.js
+26	20	dist/vue.js
+2	2	dist/vue.min.js
+8	7	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+8	7	dist/vue.runtime.esm.js
+8	7	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+22	16	packages/vue-server-renderer/basic.js
+22	16	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+18	13	packages/vue-template-compiler/browser.js
+18	13	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--66fd3c8d--2019-02-05--Bogdan Luca
+2	1	src/core/vdom/create-component.js
+26	0	test/unit/features/directives/model-component.spec.js
+
+--0fb03b78--2019-02-05--nciont
+2	2	src/platforms/web/runtime/modules/attrs.js
+17	1	test/unit/features/directives/model-text.spec.js
+
+--55bfb94a--2019-02-04--Filipe Amaral
+1	1	src/compiler/codegen/index.js
+14	7	test/unit/modules/compiler/codegen.spec.js
+
+--c27fe24d--2019-02-04--bughit
+4	3	src/compiler/parser/html-parser.js
+
+--1922e7d4--2019-02-04--Barthélémy Ledoux
+13	9	src/compiler/parser/index.js
+11	1	test/unit/modules/compiler/parser.spec.js
+
+--b6b42ca8--2019-02-04--Evan You
+1	1	src/core/util/error.js
+
+--85548310--2019-02-04--Evan You
 1	1	package.json
 
---45873ea--2019-06-15--Andrey Lushnikov
+--076dc8d8--2019-02-04--Evan You
+68	47	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+68	47	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+68	47	dist/vue.esm.js
+68	47	dist/vue.js
+2	2	dist/vue.min.js
+17	6	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+17	6	dist/vue.runtime.esm.js
+17	6	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+65	44	packages/vue-server-renderer/basic.js
+65	44	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+53	41	packages/vue-template-compiler/browser.js
+53	41	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--9b33f206--2019-02-02--vue-bot
+5	0	BACKERS.md
+5	0	README.md
+
+--64f863bb--2019-02-02--Evan You
+2	1	scripts/feature-flags.js
+4	2	src/compiler/parser/index.js
+29	25	test/unit/features/directives/bind.spec.js
+14	12	test/unit/modules/compiler/parser.spec.js
+
+--44a17ba2--2019-01-31--Evan You
+1	1	src/core/vdom/helpers/normalize-scoped-slots.js
+23	0	test/unit/modules/vdom/patch/edge-cases.spec.js
+
+--539e481f--2019-01-31--Filipe Amaral
+2	2	src/platforms/web/runtime/modules/style.js
+7	0	test/unit/features/directives/style.spec.js
+
+--e1db2c5b--2019-01-31--vue-bot
+6	1	BACKERS.md
+6	1	README.md
+
+--e632e9a0--2019-01-31--Evan You
+3	2	src/platforms/web/runtime/modules/attrs.js
+3	2	src/platforms/web/server/modules/attrs.js
+11	0	src/platforms/web/util/attrs.js
+8	8	test/unit/features/directives/bind.spec.js
+
+--6afd96f2--2019-01-30--Evan You
+3	3	src/compiler/parser/index.js
+
+--3edb9992--2019-01-30--Evan You
+7	0	src/compiler/parser/index.js
+14	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--2807fd24--2019-01-30--Evan You
+4	30	src/compiler/codegen/index.js
+31	11	src/compiler/parser/index.js
+18	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--5851961c--2019-01-30--Evan You
+17	4	src/compiler/codegen/index.js
+1	1	src/core/instance/render-helpers/resolve-slots.js
+2	2	test/unit/modules/compiler/codegen.spec.js
+
+--7721febc--2019-01-30--Evan You
 1	1	package.json
 
---955e7cb--2019-06-14--Andrey Lushnikov
-2	4	lib/Page.js
-1	34	lib/Tracing.js
-36	1	lib/helper.js
+--9f3cbafa--2019-01-30--Evan You
+26	9	dist/vue.common.dev.js
+2	2	dist/vue.common.prod.js
+26	9	dist/vue.esm.browser.js
+2	2	dist/vue.esm.browser.min.js
+27	10	dist/vue.esm.js
+26	9	dist/vue.js
+2	2	dist/vue.min.js
+2	2	dist/vue.runtime.common.dev.js
+2	2	dist/vue.runtime.common.prod.js
+2	2	dist/vue.runtime.esm.js
+2	2	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+24	7	packages/vue-server-renderer/basic.js
+24	7	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+24	7	packages/vue-template-compiler/browser.js
+25	8	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
 
---6c2007f--2019-06-15--MaxHorstmann
-1	1	README.md
+--2afa1d05--2019-01-30--Evan You
+14	14	scripts/config.js
 
---62733a2--2019-06-14--Andrey Lushnikov
-4	1	lib/WebSocketTransport.js
-4	0	test/evaluation.spec.js
+--c9e3a5d1--2019-01-28--Evan You
+2	1	src/compiler/parser/html-parser.js
+22	6	src/compiler/parser/index.js
+17	0	test/unit/modules/compiler/parser.spec.js
 
---5087962--2019-06-14--Andrey Lushnikov
+--624c7993--2019-01-25--Evan You
 1	1	package.json
 
---6860d73--2019-06-10--Andrey Lushnikov
-5	1	lib/NetworkManager.js
+--90f47d1b--2019-01-25--Evan You
+11667	0	dist/vue.common.dev.js
+6	0	dist/vue.common.prod.js
+11724	0	dist/vue.esm.browser.js
+6	0	dist/vue.esm.browser.min.js
+300	140	dist/vue.esm.js
+319	84	dist/vue.js
+2	2	dist/vue.min.js
+8269	0	dist/vue.runtime.common.dev.js
+6	0	dist/vue.runtime.common.prod.js
+91	28	dist/vue.runtime.esm.js
+91	28	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+294	69	packages/vue-server-renderer/basic.js
+325	77	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+229	57	packages/vue-template-compiler/browser.js
+210	113	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
 
---7922641--2019-06-11--Takahiro Nishino
-2	2	docs/api.md
-2	2	lib/Page.js
+--dbc05825--2019-01-25--Evan You
+11	1	flow/compiler.js
+1	0	flow/vnode.js
+18	9	src/compiler/codegen/events.js
+23	9	src/compiler/codegen/index.js
+37	13	src/compiler/helpers.js
+49	24	src/compiler/parser/index.js
+35	0	src/core/instance/render-helpers/bind-dynamic-keys.js
+3	0	src/core/instance/render-helpers/index.js
+1	0	src/core/vdom/modules/directives.js
+124	0	test/unit/features/directives/bind.spec.js
+117	0	test/unit/features/directives/on.spec.js
+22	0	test/unit/features/options/directives.spec.js
+10	10	test/unit/modules/compiler/codegen.spec.js
+7	2	test/unit/modules/compiler/parser.spec.js
+1	0	types/vnode.d.ts
 
---65b7e8e--2019-06-10--Andrey Lushnikov
-14	1	docs/api.md
+--8b8921b2--2019-01-25--Evan You
+1	0	flow/compiler.js
+1	0	flow/vnode.js
+1	1	src/compiler/codegen/index.js
+9	1	src/compiler/helpers.js
+7	2	src/compiler/parser/index.js
+1	0	src/core/vdom/modules/directives.js
+22	0	test/unit/features/options/directives.spec.js
+1	0	types/vnode.d.ts
 
---8df0b3e--2019-06-10--Andrey Lushnikov
-64	0	lib/NetworkManager.js
-13	0	test/requestinterception.spec.js
+--f219beda--2019-01-25--Evan You
+1	0	flow/compiler.js
+2	1	src/compiler/codegen/index.js
+11	7	src/compiler/parser/index.js
+15	5	src/core/instance/lifecycle.js
+4	3	src/core/instance/render-helpers/resolve-slots.js
+2	1	src/core/vdom/helpers/normalize-scoped-slots.js
+191	150	test/unit/features/component/component-scoped-slot.spec.js
+7	0	test/unit/modules/compiler/codegen.spec.js
 
---b2f9490--2019-06-10--Joel Einbinder
-9	11	lib/ExecutionContext.js
-8	0	test/evaluation.spec.js
+--2910d401--2019-01-25--Evan You
+1	1	src/compiler/codegen/events.js
+124	0	test/unit/features/directives/bind.spec.js
+117	0	test/unit/features/directives/on.spec.js
+10	10	test/unit/modules/compiler/codegen.spec.js
 
---6a50888--2019-06-10--Andrey Lushnikov
-13	4	experimental/puppeteer-firefox/lib/Input.js
-7	0	test/click.spec.js
+--49c6f29f--2019-01-25--Evan You
+1	0	flow/compiler.js
+6	0	src/compiler/codegen/index.js
+4	1	src/compiler/helpers.js
 
---e1432cc--2019-06-10--Andrey Lushnikov
-2	2	CONTRIBUTING.md
+--5b5f6663--2019-01-25--Evan You
+1	2	src/compiler/codegen/events.js
+1	1	src/compiler/helpers.js
+1	1	src/core/instance/render-helpers/index.js
+7	2	test/unit/modules/compiler/parser.spec.js
 
---dd6fcfe--2019-06-10--Philip Bergqvist
-13	4	lib/Input.js
+--2ba897eb--2019-01-25--Evan You
+1	1	src/compiler/helpers.js
 
---7faf1c9--2019-06-10--david weil
-15	6	lib/BrowserFetcher.js
+--5cb59b1f--2019-01-25--Evan You
+11	1	src/compiler/parser/index.js
 
---4bcdfc9--2019-06-09--Michael Oryl
-10	4	docs/api.md
+--d91a38ab--2019-01-25--Evan You
+1	0	flow/compiler.js
+2	1	src/compiler/codegen/index.js
+11	7	src/compiler/parser/index.js
+15	5	src/core/instance/lifecycle.js
+4	3	src/core/instance/render-helpers/resolve-slots.js
+2	1	src/core/vdom/helpers/normalize-scoped-slots.js
+191	150	test/unit/features/component/component-scoped-slot.spec.js
+7	0	test/unit/modules/compiler/codegen.spec.js
 
---aca99cd--2019-06-09--alea12
-1	1	docs/troubleshooting.md
+--c6f480ca--2019-01-24--Evan You
+9	1	flow/compiler.js
+18	8	src/compiler/codegen/events.js
+16	8	src/compiler/codegen/index.js
+25	12	src/compiler/helpers.js
+32	22	src/compiler/parser/index.js
+35	0	src/core/instance/render-helpers/bind-dynamic-keys.js
+3	0	src/core/instance/render-helpers/index.js
 
---90df69c--2019-06-07--Andrey Lushnikov
-17	9	lib/ExecutionContext.js
-8	0	test/evaluation.spec.js
-9	0	test/page.spec.js
+--770c6ed6--2019-01-24--Evan You
+5	8	src/platforms/web/runtime/modules/dom-props.js
 
---7e19846--2019-06-06--Andrey Lushnikov
+--18685614--2019-01-24--Evan You
+1	1	src/platforms/web/runtime/modules/dom-props.js
+46	30	test/unit/features/directives/model-checkbox.spec.js
+
+--8cb2069a--2019-01-24--Evan You
+1	1	test/unit/features/component/component-scoped-slot.spec.js
+3	3	test/unit/features/instance/properties.spec.js
+
+--32072e8a--2019-01-24--Evan You
+12	15	src/core/observer/scheduler.js
+
+--60a277ca--2019-01-23--Evan You
+2	2	src/platforms/web/runtime/modules/events.js
+
+--ba0ebd47--2019-01-23--Evan You
+27	1	src/core/observer/scheduler.js
+4	0	src/core/util/next-tick.js
+11	10	src/platforms/web/runtime/modules/events.js
+
+--ba9907c7--2019-01-23--Evan You
+3	3	BACKERS.md
+3	3	README.md
+
+--8d845724--2019-01-23--Evan You
+7	0	src/compiler/parser/index.js
+24	5	test/unit/features/component/component-scoped-slot.spec.js
+
+--67e85dea--2019-01-22--Evan You
+1	1	scripts/feature-flags.js
+21	12	src/compiler/parser/index.js
+7	7	test/unit/features/component/component-scoped-slot.spec.js
+
+--ec840320--2019-01-20--yong
+1	1	dist/README.md
+
+--6ca18bd0--2019-01-19--vue-bot
+6	1	BACKERS.md
+6	1	README.md
+
+--b0f2f830--2019-01-18--Evan You
+1	1	flow/options.js
+
+--42fdf3f8--2019-01-18--Evan You
+4	4	src/server/render.js
+1	1	src/shared/constants.js
+13	13	test/ssr/ssr-string.spec.js
+2	2	types/options.d.ts
+1	1	types/test/options-test.ts
+
+--df064ced--2019-01-18--Evan You
+62	0	test/ssr/ssr-template.spec.js
+
+--b65f6d78--2019-01-19--DominusVilicus
+19	5	src/server/create-renderer.js
+15	6	src/server/template-renderer/index.js
+
+--4fca0454--2019-01-16--Evan You
+60	58	src/compiler/parser/index.js
+31	19	test/unit/features/component/component-scoped-slot.spec.js
+
+--a47a0ee2--2019-01-16--Evan You
+4	2	scripts/release.sh
+
+--732bf878--2019-01-16--Evan You
 1	1	package.json
 
---f79d0a3--2019-06-05--Andrey Lushnikov
-0	2	lib/Launcher.js
+--e75c6230--2019-01-16--Evan You
+792	333	dist/vue.esm.js
+720	337	dist/vue.js
+2	2	dist/vue.min.js
+249	122	dist/vue.runtime.esm.js
+252	126	dist/vue.runtime.js
+2	2	dist/vue.runtime.min.js
+729	277	packages/vue-server-renderer/basic.js
+753	277	packages/vue-server-renderer/build.dev.js
+1	1	packages/vue-server-renderer/build.prod.js
+1	1	packages/vue-server-renderer/package.json
+556	252	packages/vue-template-compiler/browser.js
+630	250	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
 
---15804d1--2019-06-04--Andrey Lushnikov
-1	1	test/requestinterception.spec.js
+--730a10f7--2019-01-15--Evan You
+1	0	packages/vue-server-renderer/types/index.d.ts
+1	0	packages/vue-template-compiler/types/index.d.ts
+6	2	packages/vue-template-compiler/types/test.ts
 
---78d5106--2019-06-04--Andrey Lushnikov
-1	1	package.json
-10	0	test/assets/dynamic-oopif.html
-15	10	test/oopif.spec.js
+--7fb6fdd1--2019-01-15--Evan You
+7	2	scripts/config.js
+3	0	scripts/feature-flags.js
+16	14	src/compiler/parser/index.js
+1	1	src/core/vdom/helpers/normalize-scoped-slots.js
+126	124	test/unit/features/component/component-scoped-slot.spec.js
+3	1	test/unit/karma.base.config.js
 
---f52738e--2019-06-03--Andrey Lushnikov
-8	4	docs/api.md
+--0cf6aadd--2019-01-15--Evan You
+6	2	src/core/vdom/helpers/normalize-scoped-slots.js
+5	1	types/test/options-test.ts
+2	4	types/vnode.d.ts
 
---94ff4de--2019-06-02--Vitalii Tverdokhlib
-1	1	docs/troubleshooting.md
+--9ae80acd--2019-01-15--Evan You
+1	1	src/core/util/perf.js
 
---ac611ba--2019-05-31--Adriel Codeco
-2	1	experimental/puppeteer-firefox/lib/helper.js
-2	1	lib/helper.js
+--c5c354d5--2019-01-14--Evan You
+14	0	src/compiler/helpers.js
+44	12	src/compiler/parser/index.js
+60	0	test/unit/features/component/component-scoped-slot.spec.js
 
---d221c02--2019-05-31--Andrey Lushnikov
-14	0	test/requestinterception.spec.js
+--aef5b4e4--2019-01-12--Evan You
+2	1	src/platforms/web/server/modules/style.js
+3	2	test/ssr/ssr-string.spec.js
 
---015e330--2019-05-29--Andrey Lushnikov
-56	0	test/oopif.spec.js
-1	0	test/puppeteer.spec.js
+--584e89da--2019-01-12--Evan You
+78	40	src/compiler/parser/index.js
+101	0	test/unit/features/component/component-scoped-slot.spec.js
 
---111350c--2019-05-29--Jasmine Hegman
-4	4	docs/troubleshooting.md
+--4f61d5b7--2019-01-12--Evan You
+1	1	src/compiler/codegen/index.js
 
---084cf02--2019-05-24--Andrey Lushnikov
-5	3	docs/api.md
-1	1	package.json
+--bc97ff95--2019-01-12--Evan You
+3	11078	dist/vue.common.js
+3	8103	dist/vue.runtime.common.js
 
---1840ef0--2019-05-24--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
+--794ad0da--2019-01-11--Evan You
+3	4	src/compiler/parser/index.js
+1	1	test/unit/features/component/component-scoped-slot.spec.js
 
---76b24e6--2019-05-22--Andrey Lushnikov
-3	3	experimental/puppeteer-firefox/lib/DOMWorld.js
-3	3	lib/DOMWorld.js
-1	1	package.json
-1	1	test/evaluation.spec.js
+--6a2994e8--2019-01-11--Evan You
+1	8	flow/compiler.js
+1	1	src/compiler/codegen/index.js
+1	2	src/compiler/optimizer.js
+7	76	src/compiler/parser/index.js
+0	88	test/unit/features/component/component-scoped-slot.spec.js
 
---cbecfba--2019-05-21--Andreas Tolfsen
-95	95	test/assets/csscoverage/OFL.txt
-
---bad98ba--2019-05-21--Darío Kondratiuk
-2	2	test/browser.spec.js
-1	1	test/browsercontext.spec.js
-2	2	test/launcher.spec.js
-
---90a1032--2019-05-20--Jake Causon
-2	2	docs/api.md
-1	1	lib/NetworkManager.js
-17	0	test/requestinterception.spec.js
-
---3f19bd5--2019-05-19--Aos
-1	1	docs/troubleshooting.md
-
---60249e0--2019-05-18--Sergio M
-1	1	experimental/puppeteer-firefox/lib/DOMWorld.js
-1	1	lib/DOMWorld.js
-12	0	test/page.spec.js
-
---3f23bb0--2019-05-18--Andrey Lushnikov
-4	0	test/evaluation.spec.js
-
---8a1c249--2019-05-18--Andrey Lushnikov
-9	0	test/click.spec.js
-
---f7bac6e--2019-05-18--calvinballing
-1	1	README.md
-
---ba7d0a9--2019-05-18--Andrey Lushnikov
-19	8	CONTRIBUTING.md
-
---0490649--2019-05-14--Andrey Lushnikov
-4	2	docs/api.md
+--6fe07ebf--2019-01-11--Evan You
+--99343f9b--2019-01-11--Evan You
 1	1	package.json
 
---9f2635c--2019-05-14--Andrey Lushnikov
-10	10	README.md
-3	5	docs/api.md
+--06dbb2ab--2019-01-11--Evan You
+36	43	dist/vue.common.js
+36	43	dist/vue.esm.js
+36	43	dist/vue.js
+3	3	dist/vue.min.js
+36	43	dist/vue.runtime.common.js
+36	43	dist/vue.runtime.esm.js
+36	43	dist/vue.runtime.js
+3	3	dist/vue.runtime.min.js
+28	29	packages/vue-server-renderer/basic.js
+29	30	packages/vue-server-renderer/build.js
+1	1	packages/vue-server-renderer/package.json
+24	7	packages/vue-template-compiler/browser.js
+24	7	packages/vue-template-compiler/build.js
+1	1	packages/vue-template-compiler/package.json
+
+--7ac8f63a--2019-01-11--Evan You
+0	11049	dist/vue.common.dev.js
+0	6	dist/vue.common.prod.js
+0	10733	dist/vue.esm.browser.js
+0	6	dist/vue.esm.browser.min.js
+0	8084	dist/vue.runtime.common.dev.js
+0	6	dist/vue.runtime.common.prod.js
+
+--0d2e9c46--2019-01-11--Evan You
+1	21	src/core/instance/init.js
+15	2	src/core/util/options.js
+27	0	test/unit/features/global-api/mixin.spec.js
+21	17	test/unit/features/options/mixins.spec.js
+
+--edf7df0c--2019-01-11--Evan You
+1	21	src/core/instance/init.js
+15	2	src/core/util/options.js
+27	0	test/unit/features/global-api/mixin.spec.js
+21	17	test/unit/features/options/mixins.spec.js
+
+--743edacd--2019-01-11--hikerpig
+2	2	src/core/util/options.js
+28	0	test/unit/features/options/mixins.spec.js
+
+--d21e9313--2019-01-11--Adrien Baron
+2	0	src/core/vdom/helpers/resolve-async-component.js
+26	0	test/unit/modules/vdom/create-component.spec.js
+
+--17d8bcb6--2019-01-11--Evan You
+4	11	src/platforms/web/server/modules/style.js
+4	4	test/ssr/ssr-string.spec.js
+
+--7d9cfebe--2019-01-11--Evan You
+22	3	src/platforms/web/server/modules/style.js
+45	0	src/platforms/web/server/util.js
+0	1	src/platforms/web/util/style.js
+41	0	test/ssr/ssr-string.spec.js
+
+--fe2b27ff--2019-01-10--Evan You
+2	0	flow/global-api.js
+1	1	src/core/global-api/index.js
+3	0	types/test/vue-test.ts
+2	0	types/vue.d.ts
+
+--142cf6c4--2019-01-10--Evan You
+32	5	packages/vue-template-compiler/types/index.d.ts
+25	0	packages/vue-template-compiler/types/test.ts
+
+--a4ed58c0--2019-01-10--Evan You
+12	0	packages/vue-template-compiler/README.md
+1	0	src/platforms/web/entry-compiler.js
+1	0	src/platforms/weex/entry-compiler.js
+
+--53716177--2019-01-11--hikerpig
+2	2	src/core/util/options.js
+28	0	test/unit/features/options/mixins.spec.js
+
+--c50bbde4--2019-01-10--Evan You
+7	0	src/core/global-api/index.js
+30	0	test/unit/features/global-api/observable.spec.js
+
+--ce7ca7bd--2019-01-10--Evan You
+1	1	src/platforms/web/runtime/modules/events.js
+
+--3a1a9359--2019-01-10--Evan You
+3	1	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--3504d7f6--2019-01-10--Evan You
+0	10	src/core/config.js
+25	114	src/platforms/web/runtime/modules/events.js
+0	5	test/e2e/specs/async-edge-cases.html
+0	1	types/test/vue-test.ts
+0	1	types/vue.d.ts
+
+--90fe7490--2019-01-10--Evan You
+1	0	.circleci/config.yml
+
+--b32c4b69--2019-01-10--Evan You
+5	1	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--d8550277--2019-01-10--Evan You
+1	1	src/compiler/parser/index.js
+25	2	test/unit/features/component/component-scoped-slot.spec.js
+
+--1e5174d2--2019-01-10--Evan You
+1	1	src/core/util/lang.js
+6	0	test/unit/features/component/component-scoped-slot.spec.js
+32	0	test/unit/features/options/watch.spec.js
+
+--8b382b3e--2019-01-09--Evan You
+1	1	src/core/util/lang.js
+
+--5fb23d4e--2019-01-09--Evan You
+3	1	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--4c2c6f03--2019-01-09--Evan You
 1	1	package.json
 
---a3cb163--2019-05-10--Joel Einbinder
-1	0	docs/api.md
-37	6	lib/Accessibility.js
-57	0	test/accessibility.spec.js
-
---b3027a6--2019-05-09--Andrey Lushnikov
-7	0	test/page.spec.js
-
---5f66d82--2019-05-09--melissachang
-36	12	README.md
-
---a0b54f0--2019-05-10--James Ross
-1	1	docs/troubleshooting.md
-
---1516e0d--2019-05-09--Joel Einbinder
-8	2	docs/api.md
-27	2	lib/Target.js
-16	0	test/target.spec.js
-
---ef24c69--2019-05-09--Andrey Lushnikov
-2	2	docs/api.md
-3	3	lib/Tracing.js
-6	0	test/tracing.spec.js
-
---9a2fb2a--2019-05-09--Leandro Carlos Romero
-6	0	docs/troubleshooting.md
-
---de18c0e--2019-05-09--Harald Kirschner
-5	3	experimental/puppeteer-firefox/README.md
-
---511dcf9--2019-05-09--Tony Brix
-7	0	docs/api.md
-7	0	experimental/puppeteer-firefox/lib/Browser.js
-7	0	lib/Browser.js
-10	0	test/browser.spec.js
-
---13f73b5--2019-05-06--Andrey Lushnikov
-1	1	package.json
-1	1	test/page.spec.js
-
---1de9906--2019-04-30--Andrey Lushnikov
-31	1	test/cookies.spec.js
-
---27c9f75--2019-04-30--Andrey Lushnikov
-3	3	experimental/puppeteer-firefox/lib/DOMWorld.js
-3	3	lib/DOMWorld.js
-4	0	test/page.spec.js
-
---e2e6b88--2019-04-28--Andrey Lushnikov
-1	1	docs/api.md
-1	1	lib/Page.js
-1	1	package.json
-1	3	test/evaluation.spec.js
-4	2	test/navigation.spec.js
-
---f3db28c--2019-04-26--Andrey Lushnikov
-14	0	test/requestinterception.spec.js
-
---d64f700--2019-04-26--Joel Einbinder
-2	2	docs/api.md
-
---1e29e5b--2019-04-26--Andrey Lushnikov
-6	3	docs/api.md
-1	1	package.json
-
---b9f4a95--2019-04-25--Andrey Lushnikov
-10	10	README.md
-1	1	docs/api.md
-1	1	package.json
-
---06fdcae--2019-04-24--Stopkin Sergey
-1	2	docs/troubleshooting.md
-
---5e21ba3--2019-04-22--Andrey Lushnikov
-46	22	lib/DeviceDescriptors.js
-
---2d53651--2019-04-22--Darío Kondratiuk
-2	0	.gitattributes
-
---770411b--2019-04-19--Andrey Lushnikov
-12	0	test/requestinterception.spec.js
-
---e3abb0a--2019-04-19--Andrey Lushnikov
-13	809	DeviceDescriptors.js
-52	31	docs/api.md
-13	809	experimental/puppeteer-firefox/DeviceDescriptors.js
-824	0	experimental/puppeteer-firefox/lib/DeviceDescriptors.js
-32	0	experimental/puppeteer-firefox/lib/Puppeteer.js
-824	0	lib/DeviceDescriptors.js
-16	0	lib/Puppeteer.js
-2	3	test/browsercontext.spec.js
-3	4	test/click.spec.js
-4	6	test/emulation.spec.js
-12	1	test/launcher.spec.js
-5	6	test/navigation.spec.js
-8	11	test/page.spec.js
-0	4	test/puppeteer.spec.js
-2	3	test/target.spec.js
-2	2	test/touchscreen.spec.js
-0	7	test/utils.js
-5	6	test/waittask.spec.js
-13	3	utils/doclint/check_public_api/Documentation.js
-6	3	utils/doclint/generate_types/index.js
-
---dde55b0--2019-04-19--Darío Kondratiuk
-3	1	test/chromiumonly.spec.js
-
---2b68c10--2019-04-18--asteinha
-0	1	lib/Launcher.js
-
---3def8a2--2019-04-18--Andrey Lushnikov
-1	5	README.md
-
---0c4d53b--2019-04-18--Andrey Lushnikov
-9	0	test/page.spec.js
-
---a8ffdad--2019-04-13--Andrey Lushnikov
-1	1	package.json
-1	1	test/click.spec.js
-
---145e868--2019-04-13--Andrey Lushnikov
-13	0	test/click.spec.js
-
---8f8e774--2019-04-11--Andrey Lushnikov
-0	470	test/network.spec.js
-1	0	test/puppeteer.spec.js
-497	0	test/requestinterception.spec.js
-
---5ee21d9--2019-04-11--Andrey Lushnikov
-21	4	lib/JSHandle.js
-13	0	test/click.spec.js
-
---2098877--2019-04-11--Andrey Lushnikov
-7	0	lib/DOMWorld.js
-6	2	lib/FrameManager.js
-13	0	test/launcher.spec.js
-
---2265974--2019-04-11--Andrey Lushnikov
-65	113	lib/NetworkManager.js
-
---a79b775--2019-04-11--Travis Weidenbenner
-1	1	lib/Launcher.js
-
---08e9a4d--2019-04-11--Sergey Bekrin
-3	1	lib/Launcher.js
-
---19606a3--2019-04-10--Andrey Lushnikov
-24	8	lib/FrameManager.js
-1	2	lib/LifecycleWatcher.js
-24	2	lib/NetworkManager.js
-17	44	lib/Page.js
-12	0	test/page.spec.js
-
---2a7c3fe--2019-04-08--Andrey Lushnikov
-0	2	lib/Launcher.js
-1	1	package.json
-
---54cce43--2019-04-08--Andrey Lushnikov
-1	1	.travis.yml
-
---0eb256b--2019-04-08--Andrey Lushnikov
-1	1	.travis.yml
-
---fd0f58e--2019-04-08--Joseph Arhar
-8	50	lib/NetworkManager.js
-1	1	test/network.spec.js
-
---9d31068--2019-04-08--Andrey Lushnikov
-2	0	lib/Launcher.js
-1	1	package.json
-2	0	test/page.spec.js
-
---080b809--2019-04-04--Andrey Lushnikov
-30	1	CONTRIBUTING.md
-2	1	utils/doclint/cli.js
-
---67fbf46--2019-04-03--Andrey Lushnikov
-1	1	package.json
-
---1b8769d--2019-04-02--Andrey Lushnikov
-20	2	docs/troubleshooting.md
-
---695b30a--2019-04-02--Neil Halelamien
-12	16	docs/troubleshooting.md
-
---66ff492--2019-04-02--John Youngblood
-1	1	docs/api.md
-
---0adffcc--2019-04-02--Andrey Lushnikov
-1	0	docs/api.md
-17	0	docs/troubleshooting.md
-2	1	utils/doclint/cli.js
-14	3	utils/doclint/preprocessor/index.js
-36	0	utils/doclint/preprocessor/test.js
-
---2c6df6d--2019-03-28--Andrey Lushnikov
-3	3	docs/api.md
-1	1	package.json
-
---3fa91ca--2019-03-28--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
-
---26d6e91--2019-03-26--Alex Sergeyev
-6	5	docs/troubleshooting.md
-
---72866e9--2019-03-20--Darío Kondratiuk
-4	4	test/cookies.spec.js
-
---0d0e620--2019-03-19--Andrey Lushnikov
-3	3	docs/api.md
-
---c6c3249--2019-03-19--Andrey Lushnikov
-1	1	package.json
-
---11afadc--2019-03-19--Stephan Rodemeier
-14	5	install.js
-
---28bab53--2019-03-19--Fabio Picheli
-3	2	docs/troubleshooting.md
-
---6056757--2019-03-15--Andrey Lushnikov
-11	0	test/frame.spec.js
-
---854b1c0--2019-03-15--Vse Mozhet Byt
-5	3	docs/api.md
-2	0	lib/ExecutionContext.js
-2	0	lib/helper.js
-10	0	test/evaluation.spec.js
-1	1	tsconfig.json
-
---27cf859--2019-03-14--Andrey Lushnikov
-2	0	docs/api.md
-
---3511a35--2019-03-13--Andrey Lushnikov
-1	1	.eslintrc.js
-1	1	package.json
-5	1	test/fixtures.spec.js
-8	2	utils/node6-transform/index.js
-
---808d1bb--2019-03-13--Andrey Lushnikov
-4	1	docs/api.md
-
---0c8ace2--2019-03-12--Joel Einbinder
-2	0	lib/FrameManager.js
-
---26abcda--2019-03-12--Alix Axel
-1	2	docs/troubleshooting.md
-
---6474b3f--2019-03-11--Andrey Lushnikov
-19	0	test/page.spec.js
-
---e3a4f34--2019-03-11--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-
---42351c7--2019-03-08--Andrey Lushnikov
-8	1	experimental/puppeteer-firefox/lib/NetworkManager.js
-1	1	experimental/puppeteer-firefox/package.json
-4	4	test/network.spec.js
-4	1	utils/testserver/index.js
-
---5d6535c--2019-03-08--Darío Kondratiuk
-1	1	test/network.spec.js
-
---87a8d74--2019-03-06--Andrey Lushnikov
-11	0	test/click.spec.js
-
---1623bef--2019-03-05--Andrey Lushnikov
-1	1	docs/api.md
-60	14	test/network.spec.js
-5	0	utils/testserver/index.js
-
---f32d77e--2019-03-04--Joel Einbinder
-1	0	test/launcher.spec.js
-
---7462bda--2019-03-04--Andrey Lushnikov
-4	2	docs/api.md
-1	1	package.json
-
---77a9694--2019-03-04--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
-
---ba5f94d--2019-03-04--Joel Einbinder
-2	1	test/launcher.spec.js
-
---02b2451--2019-03-04--Joel Einbinder
-1	1	experimental/puppeteer-firefox/lib/helper.js
-1	1	lib/helper.js
-
---9db09fe--2019-03-04--Andrey Lushnikov
-19	1	test/network.spec.js
-
---c68df32--2019-03-04--Andrey Lushnikov
-12	0	test/network.spec.js
-
---02859c3--2019-03-04--Andrey Lushnikov
-2	1	lib/Launcher.js
-1	1	package.json
-
---bc28f3b--2019-03-04--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/lib/BrowserFetcher.js
-
---c9f6a3d--2019-02-28--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/package.json
-
---a6d8ecc--2019-02-27--Joel Einbinder
-0	3	experimental/puppeteer-firefox/lib/Input.js
-1	1	experimental/puppeteer-firefox/package.json
-0	2	test/assets/input/keyboard.html
-35	10	test/keyboard.spec.js
-2	1	test/mouse.spec.js
-
---e8a4963--2019-02-26--Andrey Lushnikov
-10	0	test/CDPSession.spec.js
-0	11	test/input.spec.js
-0	11	test/page.spec.js
-
---dae998e--2019-02-26--Andrey Lushnikov
-2	5	experimental/puppeteer-firefox/lib/Page.js
-
---9ef23b1--2019-02-26--Andrey Lushnikov
-62	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-2	8	lib/Page.js
-1	1	test/browsercontext.spec.js
-191	52	test/cookies.spec.js
-12	10	test/network.spec.js
-
---03d06f5--2019-02-25--Joel Einbinder
-322	0	experimental/puppeteer-firefox/lib/Accessibility.js
-8	2	experimental/puppeteer-firefox/lib/Page.js
-1	0	experimental/puppeteer-firefox/lib/api.js
-1	1	experimental/puppeteer-firefox/package.json
-153	50	test/accessibility.spec.js
-1	1	test/puppeteer.spec.js
-
---f21486f--2019-02-25--Andrey Lushnikov
-10	0	experimental/puppeteer-firefox/lib/DOMWorld.js
-7	0	experimental/puppeteer-firefox/lib/FrameManager.js
-40	1	experimental/puppeteer-firefox/lib/Input.js
-6	0	experimental/puppeteer-firefox/lib/JSHandle.js
-13	1	experimental/puppeteer-firefox/lib/Page.js
-1	0	experimental/puppeteer-firefox/lib/api.js
-1	1	experimental/puppeteer-firefox/package.json
-6	3	test/touchscreen.spec.js
-
---3541b89--2019-02-25--Andrey Lushnikov
-23	1	test/browser.spec.js
-98	12	test/chromiumonly.spec.js
-0	39	test/firefoxonly.spec.js
-0	79	test/launcher.spec.js
-0	19	test/network.spec.js
-4	3	test/puppeteer.spec.js
-
---77a4ea5--2019-02-25--Andrey Lushnikov
-824	0	experimental/puppeteer-firefox/DeviceDescriptors.js
-65	0	test/fixtures.spec.js
-1	3	test/fixtures/dumpio.js
-0	33	test/launcher.spec.js
-7	1	test/puppeteer.spec.js
-2	6	test/test.js
-
---d04a8d5--2019-02-25--Andrey Lushnikov
-615	0	experimental/puppeteer-firefox/lib/DOMWorld.js
-26	454	experimental/puppeteer-firefox/lib/FrameManager.js
-2	1	experimental/puppeteer-firefox/package.json
-
---4ecbd91--2019-02-24--Andrey Lushnikov
-13	6	experimental/puppeteer-firefox/lib/ExecutionContext.js
-53	7	experimental/puppeteer-firefox/lib/FrameManager.js
-8	4	experimental/puppeteer-firefox/lib/JSHandle.js
-5	4	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/evaluation.spec.js
-
---56dafd7--2019-02-24--Andrey Lushnikov
-48	3	experimental/puppeteer-firefox/lib/NetworkManager.js
-6	0	experimental/puppeteer-firefox/misc/puppeteer.cfg
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/navigation.spec.js
-79	49	test/network.spec.js
-17	2	utils/testserver/index.js
-
---3bea5d6--2019-02-22--Andrey Lushnikov
-24	0	experimental/puppeteer-firefox/lib/Browser.js
-1	1	experimental/puppeteer-firefox/package.json
-22	3	test/page.spec.js
-
---f1a14fe--2019-02-22--Andrey Lushnikov
-13	0	experimental/puppeteer-firefox/lib/JSHandle.js
-4	0	experimental/puppeteer-firefox/misc/puppeteer.cfg
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/input.spec.js
-
---1315dc8--2019-02-22--Andrey Lushnikov
-9	1	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-6	3	test/elementhandle.spec.js
-1	1	test/emulation.spec.js
-1	1	test/evaluation.spec.js
-
---5c81836--2019-02-22--Andrey Lushnikov
-87	1	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	lib/Page.js
-1	1	test/page.spec.js
-
---7d39aca--2019-02-21--Andrey Lushnikov
-11	5	test/keyboard.spec.js
-
---ed984ac--2019-02-21--Andrey Lushnikov
-0	7	experimental/puppeteer-firefox/completeness.sh
-0	25	experimental/puppeteer-firefox/package.json
-0	11	experimental/puppeteer-firefox/test/assets/consolelog.html
-0	1	experimental/puppeteer-firefox/test/assets/csp.html
-0	12	experimental/puppeteer-firefox/test/assets/detect-touch.html
--	-	experimental/puppeteer-firefox/test/assets/digits/0.png
--	-	experimental/puppeteer-firefox/test/assets/digits/1.png
--	-	experimental/puppeteer-firefox/test/assets/digits/2.png
--	-	experimental/puppeteer-firefox/test/assets/digits/3.png
--	-	experimental/puppeteer-firefox/test/assets/digits/4.png
--	-	experimental/puppeteer-firefox/test/assets/digits/5.png
--	-	experimental/puppeteer-firefox/test/assets/digits/6.png
--	-	experimental/puppeteer-firefox/test/assets/digits/7.png
--	-	experimental/puppeteer-firefox/test/assets/digits/8.png
--	-	experimental/puppeteer-firefox/test/assets/digits/9.png
-0	0	experimental/puppeteer-firefox/test/assets/empty.html
-0	0	experimental/puppeteer-firefox/test/assets/empty2.html
-0	15	experimental/puppeteer-firefox/test/assets/error.html
-0	2	experimental/puppeteer-firefox/test/assets/es6/es6import.js
-0	1	experimental/puppeteer-firefox/test/assets/es6/es6module.js
-0	2	experimental/puppeteer-firefox/test/assets/es6/es6pathimport.js
-0	8	experimental/puppeteer-firefox/test/assets/frames/frame.html
-0	8	experimental/puppeteer-firefox/test/assets/frames/frameset.html
-0	25	experimental/puppeteer-firefox/test/assets/frames/nested-frames.html
-0	1	experimental/puppeteer-firefox/test/assets/frames/one-frame.html
-0	1	experimental/puppeteer-firefox/test/assets/frames/script.js
-0	3	experimental/puppeteer-firefox/test/assets/frames/style.css
-0	13	experimental/puppeteer-firefox/test/assets/frames/two-frames.html
-0	3	experimental/puppeteer-firefox/test/assets/global-var.html
-0	52	experimental/puppeteer-firefox/test/assets/grid.html
-0	2	experimental/puppeteer-firefox/test/assets/injectedfile.js
-0	3	experimental/puppeteer-firefox/test/assets/injectedstyle.css
-0	16	experimental/puppeteer-firefox/test/assets/input/button.html
-0	42	experimental/puppeteer-firefox/test/assets/input/checkbox.html
-0	44	experimental/puppeteer-firefox/test/assets/input/keyboard.html
-0	23	experimental/puppeteer-firefox/test/assets/input/scrollable.html
-0	69	experimental/puppeteer-firefox/test/assets/input/select.html
-0	15	experimental/puppeteer-firefox/test/assets/input/textarea.html
-0	1	experimental/puppeteer-firefox/test/assets/mobile.html
-0	3	experimental/puppeteer-firefox/test/assets/modernizr.js
-0	36	experimental/puppeteer-firefox/test/assets/offscreenbuttons.html
-0	3	experimental/puppeteer-firefox/test/assets/one-style.css
-0	2	experimental/puppeteer-firefox/test/assets/one-style.html
-0	3	experimental/puppeteer-firefox/test/assets/tamperable.html
-0	1	experimental/puppeteer-firefox/test/assets/title.html
-0	32	experimental/puppeteer-firefox/test/assets/wrappedlink.html
-0	30	experimental/puppeteer-firefox/test/browser.spec.js
-0	160	experimental/puppeteer-firefox/test/browsercontext.spec.js
-0	24	experimental/puppeteer-firefox/test/chromiumonly.spec.js
-0	211	experimental/puppeteer-firefox/test/click.spec.js
-0	39	experimental/puppeteer-firefox/test/dialog.spec.js
-0	103	experimental/puppeteer-firefox/test/elementhandle.spec.js
-0	86	experimental/puppeteer-firefox/test/emulation.spec.js
-0	181	experimental/puppeteer-firefox/test/evaluation.spec.js
-0	24	experimental/puppeteer-firefox/test/firefoxonly.spec.js
-0	137	experimental/puppeteer-firefox/test/frame.spec.js
--	-	experimental/puppeteer-firefox/test/golden-chromium/grid-cell-0.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/grid-cell-1.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-clip-odd-size.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-clip-rect.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-bounding-box.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-larger-than-viewport.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-padding-border.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-rotate.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-element-scrolled-into-view.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-grid-fullpage.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-offscreen-clip.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/screenshot-sanity.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/transparent.png
--	-	experimental/puppeteer-firefox/test/golden-chromium/white.jpg
--	-	experimental/puppeteer-firefox/test/golden-firefox/grid-cell-0.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/grid-cell-1.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-clip-odd-size.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-clip-rect.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-bounding-box.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-larger-than-viewport.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-padding-border.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-rotate.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-element-scrolled-into-view.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-grid-fullpage.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-offscreen-clip.png
--	-	experimental/puppeteer-firefox/test/golden-firefox/screenshot-sanity.png
-0	149	experimental/puppeteer-firefox/test/golden-utils.js
-0	37	experimental/puppeteer-firefox/test/hover.spec.js
-0	57	experimental/puppeteer-firefox/test/ignorehttpserrors.spec.js
-0	157	experimental/puppeteer-firefox/test/jshandle.spec.js
-0	193	experimental/puppeteer-firefox/test/keyboard.spec.js
-0	56	experimental/puppeteer-firefox/test/launcher.spec.js
-0	108	experimental/puppeteer-firefox/test/mouse.spec.js
-0	285	experimental/puppeteer-firefox/test/navigation.spec.js
-0	403	experimental/puppeteer-firefox/test/page.spec.js
-0	104	experimental/puppeteer-firefox/test/puppeteer.spec.js
-0	194	experimental/puppeteer-firefox/test/queryselector.spec.js
-0	30	experimental/puppeteer-firefox/test/run_static_server.js
-0	232	experimental/puppeteer-firefox/test/screenshot.spec.js
-0	100	experimental/puppeteer-firefox/test/target.spec.js
-0	80	experimental/puppeteer-firefox/test/test.js
-0	84	experimental/puppeteer-firefox/test/type.spec.js
-0	98	experimental/puppeteer-firefox/test/utils.js
-0	423	experimental/puppeteer-firefox/test/waittask.spec.js
-2	5	test/click.spec.js
-8	0	test/navigation.spec.js
-
---fbf91cc--2019-02-21--Andrey Lushnikov
-1	1	test/puppeteer.spec.js
-
---a0fd2ce--2019-02-19--Andrey Lushnikov
-9	3	experimental/puppeteer-firefox/lib/FrameManager.js
-6	5	test/waittask.spec.js
-
---03c542a--2019-02-19--Andrey Lushnikov
-72	19	experimental/puppeteer-firefox/lib/Launcher.js
-1	0	experimental/puppeteer-firefox/lib/NavigationWatchdog.js
-4	0	experimental/puppeteer-firefox/lib/Puppeteer.js
-2	2	experimental/puppeteer-firefox/misc/puppeteer.cfg
-1	20	lib/Launcher.js
-116	89	test/launcher.spec.js
-
---719ee5a--2019-02-19--Andrey Lushnikov
-9	0	experimental/puppeteer-firefox/lib/NetworkManager.js
-4	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-4	4	test/network.spec.js
-
---c118b20--2019-02-19--Andrey Lushnikov
-47	3	experimental/puppeteer-firefox/lib/NetworkManager.js
-4	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/ignorehttpserrors.spec.js
-40	20	test/network.spec.js
-
---3b18092--2019-02-19--Andrey Lushnikov
-14	10	experimental/puppeteer-firefox/lib/Browser.js
-128	11	experimental/puppeteer-firefox/lib/Connection.js
-4	0	experimental/puppeteer-firefox/lib/Events.js
-19	45	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/navigation.spec.js
-4	3	test/page.spec.js
-
---4a4793a--2019-02-17--Andrey Lushnikov
-35	30	experimental/puppeteer-firefox/lib/Browser.js
-8	8	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/browser.spec.js
-2	2	test/target.spec.js
-
---ea482c4--2019-02-15--Andrey Lushnikov
-4	4	experimental/puppeteer-firefox/lib/NetworkManager.js
-1	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	test/navigation.spec.js
-
---9782f9c--2019-02-15--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/package.json
-10	0	test/launcher.spec.js
-
---c35821a--2019-02-15--Andrey Lushnikov
-10	0	experimental/puppeteer-firefox/lib/Browser.js
-6	1	experimental/puppeteer-firefox/lib/Connection.js
-1	0	experimental/puppeteer-firefox/lib/Events.js
-0	126	experimental/puppeteer-firefox/lib/FirefoxTransport.js
-27	8	experimental/puppeteer-firefox/lib/Launcher.js
-3	3	experimental/puppeteer-firefox/lib/NetworkManager.js
-4	0	experimental/puppeteer-firefox/lib/Puppeteer.js
-102	0	experimental/puppeteer-firefox/lib/WebSocketTransport.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/browser.spec.js
-1	1	test/browsercontext.spec.js
-5	5	test/launcher.spec.js
-
---e0d4a5d--2019-02-14--Andrey Lushnikov
-4	1	experimental/puppeteer-firefox/lib/NavigationWatchdog.js
-2	2	test/navigation.spec.js
-
---247733b--2019-02-13--Andrey Lushnikov
-12	5	experimental/puppeteer-firefox/lib/ExecutionContext.js
-8	5	test/jshandle.spec.js
-1	1	test/navigation.spec.js
-
---e8f044c--2019-02-13--Andrey Lushnikov
-27	2	experimental/puppeteer-firefox/lib/ExecutionContext.js
-2	0	experimental/puppeteer-firefox/lib/JSHandle.js
-1	1	lib/ExecutionContext.js
-3	3	test/evaluation.spec.js
-
---6350cf0--2019-02-13--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-6	3	test/page.spec.js
-
---0b40d04--2019-02-13--Andrey Lushnikov
-5	2	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/misc/puppeteer.cfg
-1	1	experimental/puppeteer-firefox/package.json
-5	0	test/assets/beforeunload.html
-16	5	test/page.spec.js
-
---e3b76b2--2019-02-13--Andrey Lushnikov
-2	2	docs/api.md
-8	3	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-3	3	test/page.spec.js
-
---2275c3c--2019-02-13--Andrey Lushnikov
-4	4	experimental/puppeteer-firefox/lib/JSHandle.js
-11	1	experimental/puppeteer-firefox/lib/Page.js
--	-	test/golden-firefox/screenshot-element-fractional-offset.png
-2	2	test/puppeteer.spec.js
-2	2	test/screenshot.spec.js
-
---670d758--2019-02-13--Andrey Lushnikov
-2	0	experimental/puppeteer-firefox/lib/FrameManager.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/navigation.spec.js
-
---fbf3643--2019-02-13--Andrey Lushnikov
-5	0	experimental/puppeteer-firefox/lib/NetworkManager.js
-1	1	experimental/puppeteer-firefox/package.json
-16	9	test/network.spec.js
-
---13224a7--2019-02-13--Andrey Lushnikov
-55	1	experimental/puppeteer-firefox/lib/NetworkManager.js
-1	0	experimental/puppeteer-firefox/lib/api.js
-1	1	experimental/puppeteer-firefox/package.json
-2	2	test/ignorehttpserrors.spec.js
-
---57e7f12--2019-02-13--Andrey Lushnikov
-32	15	test/ignorehttpserrors.spec.js
-0	1	test/navigation.spec.js
-0	4	test/test.js
-26	29	utils/testserver/cert.pem
-52	54	utils/testserver/key.pem
-
---31ae1d6--2019-02-13--Andrey Lushnikov
-14	0	experimental/puppeteer-firefox/lib/NetworkManager.js
-1	1	experimental/puppeteer-firefox/package.json
-22	1	test/network.spec.js
-
---89d0f1e--2019-02-12--Andrey Lushnikov
-100	5	experimental/puppeteer-firefox/lib/FrameManager.js
-115	0	experimental/puppeteer-firefox/lib/NavigationWatchdog.js
-6	2	experimental/puppeteer-firefox/lib/NetworkManager.js
-10	198	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-2	2	test/navigation.spec.js
-
---f0fba56--2019-02-12--Andrey Lushnikov
-48	34	test/network.spec.js
-
---1890dc0--2019-02-12--Andrey Lushnikov
-2	2	experimental/puppeteer-firefox/lib/NetworkManager.js
-36	0	experimental/puppeteer-firefox/lib/Page.js
-31	0	experimental/puppeteer-firefox/lib/helper.js
-1	1	experimental/puppeteer-firefox/package.json
-2	2	test/navigation.spec.js
-50	16	test/network.spec.js
-2	2	test/page.spec.js
-4	0	test/utils.js
-
---afb9355--2019-02-12--Andrey Lushnikov
-12	1	experimental/puppeteer-firefox/lib/Events.js
-16	0	experimental/puppeteer-firefox/lib/FrameManager.js
-174	0	experimental/puppeteer-firefox/lib/NetworkManager.js
-34	26	experimental/puppeteer-firefox/lib/Page.js
-2	0	experimental/puppeteer-firefox/lib/api.js
-1	1	experimental/puppeteer-firefox/package.json
-17	14	test/navigation.spec.js
-13	13	test/network.spec.js
-1	1	test/puppeteer.spec.js
-
---fb9d404--2019-02-11--Joel Einbinder
-15	0	test/mouse.spec.js
-
---63ea805--2019-02-11--Andrey Lushnikov
-1	1	package.json
-
---b82cc15--2019-02-08--Andrey Lushnikov
-14	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-13	9	test/page.spec.js
-
---edb6f62--2019-02-08--Andrey Lushnikov
-7	5	experimental/puppeteer-firefox/lib/FrameManager.js
-22	7	experimental/puppeteer-firefox/lib/Page.js
-57	0	experimental/puppeteer-firefox/lib/TimeoutSettings.js
-0	20	experimental/puppeteer-firefox/lib/common.js
-3	3	test/navigation.spec.js
-2	3	test/waittask.spec.js
-
---fc18a79--2019-02-08--Andrey Lushnikov
-17	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-2	2	test/emulation.spec.js
-13	4	test/page.spec.js
-
---1ce578b--2019-02-08--Andrey Lushnikov
-0	0	test/assets/empty2.html
-1	1	test/elementhandle.spec.js
-0	2	test/test.js
-3	3	test/waittask.spec.js
-
---cfefd61--2019-02-08--Andrey Lushnikov
-20	3	experimental/puppeteer-firefox/lib/Browser.js
-1	0	experimental/puppeteer-firefox/lib/Events.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/page.spec.js
-1	1	test/target.spec.js
-
---0cf6ab6--2019-02-08--Andrey Lushnikov
-7	0	experimental/puppeteer-firefox/lib/Page.js
-1	1	test/page.spec.js
-
---c64e02e--2019-02-08--Andrey Lushnikov
-7	0	experimental/puppeteer-firefox/lib/Events.js
-732	0	experimental/puppeteer-firefox/lib/FrameManager.js
-1	1	experimental/puppeteer-firefox/lib/JSHandle.js
-42	732	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/lib/api.js
-
---2a7ed1a--2019-02-08--Andrey Lushnikov
-1	0	experimental/puppeteer-firefox/lib/api.js
-
---a987535--2019-02-08--Andrey Lushnikov
-64	0	experimental/puppeteer-firefox/lib/ExecutionContext.js
-31	12	experimental/puppeteer-firefox/lib/JSHandle.js
-10	34	experimental/puppeteer-firefox/lib/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/frame.spec.js
-3	3	test/waittask.spec.js
-
---5696096--2019-02-08--Andrey Lushnikov
-1	1	utils/testrunner/Matchers.js
-
---0bb657c--2019-02-08--Andrey Lushnikov
-13	32	test/test.js
-
---07b43ff--2019-02-08--Andrey Lushnikov
-0	8	experimental/README.md
-0	38	experimental/juggler/.cirrus.yml
-0	1	experimental/juggler/.gitignore
-0	27	experimental/juggler/Dockerfile
-0	1	experimental/juggler/FIREFOX_SHA
-0	119	experimental/juggler/README.md
-0	155	experimental/juggler/patches/0001-Introduce-nsIWebProgressListener2-onFrameLocationCha.patch
-0	24	experimental/juggler/patches/0002-Add-Juggler-to-gecko-build-system.patch
-0	43	experimental/juggler/patches/0003-Add-Juggler-to-mozilla-packaging-script.patch
-0	18	experimental/juggler/scripts/fetch_firefox.sh
-0	9	experimental/juggler/scripts/install_gcloud.sh
-0	13	experimental/juggler/scripts/upload_linux.sh
-0	13	experimental/juggler/scripts/upload_mac.sh
-0	149	experimental/juggler/src/BrowserHandler.jsm
-0	72	experimental/juggler/src/ChromeSession.js
-0	46	experimental/juggler/src/Helper.js
-0	78	experimental/juggler/src/InsecureSweepingOverride.js
-0	337	experimental/juggler/src/PageHandler.jsm
-0	371	experimental/juggler/src/Protocol.js
-0	63	experimental/juggler/src/components/juggler.js
-0	3	experimental/juggler/src/components/juggler.manifest
-0	9	experimental/juggler/src/components/moz.build
-0	53	experimental/juggler/src/content/ContentSession.js
-0	287	experimental/juggler/src/content/FrameTree.js
-0	460	experimental/juggler/src/content/PageAgent.js
-0	275	experimental/juggler/src/content/RuntimeAgent.js
-0	63	experimental/juggler/src/content/ScrollbarManager.js
-0	47	experimental/juggler/src/content/floating-scrollbars.css
-0	13	experimental/juggler/src/content/hidden-scrollbars.css
-0	27	experimental/juggler/src/content/main.js
-0	25	experimental/juggler/src/jar.mn
-0	15	experimental/juggler/src/moz.build
-0	407	experimental/juggler/src/server/packets.js
-0	97	experimental/juggler/src/server/server.js
-0	247	experimental/juggler/src/server/stream-utils.js
-0	523	experimental/juggler/src/server/transport.js
-4	147	experimental/puppeteer-firefox/README.md
-
---72c0047--2019-02-07--Andrey Lushnikov
-9	22	experimental/puppeteer-firefox/lib/Browser.js
-2	5	experimental/puppeteer-firefox/lib/Connection.js
-29	0	experimental/puppeteer-firefox/lib/Events.js
-11	23	experimental/puppeteer-firefox/lib/Page.js
-
---6b18e8c--2019-02-07--Andrey Lushnikov
-8	39	experimental/puppeteer-firefox/index.js
-1	1	experimental/puppeteer-firefox/lib/Browser.js
-1	1	experimental/puppeteer-firefox/lib/BrowserFetcher.js
-16	4	experimental/puppeteer-firefox/lib/Launcher.js
-1	1	experimental/puppeteer-firefox/lib/Page.js
-27	0	experimental/puppeteer-firefox/lib/Puppeteer.js
-16	0	experimental/puppeteer-firefox/lib/api.js
-21	0	experimental/puppeteer-firefox/lib/helper.js
-2	2	test/page.spec.js
-
---9216056--2019-02-07--Andrey Lushnikov
-1	1	utils/testrunner/Reporter.js
-
---addd7f4--2019-02-07--Andrey Lushnikov
-2	0	test/test.js
-53	12	utils/testrunner/Reporter.js
-
---c33be4c--2019-02-07--Andrey Lushnikov
-391	0	experimental/puppeteer-firefox/lib/JSHandle.js
-1	388	experimental/puppeteer-firefox/lib/Page.js
-
---76eecde--2019-02-07--Andrey Lushnikov
-0	1	test/navigation.spec.js
-
---609e763--2019-02-07--Andrey Lushnikov
-2	0	experimental/puppeteer-firefox/lib/Page.js
--	-	test/golden-firefox/grid-cell-0.png
--	-	test/golden-firefox/grid-cell-1.png
--	-	test/golden-firefox/screenshot-clip-odd-size.png
--	-	test/golden-firefox/screenshot-clip-rect.png
--	-	test/golden-firefox/screenshot-element-bounding-box.png
--	-	test/golden-firefox/screenshot-element-fractional.png
--	-	test/golden-firefox/screenshot-element-larger-than-viewport.png
--	-	test/golden-firefox/screenshot-element-padding-border.png
--	-	test/golden-firefox/screenshot-element-rotate.png
--	-	test/golden-firefox/screenshot-element-scrolled-into-view.png
--	-	test/golden-firefox/screenshot-grid-fullpage.png
--	-	test/golden-firefox/screenshot-offscreen-clip.png
--	-	test/golden-firefox/screenshot-sanity.png
-6	6	test/screenshot.spec.js
-
---49e8704--2019-02-07--Andrey Lushnikov
-2	2	test/keyboard.spec.js
-10	5	test/mouse.spec.js
-22	9	test/navigation.spec.js
-5	5	test/target.spec.js
-
---9679279--2019-02-06--Andrey Lushnikov
-2	0	.travis.yml
-
---a762dbe--2019-02-06--Andrey Lushnikov
-12	3	.cirrus.yml
-6	1	experimental/puppeteer-firefox/lib/Launcher.js
-1	1	experimental/puppeteer-firefox/package.json
-
---6887ad8--2019-02-06--Andrey Lushnikov
-2	2	test/assets/frames/nested-frames.html
-2	2	test/assets/frames/two-frames.html
-1	1	test/assets/input/keyboard.html
-1	0	test/assets/title.html
-3	0	test/assets/wrappedlink.html
-4	13	test/evaluation.spec.js
-8	2	test/frame.spec.js
-0	5	test/golden-chromium/nested-frames.txt
-0	5	test/golden-chromium/reconnect-nested-frames.txt
-6	6	test/keyboard.spec.js
-7	1	test/launcher.spec.js
-2	2	test/page.spec.js
-6	3	test/utils.js
-1	1	utils/testrunner/Matchers.js
-
---c3b6619--2019-02-06--Paul Irish
-1	1	experimental/puppeteer-firefox/README.md
-1	0	experimental/puppeteer-firefox/package.json
-
---14fb3e3--2019-02-05--Andrey Lushnikov
-2	2	test/accessibility.spec.js
-4	4	test/browser.spec.js
-2	2	test/browsercontext.spec.js
-3	3	test/click.spec.js
-2	7	test/cookies.spec.js
-4	4	test/elementhandle.spec.js
-5	5	test/emulation.spec.js
-10	10	test/evaluation.spec.js
-4	4	test/frame.spec.js
-4	4	test/ignorehttpserrors.spec.js
-3	3	test/input.spec.js
-5	5	test/jshandle.spec.js
-7	7	test/keyboard.spec.js
-18	18	test/launcher.spec.js
-5	5	test/mouse.spec.js
-39	39	test/navigation.spec.js
-8	8	test/network.spec.js
-31	31	test/page.spec.js
-6	6	test/puppeteer.spec.js
-3	3	test/screenshot.spec.js
-7	7	test/target.spec.js
-23	0	test/test.js
-2	2	test/touchscreen.spec.js
-9	9	test/waittask.spec.js
-2	2	test/worker.spec.js
-22	12	utils/testrunner/TestRunner.js
-
---86783c2--2019-02-05--Andrey Lushnikov
-4	4	test/navigation.spec.js
-2	2	test/page.spec.js
-11	6	test/waittask.spec.js
-
---bc71e92--2019-02-05--Andrey Lushnikov
-3	3	utils/testrunner/Reporter.js
-
---1676f99--2019-02-05--Andrey Lushnikov
-2	2	experimental/puppeteer-firefox/index.js
-315	0	experimental/puppeteer-firefox/lib/Browser.js
-342	0	experimental/puppeteer-firefox/lib/BrowserFetcher.js
-123	0	experimental/puppeteer-firefox/lib/Connection.js
-57	0	experimental/puppeteer-firefox/lib/Dialog.js
-126	0	experimental/puppeteer-firefox/lib/FirefoxTransport.js
-295	0	experimental/puppeteer-firefox/lib/Input.js
-206	0	experimental/puppeteer-firefox/lib/Launcher.js
-1834	0	experimental/puppeteer-firefox/lib/Page.js
-281	0	experimental/puppeteer-firefox/lib/USKeyboardLayout.js
-28	0	experimental/puppeteer-firefox/lib/externs.d.ts
-0	315	experimental/puppeteer-firefox/lib/firefox/Browser.js
-0	342	experimental/puppeteer-firefox/lib/firefox/BrowserFetcher.js
-0	123	experimental/puppeteer-firefox/lib/firefox/Connection.js
-0	57	experimental/puppeteer-firefox/lib/firefox/Dialog.js
-0	126	experimental/puppeteer-firefox/lib/firefox/FirefoxTransport.js
-0	295	experimental/puppeteer-firefox/lib/firefox/Input.js
-0	206	experimental/puppeteer-firefox/lib/firefox/Launcher.js
-0	1834	experimental/puppeteer-firefox/lib/firefox/Page.js
-0	281	experimental/puppeteer-firefox/lib/firefox/USKeyboardLayout.js
-0	28	experimental/puppeteer-firefox/lib/firefox/externs.d.ts
-0	128	experimental/puppeteer-firefox/lib/firefox/helper.js
-128	0	experimental/puppeteer-firefox/lib/helper.js
-1	1	experimental/puppeteer-firefox/misc/install-preferences.js
-
---a210dd7--2019-02-05--Andrey Lushnikov
-4	1	test/test.js
-33	10	utils/testrunner/Reporter.js
-15	3	utils/testrunner/TestRunner.js
-
---00bcecb--2019-02-05--Andrey Lushnikov
-4	1	test/puppeteer.spec.js
-4	9	test/test.js
-
---28087c2--2019-02-05--Andrey Lushnikov
-13	0	experimental/puppeteer-firefox/lib/firefox/Page.js
-1	1	experimental/puppeteer-firefox/package.json
-1	1	test/elementhandle.spec.js
-
---dd8bd6d--2019-02-05--Andrey Lushnikov
-14	1	test/puppeteer.spec.js
-4	9	test/test.js
-
---e100000--2019-02-05--Andrey Lushnikov
-2	3	docs/api.md
-
---a760d79--2019-02-05--Andrey Lushnikov
-4	2	docs/api.md
-1	1	package.json
-
---b0afb17--2019-02-05--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
-
---6e1f7dc--2019-02-05--Joel Einbinder
-1	1	package.json
-
---69c434a--2019-02-02--Andrey Lushnikov
-11	0	experimental/puppeteer-firefox/test/assets/consolelog.html
-2	2	experimental/puppeteer-firefox/test/ignorehttpserrors.spec.js
-1	1	experimental/puppeteer-firefox/test/keyboard.spec.js
-5	5	experimental/puppeteer-firefox/test/launcher.spec.js
-4	5	experimental/puppeteer-firefox/test/page.spec.js
-38	39	experimental/puppeteer-firefox/test/puppeteer.spec.js
-3	3	experimental/puppeteer-firefox/test/target.spec.js
-2	4	experimental/puppeteer-firefox/test/waittask.spec.js
-0	0	test/assets/empty2.html
-2	2	test/browsercontext.spec.js
-18	7	test/keyboard.spec.js
-30	3	test/mouse.spec.js
-21	2	test/navigation.spec.js
-4	5	test/page.spec.js
-3	1	test/puppeteer.spec.js
-23	1	test/target.spec.js
-6	0	test/test.js
-12	5	test/waittask.spec.js
-
---47fbb11--2019-02-02--Andrey Lushnikov
-8	0	test/assets/frames/frameset.html
-20	0	test/frame.spec.js
-45	0	test/jshandle.spec.js
-9	0	test/page.spec.js
-
---b5e53fd--2019-02-01--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/test/evaluation.spec.js
-3	0	test/assets/global-var.html
-42	1	test/evaluation.spec.js
-
---6bb0350--2019-02-01--Andrey Lushnikov
-2	1	.gitignore
-3	17	test/browser.spec.js
-39	0	test/chromiumonly.spec.js
-39	0	test/firefoxonly.spec.js
-6	0	test/puppeteer.spec.js
-
---84fe601--2019-02-01--Andrey Lushnikov
-1	0	package.json
-24	18	test/puppeteer.spec.js
-21	10	test/test.js
-
---fd67fa7--2019-02-01--Andrey Lushnikov
-1	1	experimental/puppeteer-firefox/package.json
-4	2	experimental/puppeteer-firefox/test/puppeteer.spec.js
-
---bd34755--2019-02-01--Andrey Lushnikov
-151	7	experimental/puppeteer-firefox/lib/firefox/Browser.js
-1	1	experimental/puppeteer-firefox/lib/firefox/Launcher.js
-1	1	experimental/puppeteer-firefox/package.json
-160	0	experimental/puppeteer-firefox/test/browsercontext.spec.js
-2	0	experimental/puppeteer-firefox/test/puppeteer.spec.js
-
---b0e8084--2019-02-01--Andrey Lushnikov
-4	2	docs/api.md
-1	1	package.json
-
---a1abd6c--2019-02-01--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
-
---23b7465--2019-02-01--Joel Einbinder
-3	0	.npmignore
-
---718cdf1--2019-01-31--Andrey Lushnikov
-4	2	docs/api.md
-1	1	package.json
-
---7f05a08--2019-01-31--Andrey Lushnikov
-10	10	README.md
-2	4	docs/api.md
-1	1	package.json
-
---5cca7c0--2019-01-31--Joel Einbinder
-2	1	utils/doclint/generate_types/index.js
-
---3c516f2--2019-01-31--Andrey Lushnikov
-14	14	lib/Browser.js
-
---d89ec00--2019-01-31--Andrey Lushnikov
-4	2	experimental/puppeteer-firefox/misc/install-preferences.js
-
---a2f1e27--2019-01-30--Andrey Lushnikov
-16	0	lib/Page.js
-18	0	test/page.spec.js
-
---7001042--2019-01-28--Andrey Lushnikov
-1	2	lib/Launcher.js
-
---61bc51c--2019-01-28--Andrey Lushnikov
-22	22	DeviceDescriptors.js
-
---a064a63--2019-01-28--Andrey Lushnikov
-42	18	docs/api.md
-6	4	lib/DOMWorld.js
-7	13	lib/FrameManager.js
-13	4	lib/Page.js
-57	0	lib/TimeoutSettings.js
-2	0	lib/externs.d.ts
-19	0	test/navigation.spec.js
-40	0	test/page.spec.js
-8	0	test/waittask.spec.js
-
---f2c968f--2019-01-28--Joel Einbinder
-2	1	.appveyor.yml
-2	0	.cirrus.yml
-1	0	.gitignore
-1	0	.travis.yml
-19	20	docs/api.md
-0	1	lib/Page.js
-3	2	package.json
-21	10	utils/doclint/check_public_api/Documentation.js
-140	41	utils/doclint/check_public_api/MDBuilder.js
-6	0	utils/doclint/check_public_api/test/md-builder-common/result.txt
-217	0	utils/doclint/generate_types/index.js
-283	0	utils/doclint/generate_types/test/test.ts
-11	0	utils/doclint/generate_types/test/tsconfig.json
-
---63d9ac4--2019-01-28--Andrey Lushnikov
-1	0	lib/ExecutionContext.js
-
---55432f8--2019-01-28--Andrey Lushnikov
-16	0	lib/ExecutionContext.js
-16	4	lib/FrameManager.js
-7	18	test/waittask.spec.js
-
---2061dd4--2019-01-28--Andrey Lushnikov
-4	4	docs/api.md
-11	5	lib/DOMWorld.js
-3	3	lib/FrameManager.js
-2	2	lib/Page.js
-12	1	test/waittask.spec.js
-
---7446550--2019-01-26--Dan Dascalescu
-1	1	docs/api.md
-
---62da236--2019-01-25--Andrey Lushnikov
-10	0	index.js
-0	2	lib/Accessibility.js
-0	3	lib/Browser.js
-1	3	lib/Connection.js
-0	1	lib/Coverage.js
-1	2	lib/Dialog.js
-0	2	lib/ExecutionContext.js
-0	1	lib/FrameManager.js
-1	4	lib/Input.js
-0	3	lib/JSHandle.js
-1	4	lib/NetworkManager.js
-1	2	lib/Page.js
-0	2	lib/Puppeteer.js
-16	3	lib/Target.js
-0	1	lib/Tracing.js
-1	2	lib/Worker.js
-42	0	lib/api.js
-1	50	lib/helper.js
-11	19	test/test.js
-44	0	test/utils.js
-9	24	utils/doclint/check_public_api/index.js
-
---cd678fb--2019-01-25--Andrey Lushnikov
-1	1	experimental/juggler/FIREFOX_SHA
-9	1	experimental/juggler/README.md
-36	41	experimental/juggler/patches/0001-Introduce-nsIWebProgressListener2-onFrameLocationCha.patch
-9	4	experimental/juggler/src/content/ScrollbarManager.js
-4	61	experimental/puppeteer-firefox/install.js
-57	0	experimental/puppeteer-firefox/misc/install-preferences.js
-3	0	experimental/puppeteer-firefox/misc/puppeteer.cfg
-7	2	experimental/puppeteer-firefox/test/puppeteer.spec.js
-
---1a79955--2019-01-24--Andrey Lushnikov
-1	3	test/browser.spec.js
-1	2	test/browsercontext.spec.js
-16	0	test/golden-chromium/csscoverage-involved.txt
--	-	test/golden-chromium/grid-cell-0.png
--	-	test/golden-chromium/grid-cell-1.png
--	-	test/golden-chromium/grid-cell-2.png
--	-	test/golden-chromium/grid-cell-3.png
-28	0	test/golden-chromium/jscoverage-involved.txt
--	-	test/golden-chromium/mock-binary-response.png
-5	0	test/golden-chromium/nested-frames.txt
-5	0	test/golden-chromium/reconnect-nested-frames.txt
--	-	test/golden-chromium/screenshot-clip-odd-size.png
--	-	test/golden-chromium/screenshot-clip-rect.png
--	-	test/golden-chromium/screenshot-element-bounding-box.png
--	-	test/golden-chromium/screenshot-element-fractional-offset.png
--	-	test/golden-chromium/screenshot-element-fractional.png
--	-	test/golden-chromium/screenshot-element-larger-than-viewport.png
--	-	test/golden-chromium/screenshot-element-padding-border.png
--	-	test/golden-chromium/screenshot-element-rotate.png
--	-	test/golden-chromium/screenshot-element-scrolled-into-view.png
--	-	test/golden-chromium/screenshot-grid-fullpage.png
--	-	test/golden-chromium/screenshot-offscreen-clip.png
--	-	test/golden-chromium/screenshot-sanity.png
--	-	test/golden-chromium/transparent.png
--	-	test/golden-chromium/white.jpg
-0	16	test/golden/csscoverage-involved.txt
--	-	test/golden/grid-cell-0.png
--	-	test/golden/grid-cell-1.png
--	-	test/golden/grid-cell-2.png
--	-	test/golden/grid-cell-3.png
-0	28	test/golden/jscoverage-involved.txt
--	-	test/golden/mock-binary-response.png
-0	5	test/golden/nested-frames.txt
-0	5	test/golden/reconnect-nested-frames.txt
--	-	test/golden/screenshot-clip-odd-size.png
--	-	test/golden/screenshot-clip-rect.png
--	-	test/golden/screenshot-element-bounding-box.png
--	-	test/golden/screenshot-element-fractional-offset.png
--	-	test/golden/screenshot-element-fractional.png
--	-	test/golden/screenshot-element-larger-than-viewport.png
--	-	test/golden/screenshot-element-padding-border.png
--	-	test/golden/screenshot-element-rotate.png
--	-	test/golden/screenshot-element-scrolled-into-view.png
--	-	test/golden/screenshot-grid-fullpage.png
--	-	test/golden/screenshot-offscreen-clip.png
--	-	test/golden/screenshot-sanity.png
--	-	test/golden/transparent.png
--	-	test/golden/white.jpg
-1	2	test/headful.spec.js
-1	4	test/ignorehttpserrors.spec.js
-446	0	test/launcher.spec.js
-98	413	test/puppeteer.spec.js
-25	117	test/test.js
-1	3	test/tracing.spec.js
-
---7585e6d--2019-01-22--Denny
-1	0	docs/api.md
-
---fb71012--2019-01-22--Andrey Lushnikov
-7	7	lib/FrameManager.js
-6	0	test/click.spec.js
-6	0	test/mouse.spec.js
-
---89a5c39--2019-01-22--Andrey Lushnikov
-45	68	lib/Connection.js
-3	3	lib/Page.js
-
---678b8e8--2019-01-22--Andrey Lushnikov
-7	22	lib/DOMWorld.js
-4	5	lib/ExecutionContext.js
-59	27	lib/FrameManager.js
-1	1	lib/Page.js
-2	0	lib/externs.d.ts
-1	1	test/page.spec.js
-
---c09835f--2019-01-22--Andrey Lushnikov
-1	1	package.json
-
---9fb89e1--2019-01-22--Linus Unnebäck
-13	0	test/waittask.spec.js
-
---9fd4b67--2019-01-20--Andrey Lushnikov
-1	1	lib/NetworkManager.js
-18	0	test/network.spec.js
-
---c48b574--2019-01-19--Flosloot
-23	1	experimental/juggler/README.md
-
---8426102--2019-01-18--Dylan Bathurst
-2	1	utils/browser/README.md
-
---a9ad1c3--2019-01-18--Flosloot
-12	0	experimental/juggler/README.md
-
---f8615c8--2019-01-15--Andrey Lushnikov
-1	1	package.json
-
---4ac00ca--2019-01-15--Andrey Lushnikov
-719	0	lib/DOMWorld.js
-28	515	lib/FrameManager.js
-1	0	utils/doclint/check_public_api/index.js
-
---bea26a7--2019-01-15--Andrey Lushnikov
-1	1	utils/testrunner/Reporter.js
-
---489be90--2019-01-15--Andrey Lushnikov
-1	1	test/test.js
-10	3	test/tracing.spec.js
-
---91c4501--2019-01-15--Joel Einbinder
-8	0	test/coverage.spec.js
-
---4e1e2fb--2019-01-15--Joel Einbinder
-9	1	lib/Page.js
--	-	test/golden/screenshot-element-fractional-offset.png
--	-	test/golden/screenshot-element-fractional.png
-12	0	test/screenshot.spec.js
-
---e574190--2019-01-15--Andrey Lushnikov
-1	1	package.json
-
---04fbbd7--2019-01-15--Andrey Lushnikov
-3	1	lib/NetworkManager.js
-1	1	test/network.spec.js
-
---e8bb26e--2019-01-14--Andrey Lushnikov
-3	494	lib/ExecutionContext.js
-1	178	lib/FrameManager.js
-511	0	lib/JSHandle.js
-199	0	lib/LifecycleWatcher.js
-1	1	lib/Page.js
-2	1	lib/Worker.js
-2	1	lib/externs.d.ts
-
---4e9e3bc--2019-01-14--Andrey Lushnikov
-12	27	lib/Browser.js
-3	10	lib/Connection.js
-80	0	lib/Events.js
-13	25	lib/FrameManager.js
-7	13	lib/NetworkManager.js
-21	44	lib/Page.js
-3	2	lib/Target.js
-1	1	lib/helper.js
-11	11	utils/doclint/check_public_api/JSBuilder.js
-8	0	utils/doclint/check_public_api/test/check-sorting/Events.js
-0	5	utils/doclint/check_public_api/test/check-sorting/foo.js
-8	0	utils/doclint/check_public_api/test/diff-events/Events.js
-0	4	utils/doclint/check_public_api/test/diff-events/foo.js
-6	0	utils/doclint/check_public_api/test/js-builder-common/Events.js
-0	4	utils/doclint/check_public_api/test/js-builder-common/foo.js
-8	0	utils/doclint/check_public_api/test/js-builder-inheritance/Events.js
-0	5	utils/doclint/check_public_api/test/js-builder-inheritance/foo.js
-
---71edfc7--2019-01-14--Andrey Lushnikov
-1	1	package.json
-
---9083c11--2019-01-14--Andrey Lushnikov
-11	9	lib/FrameManager.js
-24	0	test/frame.spec.js
-
---02ae552--2019-01-14--Andrey Lushnikov
-1	1	.travis.yml
-
---2e36b55--2019-01-14--Andrey Lushnikov
-1	1	README.md
-
---7daeafc--2019-01-14--Andrey Lushnikov
-1	1	.travis.yml
-
---7fabf32--2019-01-14--Brian Schiller
-16	9	lib/ExecutionContext.js
-9	0	test/jshandle.spec.js
-
---d346cb5--2019-01-14--Andrey Lushnikov
-1	1	docs/api.md
-27	37	lib/Launcher.js
-1	1	lib/Puppeteer.js
-26	3	test/puppeteer.spec.js
-
---15af75f--2019-01-14--Łukasz Fiszer
-2	1	docs/api.md
-62	3	lib/Launcher.js
-1	1	lib/Puppeteer.js
-18	0	test/puppeteer.spec.js
-
---81cf579--2019-01-11--Andrey Lushnikov
-1	1	.travis.yml
-
---f933f59--2019-01-11--Andrey Lushnikov
-1	1	.travis.yml
-
---96adedf--2019-01-11--Joel Einbinder
-2	0	lib/ExecutionContext.js
-2	0	lib/Page.js
-4	3	test/screenshot.spec.js
-
---29a2438--2019-01-10--Joel Einbinder
-2	2	lib/BrowserFetcher.js
-1	1	lib/FrameManager.js
-6	6	lib/Page.js
-1	1	lib/TaskQueue.js
-4	4	lib/Worker.js
-2	2	lib/helper.js
-1	1	package.json
-
---c44564a--2019-01-10--Joel Einbinder
-8	2	README.md
-
---0505c81--2019-01-10--Andrey Lushnikov
-6	0	test/waittask.spec.js
-
---f731973--2019-01-10--Ram Dobson
-1	1	lib/FrameManager.js
-
---89fc2ad--2019-01-10--Andrey Lushnikov
-3	3	docs/api.md
-10	12	lib/Page.js
-2	2	lib/Worker.js
-0	11	test/assets/console-message-1.html
-0	11	test/assets/console-message-2.html
-11	0	test/assets/consolelog.html
-12	20	test/page.spec.js
-12	4	test/worker.spec.js
-
---0c86763--2019-01-11--Tom P
-7	0	docs/api.md
-30	6	lib/Page.js
-11	0	test/assets/console-message-1.html
-11	0	test/assets/console-message-2.html
-35	0	test/page.spec.js
-
---16fc28b--2019-01-10--Andrey Lushnikov
-9	0	test/headful.spec.js
-
---4c48b77--2019-01-09--Andrey Lushnikov
-5	1	examples/proxy.js
-
---82bef70--2019-01-09--Sergii Tkachenko
-6	5	docs/troubleshooting.md
-
---1899e79--2019-01-09--Andrey Lushnikov
-1	0	lib/Launcher.js
-8	1	lib/NetworkManager.js
-0	9	test/network.spec.js
-
---c86bc0f--2019-01-08--Andrey Lushnikov
-1	0	lib/Launcher.js
-1	1	package.json
+--8eea6b07--2019-01-09--Evan You
+1	2	src/core/instance/render-helpers/resolve-slots.js
+3	10	src/core/vdom/helpers/normalize-scoped-slots.js
+
+--3be1c5d6--2019-01-09--Evan You
+10	0	src/core/config.js
+8	2	src/platforms/web/runtime/modules/events.js
+4	0	test/e2e/specs/async-edge-cases.html
+1	0	types/test/vue-test.ts
+1	0	types/vue.d.ts
+
+--02f897a4--2019-01-09--Evan You
+2	2	src/core/vdom/create-functional-component.js
+
+--d2902ca8--2019-01-09--Evan You
+9	4	src/compiler/parser/index.js
+12	0	test/unit/features/directives/bind.spec.js
+10	0	test/unit/modules/compiler/parser.spec.js
+
+--23a14595--2019-01-09--Evan You
+7	1	src/core/vdom/create-functional-component.js
+1	0	src/core/vdom/helpers/normalize-scoped-slots.js
+10	6	test/unit/features/options/functional.spec.js
+
+--fb6aa060--2019-01-09--Eduardo San Martin Morote
+1	0	src/core/vdom/create-functional-component.js
+17	0	test/unit/features/options/functional.spec.js
+2	1	types/options.d.ts
+1	0	types/test/options-test.ts
+
+--5d52262f--2019-01-09--Evan You
+4	3	src/core/instance/render-helpers/resolve-slots.js
+4	1	src/core/instance/render.js
+1	1	src/core/vdom/create-functional-component.js
+16	4	src/core/vdom/helpers/normalize-scoped-slots.js
+18	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--cf42f8e8--2019-01-09--vue-bot
+21	26	BACKERS.md
+15	15	README.md
+
+--7988a554--2019-01-07--Evan You
+8	1	flow/compiler.js
+1	1	src/compiler/codegen/index.js
+2	1	src/compiler/optimizer.js
+76	7	src/compiler/parser/index.js
+59	0	test/unit/features/component/component-scoped-slot.spec.js
+
+--91327300--2019-01-07--Evan You
+1	1	src/compiler/codegen/index.js
+
+--583dd011--2019-01-07--Evan You
+66	53	src/compiler/parser/index.js
+
+--d278da20--2019-01-07--Evan You
+1	1	test/ssr/ssr-bundle-render.spec.js
+
+--bbfeb039--2019-01-07--Evan You
+9	10	package.json
+1	1	scripts/build.js
+328	459	yarn.lock
+
+--ab2b1f16--2019-01-04--Evan You
+18	18	BACKERS.md
+18	18	README.md
+
+--75a2b4cd--2019-01-04--Evan You
+18	18	BACKERS.md
+18	18	README.md
+
+--05fbc360--2019-01-03--Evan You
+20	16	BACKERS.md
+6	6	README.md
+
+--c117e8f2--2019-01-03--Evan You
+20	16	BACKERS.md
+6	6	README.md

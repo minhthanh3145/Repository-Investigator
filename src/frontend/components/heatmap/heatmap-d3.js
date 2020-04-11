@@ -2,13 +2,53 @@ import { h } from "hyperapp";
 const d3 = require("d3");
 import { queueAddContextItem } from "./actions";
 
-export const buildDashboardWithD3 = function(state) {
+export const highlightElementByFullPath = function (fullPath) {
+  const matched = d3.selectAll(".node").filter(function (d) {
+    // We don't need context item, but this function also returns fullPath and I am too lazy to implement a separat function
+    const item = buildContextActionItem(d);
+    return item.fullPath == fullPath;
+  });
+  let timer = 0;
+  const interval = setInterval(function () {
+    if (timer >= 5) {
+      clearInterval(interval);
+    }
+
+    blink(matched);
+    timer++;
+    console.log(timer);
+  }, 1000);
+};
+
+export const zoomToElementByFullPath = function (fullPath) {
+  const matched = d3.selectAll(".node").filter(function (d) {
+    // We don't need context item, but this function also returns fullPath and I am too lazy to implement a separat function
+    const item = buildContextActionItem(d);
+    return item.fullPath == fullPath;
+  });
+  zoom(matched.datum());
+};
+
+function blink(nodeToBlink) {
+  nodeToBlink
+    .transition()
+    .duration(500)
+    .style("stroke", "#000")
+    .style("stroke-width", "2px")
+    .transition()
+    .duration(500)
+    .style("stroke", "#FFFF00")
+    .style("stroke-width", "0px");
+}
+
+let root, focus, view, diameter, node, circle, nodes;
+var margin = 20;
+export const buildDashboardWithD3 = function (state) {
   // Refresh SVG
   document.getElementById("heatmap").innerHTML = "";
 
   var svg = d3.select("#heatmap");
-  var margin = 20;
-  var diameter = svg.attr("width");
+  diameter = svg.attr("width");
   var g = svg
     .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
@@ -21,28 +61,28 @@ export const buildDashboardWithD3 = function(state) {
   let url = "http://localhost:3000/fetch_repository_data";
   const repository_path = state.heatmap.repository_path;
   const after_date = state.heatmap.after_date;
-
-  d3.json(`${url}?repository_path=${repository_path}&after_date=${after_date}`)
-    .catch(err => console.log(err))
-    .then(root => {
+  const extensions = state.heatmap.extensions;
+  d3.json(
+    `${url}?repository_path=${repository_path}&after_date=${after_date}&extensions=${extensions}`
+  )
+    .catch((err) => console.log(err))
+    .then((data) => {
       root = d3
-        .hierarchy(root)
-        .sum(function(d) {
+        .hierarchy(data)
+        .sum(function (d) {
           return d.loc;
         })
-        .sort(function(a, b) {
+        .sort(function (a, b) {
           return b.value - a.value;
         });
 
-      var focus = root,
-        nodes = pack(root).descendants(),
-        view;
+      (focus = root), (nodes = pack(root).descendants());
 
-      var leafColorDomain = d3.extent(nodes, function(d) {
+      var leafColorDomain = d3.extent(nodes, function (d) {
         return +d.data["n-revisions"];
       });
 
-      var nonLeafColorDomain = d3.extent(nodes, function(d) {
+      var nonLeafColorDomain = d3.extent(nodes, function (d) {
         return +d.depth;
       });
 
@@ -58,29 +98,61 @@ export const buildDashboardWithD3 = function(state) {
         .domain(leafColorDomain)
         .range(["white", "blue"]);
 
-      var circle = g
+      circle = g
         .selectAll("circle")
         .data(nodes)
         .enter()
         .append("circle")
-        .attr("class", function(d) {
+        .attr("class", function (d) {
           return d.parent
             ? d.children
               ? "node"
               : "node node--leaf"
             : "node node--root";
         })
-        .style("fill", function(d) {
+        .style("fill", function (d) {
           return d.data["n-revisions"]
             ? color(d.data["n-revisions"])
             : nonLeafColor(d.depth);
         })
-        .on("click", function(d) {
+        .on("click", function (d) {
           if (d3.event.shiftKey) {
+            const contextActionItem = buildContextActionItem(d);
+
             queueAddContextItem({
-              title: d.data.name,
-              text: d.data["n-revisions"]
+              title: contextActionItem.data.name,
+              text: contextActionItem.data["n-revisions"],
+              fullPath: contextActionItem.fullPath,
             });
+            d3.event.stopPropagation();
+          } else if (d3.event.altKey) {
+            const unflattenedArray = d.children;
+            const flattenedArray = unflattenedArray
+              .flatMap((ele) => getAllChildren(ele))
+              .filter((ele) => !ele.data.children);
+
+            flattenedArray.sort(function (a, b) {
+              if (!b.data["n-revisions"]) {
+                console.log(b);
+              }
+              if (!a.data["n-revisions"]) {
+                console.log(a);
+              }
+              return +b.data["n-revisions"] - +a.data["n-revisions"];
+            });
+
+            console.log(flattenedArray);
+            const top5 = flattenedArray.slice(0, 5);
+
+            top5.forEach(function (top) {
+              const contextActionItem = buildContextActionItem(top);
+              queueAddContextItem({
+                title: contextActionItem.data.name,
+                text: contextActionItem.data["n-revisions"],
+                fullPath: contextActionItem.fullPath,
+              });
+            });
+
             d3.event.stopPropagation();
           } else if (focus !== d) {
             zoom(d);
@@ -88,9 +160,15 @@ export const buildDashboardWithD3 = function(state) {
             d3.event.stopPropagation();
           }
         })
-        .on("mouseover", function(d) {
+        .on("mouseover", function (d) {
           infoDiv.textContent = d.data.name;
         });
+
+      function getAllChildren(ele) {
+        return !ele.children || ele.children.length == 0
+          ? ele
+          : ele.children.flatMap((child) => getAllChildren(child));
+      }
 
       var text = g
         .selectAll("text")
@@ -98,58 +176,59 @@ export const buildDashboardWithD3 = function(state) {
         .enter()
         .append("text")
         .attr("class", "label")
-        .style("fill-opacity", function(d) {
+        .style("fill-opacity", function (d) {
           return d.parent === root ? 1 : 0;
         })
-        .style("display", function(d) {
+        .style("display", function (d) {
           return d.parent === root ? "inline" : "none";
         })
-        .text(function(d) {
+        .text(function (d) {
           return d.data.name;
         });
 
-      var node = g.selectAll("circle,text");
+      node = g.selectAll("circle,text");
 
       svg
         .style("background", nonLeafColor(nonLeafColorDomain[0] - 1))
-        .on("click", function() {
+        .on("click", function () {
           if (d3.event.shiftKey) {
           } else {
             zoom(root);
           }
         });
 
-      zoomTo([root.x, root.y, root.r * 2 + margin]);
+      view = [root.x, root.y, root.r * 2 + margin];
+      zoomTo(view);
 
       function zoom(d) {
         focus = d;
 
         var transition = d3
           .transition()
-          .duration(d3.event.altKey ? 7500 : 750)
-          .tween("zoom", function(d) {
+          .duration(750)
+          .tween("zoom", function (d) {
             var i = d3.interpolateZoom(view, [
               focus.x,
               focus.y,
-              focus.r * 2 + margin
+              focus.r * 2 + margin,
             ]);
-            return function(t) {
+            return function (t) {
               zoomTo(i(t));
             };
           });
 
         transition
           .selectAll("text")
-          .filter(function(d) {
+          .filter(function (d) {
             return d.parent === focus || this.style.display === "inline";
           })
-          .style("fill-opacity", function(d) {
+          .style("fill-opacity", function (d) {
             return d.parent === focus ? 1 : 0;
           })
-          .on("start", function(d) {
+          .on("start", function (d) {
             if (d.parent === focus) this.style.display = "inline";
           })
-          .on("end", function(d) {
+          .on("end", function (d) {
             if (d.parent !== focus) this.style.display = "none";
           });
       }
@@ -157,13 +236,71 @@ export const buildDashboardWithD3 = function(state) {
       function zoomTo(v) {
         var k = diameter / v[2];
         view = v;
-        node.attr("transform", function(d) {
+        node.attr("transform", function (d) {
           return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")";
         });
-        circle.attr("r", function(d) {
+        circle.attr("r", function (d) {
           return d.r * k;
         });
       }
     });
   return state;
 };
+
+function zoom(d) {
+  focus = d;
+  console.log(view);
+  console.log(focus);
+  var transition = d3
+    .transition()
+    .duration(750)
+    .tween("zoom", function (d) {
+      var i = d3.interpolateZoom(view, [
+        focus.x,
+        focus.y,
+        focus.r * 2 + margin,
+      ]);
+      return function (t) {
+        zoomTo(i(t));
+      };
+    });
+
+  transition
+    .selectAll("text")
+    .filter(function (d) {
+      return d.parent === focus || this.style.display === "inline";
+    })
+    .style("fill-opacity", function (d) {
+      return d.parent === focus ? 1 : 0;
+    })
+    .on("start", function (d) {
+      if (d.parent === focus) this.style.display = "inline";
+    })
+    .on("end", function (d) {
+      if (d.parent !== focus) this.style.display = "none";
+    });
+}
+
+function zoomTo(v) {
+  console.log(v);
+  var k = diameter / v[2];
+  view = v;
+  node.attr("transform", function (d) {
+    return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")";
+  });
+  circle.attr("r", function (d) {
+    return d.r * k;
+  });
+}
+
+function buildContextActionItem(d) {
+  let res = d;
+  let curr = d.parent;
+  let fullPath = d.data.name;
+  while (curr) {
+    fullPath = curr.data.name + "/" + fullPath;
+    curr = curr.parent;
+  }
+  res.fullPath = fullPath;
+  return res;
+}
