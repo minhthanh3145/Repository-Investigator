@@ -29,7 +29,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-3": "^6.24.1",
     "debounce-promise": "^3.1.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "parcel-bundler": "^1.6.2"
   }
 }
